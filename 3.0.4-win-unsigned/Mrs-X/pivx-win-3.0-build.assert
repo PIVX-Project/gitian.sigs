@@ -1,15 +1,15 @@
 --- !omap
 - out_manifest: |
-    1b1b281f404585a6e9921093103f90ad7b02ddab45356e5d563f1a8ffe8f2ee9  pivx-3.0.4-win-unsigned.tar.gz
+    15cb2aff5decccd3a1f784c10f6708fdbc72023c77e12ed4abd20e2963b10254  pivx-3.0.4-win-unsigned.tar.gz
     5f34ca5b2a7040317bb47d079403b7eb4121d158d93b8d9bbb892d86b78080b4  pivx-3.0.4-win32-debug.zip
-    5abfde14061a8343fd5b9482efd61a28013e3ce5a123cdcb3af5ed3e2ecae154  pivx-3.0.4-win32-setup-unsigned.exe
+    b209e30195fe9a83274d00615ab9d8d62fbc233c10f8bae8907c1af0a5d6d2ad  pivx-3.0.4-win32-setup-unsigned.exe
     bfcbccfc5ca0ed1cb5bdd94de341a58ce45220173deac8029824d245b009a3c5  pivx-3.0.4-win32.zip
     b108cc211637fe624f12a9adad8efface2615454d6a9e32f1e45b8ba357fb56b  pivx-3.0.4-win64-debug.zip
-    330d4b4ca7309b6c7214d905cfcac6018adfd8ef64b051769da09845ea90840e  pivx-3.0.4-win64-setup-unsigned.exe
+    f690287817bac6f329bc048247c8c56ced2e64f30585e5fc1bf62d8d548b4b26  pivx-3.0.4-win64-setup-unsigned.exe
     b49413ce806a8b16fe85ef5c1535b8dae138aaeb5d31f7d020fd770c9db25904  pivx-3.0.4-win64.zip
     df3b6b371ed37fde8769f6a2f19badfa9f9340a3dbcc4d7059dda6eb480d6e11  src/pivx-3.0.4.tar.gz
 - in_manifest: |-
-    087a5d0a30160a04b29a24670769885a05c326e72fba716ddb735dd657622def  pivx-win-3.1-desc.yml
+    46acf6567f62b8f6f19fc0eedf14e6ac74b6cc6fa940e15a681f5d44d7636478  pivx-win-3.0-desc.yml
     git:c792ac185d0912a528400d12b0db7852c48e01d9 pivx
 - base_manifests: !omap
   - trusty-amd64: |
@@ -557,55 +557,55 @@
     04aac57f081ffa3a2ee5ed04887be9e205df3a7ddade0027460b8042432bdbcf  zeromq-4.1.5.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    670ce9a14ca2461b3e2e4d8e7ed5134501e6e22e82403738490bbf757f4165b0  i686-w64-mingw32/bdb/bdb-4.8.30-5a69fe6cb10.tar.gz
-    4153bb53e3f9b2837c2e53a0040696d87f66068f1c1421317a6cc377edc92a0c  i686-w64-mingw32/bdb/bdb-4.8.30-5a69fe6cb10.tar.gz.hash
-    0e638562b9008c26f63bcd1a4804014daca3cdf1d14a907eb24878e7810bcaea  i686-w64-mingw32/boost/boost-1_63_0-82d19cde732.tar.gz
-    4a32d53e1f656dc81673382a789392ba6aafdb5aa556f000181ebb418ffa2ab4  i686-w64-mingw32/boost/boost-1_63_0-82d19cde732.tar.gz.hash
-    a9142423cba28f1c40b68ed97d9cf0a17e25e1198ee9f91886a81c021e960cb4  i686-w64-mingw32/libevent/libevent-2.1.7-c1a41993edd.tar.gz
-    d635c2da3a0abc7ba8070ba6f7925f498c1fdf32248fa760ac313eda607df67f  i686-w64-mingw32/libevent/libevent-2.1.7-c1a41993edd.tar.gz.hash
-    0a9115f9c8dc4dc502cd442b9695bcc03eb02c4b5e2306f6ca9d89f7c3515cfe  i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-2a1eaff71b3.tar.gz
-    1db49ecb124173a963650f9a5164b4b5964000fe5b8254c2aa96b8b8e1f6c09f  i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-2a1eaff71b3.tar.gz.hash
-    211753b1991a98a8e1b52199491c36d06438151b43791391aa4e2e46025a84d2  i686-w64-mingw32/native_ccache/native_ccache-3.3.3-43ca3e6a03b.tar.gz
-    2c85788a82fdfdec818258d9a546b5ee02b78b8741b7b89310dac53a9b26dc15  i686-w64-mingw32/native_ccache/native_ccache-3.3.3-43ca3e6a03b.tar.gz.hash
-    5a57586d11ba656b56d4d6b9137dde7f29d8b015936897bd313f537b3ae9ec25  i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz
-    3e719aade7597f371990ceb0264bbc2930b51252a9d0c79681d27bbae860d22a  i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz.hash
-    fbf6b4ff6c2190af532bef0a7807131bb87383498e012aa03c2e3af4a1606790  i686-w64-mingw32/openssl/openssl-1.0.1k-5324fba4122.tar.gz
-    77ccfd41da38dffb859ed380dc46779e059f26e2dc90dc09df4a86e6df9d2ce7  i686-w64-mingw32/openssl/openssl-1.0.1k-5324fba4122.tar.gz.hash
-    cb3669b34fe9dfe6d9a0fe4d0d20a09e240e4ec13d30391ff326f09235bc1795  i686-w64-mingw32/protobuf/protobuf-2.6.1-2a80d1c30ee.tar.gz
-    d347be2b5be8a5d13b6c2e33f43e24186870ba40b1d5526f438d75020036a03a  i686-w64-mingw32/protobuf/protobuf-2.6.1-2a80d1c30ee.tar.gz.hash
-    b91c2e1f29d6a46cac3205ff25e7dc5cf9b3105ba970bb38b51ea73eb62eda76  i686-w64-mingw32/qrencode/qrencode-3.4.4-f180b7d3873.tar.gz
-    da87c496e8e1c75e46d5cd3f1a69fe8aa586eae336002fd4f49658aec19e9cd3  i686-w64-mingw32/qrencode/qrencode-3.4.4-f180b7d3873.tar.gz.hash
-    4a4c973caeea251c0705f98256d23a5c32291cbc1e65a54183f8dc2d41a5e7f3  i686-w64-mingw32/qt/qt-5.7.1-4b7af64738b.tar.gz
-    207d69880f99c63b28cb26465388eff0dac51de95889161d7b835c68cf6de82f  i686-w64-mingw32/qt/qt-5.7.1-4b7af64738b.tar.gz.hash
-    1e6cde39cdd3a29f84af79689aa3ccaad20c7bf746b8a3f1fa5b4139cedbc530  i686-w64-mingw32/zeromq/zeromq-4.1.5-6af70698f5d.tar.gz
-    540b9cefa36de1b56884b68bbbed5f9aab3167e60c139ae77414746aed968a56  i686-w64-mingw32/zeromq/zeromq-4.1.5-6af70698f5d.tar.gz.hash
-    8700339c23838150dca43f629933f05b509668cf03a28cf5f45f5fca59066a33  i686-w64-mingw32/zlib/zlib-1.2.11-8b3be8050ec.tar.gz
-    18823b81a66a103138881c79e65795e483c36c80831c95204d131633ae2a5861  i686-w64-mingw32/zlib/zlib-1.2.11-8b3be8050ec.tar.gz.hash
-    e649f6e9b86ae780f356deb970b530da4feb33cb250876febdf15ca973d63e24  x86_64-w64-mingw32/bdb/bdb-4.8.30-ee92bee2305.tar.gz
-    2af0b63cedc0bc0f1a989a3ec5c619c3522f2b8203521be575b82c8982afea63  x86_64-w64-mingw32/bdb/bdb-4.8.30-ee92bee2305.tar.gz.hash
-    03f748d7d1dffa7b35744b51d2c232400904768e2f6dc6ef963135dc574d7108  x86_64-w64-mingw32/boost/boost-1_63_0-37fdc7963b2.tar.gz
-    b0bf8b1e50e3e744fa84463a2457a95aee5f0aedaaee1df68463fef16e137051  x86_64-w64-mingw32/boost/boost-1_63_0-37fdc7963b2.tar.gz.hash
-    12b0b3a629f8122a95e09ef01b04fc81c0be33b15df7e84b85e3b02484319505  x86_64-w64-mingw32/libevent/libevent-2.1.7-0c0159be60f.tar.gz
-    4c34a05ce6b4fc30dba879c8a9164a0c53aeaf2e2f3fa04a02c337bf3087de1a  x86_64-w64-mingw32/libevent/libevent-2.1.7-0c0159be60f.tar.gz.hash
-    29db262d0aab2011acb3192e5359e3210bf510d2da80a540383c5b7ce99e9226  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-23fda84b0d7.tar.gz
-    9ded378f5e173f9c0892fd23d7fda8cd4d481e7646e167d9a9243214819cfcde  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-23fda84b0d7.tar.gz.hash
-    8be9208302fa3b9e69dcc46ed02f08642d08ff3ba9845f705c654cab8fcd142b  x86_64-w64-mingw32/native_ccache/native_ccache-3.3.3-43ca3e6a03b.tar.gz
-    8e71ae302e80fde4972bb9d3328f6c28ebbe4f1ff880da89998fa263ab469a2b  x86_64-w64-mingw32/native_ccache/native_ccache-3.3.3-43ca3e6a03b.tar.gz.hash
-    06eca2b52cd174c13c620701b467bc56d7d141163ee0443f9b3d65477cbd2de2  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz
-    425143e96d812c0e09b134bb8fcd86267cd34de82ce965df9849c359529ef136  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz.hash
-    188d12b8faf29f47d15b1d8215f9b2b230fff4b9c4565e02b924955abc3cf706  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c4a5ead41ed.tar.gz
-    d74d9de9e0e35e6dfac209ae8a96dfca921563181a0e6426708c80465bb98054  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c4a5ead41ed.tar.gz.hash
-    b6a46266cd3c5ac0fd2b4261e57e7b13b41c84d47ca57c968124f35bd76c82ec  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-ce6c9ad7520.tar.gz
-    dd897008f8cd5dad73bc99d79df6433c9090a1b925984a4d619b3ea2ee38acae  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-ce6c9ad7520.tar.gz.hash
-    9c57a8cdd8ef082beefa5705a755bfd2f8e29af47de7c5536c7e27e004ecb9e0  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-0376a372ca6.tar.gz
-    3c2e459be7e3896fc0c9acbdc1d9b2f99c8fb6b91d8623ad51bb1605a576e902  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-0376a372ca6.tar.gz.hash
-    ae40d5145430765ce5dfbef9e833a14119c08cb09f93ccce01740da27e930588  x86_64-w64-mingw32/qt/qt-5.7.1-a82a9643e8f.tar.gz
-    7fda03ceb5ddd2dcbe227556a7007d556843950b4b4c5c425f762c84050aa1f2  x86_64-w64-mingw32/qt/qt-5.7.1-a82a9643e8f.tar.gz.hash
-    5aea4291eb7d4936f6ea5a6654c5dc387accad3032d1e349848537a578612eac  x86_64-w64-mingw32/zeromq/zeromq-4.1.5-065d5ff546d.tar.gz
-    a971972314fdad256884b6e58840c3528021937e5fe6d1f91b83c70d83d261df  x86_64-w64-mingw32/zeromq/zeromq-4.1.5-065d5ff546d.tar.gz.hash
-    0e27f663ddd4f0e7b4b90ebf9c2ae6d03aeba182d6bc2232544deeb5eab42178  x86_64-w64-mingw32/zlib/zlib-1.2.11-8af9cef5598.tar.gz
-    51e9c3cb73aee20b8d0b7159b3188e32fc5f323423a94487e7d2d27eddbe418c  x86_64-w64-mingw32/zlib/zlib-1.2.11-8af9cef5598.tar.gz.hash
+    88c96297132e65eb48f586b4d80c37a2a7cf1b74da14b788d34a4e62f1d22ff6  i686-w64-mingw32/bdb/bdb-4.8.30-5a69fe6cb10.tar.gz
+    5b840819192dc8f4db11237b04a5755ef1038c2f86a44b3b62aa54ce3a2dda54  i686-w64-mingw32/bdb/bdb-4.8.30-5a69fe6cb10.tar.gz.hash
+    efc6871cf3be17549cec86fc3faad1259bc3c6e832bc94304d025e73c77c781b  i686-w64-mingw32/boost/boost-1_63_0-82d19cde732.tar.gz
+    b43c0f0c13344f3c642323d96cbe89ba95783dc93ea0bd2b5d92d96216f48072  i686-w64-mingw32/boost/boost-1_63_0-82d19cde732.tar.gz.hash
+    ab2138d48444237c14d24841a3e690d2e2941e41744b973c4f74bc8fa1e8f832  i686-w64-mingw32/libevent/libevent-2.1.7-c1a41993edd.tar.gz
+    385900b7c77d93601fdbf7be3b5f0eff613230cd2611b62bbefebda9d47066b9  i686-w64-mingw32/libevent/libevent-2.1.7-c1a41993edd.tar.gz.hash
+    19a0566e9d483ab392d0f6d43446048cc20006e6ff302e4c6eb24282927650e7  i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-2a1eaff71b3.tar.gz
+    cccbd82899e438e3dccd9f2da89bbd749ad92032dfabe88921c758b9022c6596  i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-2a1eaff71b3.tar.gz.hash
+    8b26ee2c88aba7debdf860c0bc6a6728901cc4e9a4ed864348a4923e74bba5b1  i686-w64-mingw32/native_ccache/native_ccache-3.3.3-43ca3e6a03b.tar.gz
+    fcddc14de76726fe1fc3e5cdd1e894d70e70031f43375681d3b32b52ee7e96c1  i686-w64-mingw32/native_ccache/native_ccache-3.3.3-43ca3e6a03b.tar.gz.hash
+    2aeaf630dbd861771643dcdeb6f775cf51920e1d2b9364ac9a3017b7434c1c25  i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz
+    9bf742e0c8009ce074871df43424174c738d8ef630bee04eb25e4aa76340f9c5  i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz.hash
+    3a65f08bd9da41540d94edeb6456c9cab1ecd7d5de452b47884a0d87bb894b26  i686-w64-mingw32/openssl/openssl-1.0.1k-5324fba4122.tar.gz
+    1157c5fb0563c6364478348df54cd9d6e6dd892516d235a17a79f18207c1368a  i686-w64-mingw32/openssl/openssl-1.0.1k-5324fba4122.tar.gz.hash
+    5b3f0180518c46d650b288a9e7e5c8713ab195f13c0f5d059e28decdbea01baf  i686-w64-mingw32/protobuf/protobuf-2.6.1-2a80d1c30ee.tar.gz
+    9d14d2680545afe4e1566c8b78c7147fa90eed0768e9f23d2b3043027f9656d4  i686-w64-mingw32/protobuf/protobuf-2.6.1-2a80d1c30ee.tar.gz.hash
+    1226eedf28414288b43e36fc00225f0bb5dfd64082ecc001df28c1447ebecfa0  i686-w64-mingw32/qrencode/qrencode-3.4.4-f180b7d3873.tar.gz
+    384fea66f122bc7c13664359e2f6969777e61703ebdb80942806e0813e62fb6f  i686-w64-mingw32/qrencode/qrencode-3.4.4-f180b7d3873.tar.gz.hash
+    6d7043a1240a54ce1dc297fc64a2a4ba31d6a7df46224761e361a326b528b723  i686-w64-mingw32/qt/qt-5.7.1-4b7af64738b.tar.gz
+    10e8b84b7b0b643e7c84f85e834fb7329fad9e1ddae6eed7fed0c3689de5300b  i686-w64-mingw32/qt/qt-5.7.1-4b7af64738b.tar.gz.hash
+    c9d40a010cac63aadf174c56eac0af1bb10bf6285045e071d586c806a761b8fe  i686-w64-mingw32/zeromq/zeromq-4.1.5-6af70698f5d.tar.gz
+    3e784fd7644609b55eb6be2469583b8f270a9a7b44f303152c993a3b8d690a5b  i686-w64-mingw32/zeromq/zeromq-4.1.5-6af70698f5d.tar.gz.hash
+    ebcf8729fb14f71affe76cb41df2c1f71c148d8bc368f62b25ffaf842aad8378  i686-w64-mingw32/zlib/zlib-1.2.11-8b3be8050ec.tar.gz
+    1c74d546892eef8d3fcdbcbde260f10c103ed4991c7da1c0be3be4479fddd831  i686-w64-mingw32/zlib/zlib-1.2.11-8b3be8050ec.tar.gz.hash
+    6d25bbf427564d25770371ee2f0b3254de2b7f2efbf9cfa1e6b35a149cbf41c8  x86_64-w64-mingw32/bdb/bdb-4.8.30-ee92bee2305.tar.gz
+    8f7784176824af19d33c0e2fa1fa119ed0fe004a2c795be8a2dceacf2902cb46  x86_64-w64-mingw32/bdb/bdb-4.8.30-ee92bee2305.tar.gz.hash
+    cfb8742a68a544c155b8d6036a347b361322238afcfedee79b1664cfb77d0230  x86_64-w64-mingw32/boost/boost-1_63_0-37fdc7963b2.tar.gz
+    5d401fcc0d82ed7d5a7436c3748100bd97ef5a62f60510029041f965b14f046a  x86_64-w64-mingw32/boost/boost-1_63_0-37fdc7963b2.tar.gz.hash
+    6c85fb23852871d737c8b576665fb39f30ef081fd3d9c3b224a47d225e11d5a9  x86_64-w64-mingw32/libevent/libevent-2.1.7-0c0159be60f.tar.gz
+    00582e9817ad0a8ac5302e3dd85656d76d2f473793d56d291da2bffa4c0cf3e2  x86_64-w64-mingw32/libevent/libevent-2.1.7-0c0159be60f.tar.gz.hash
+    4c7b658e0925aa0d58c61f55f0af6de749dc5816ea75b274e23e1072fbe90549  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-23fda84b0d7.tar.gz
+    e4e35f5488a155d859230f0b5f67a45a6cf64bb8e19a3d7792137883bd782709  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-23fda84b0d7.tar.gz.hash
+    80c03b279ace4fc1f3afc80858da99b9e726e1988c1eb119009de434c5737b70  x86_64-w64-mingw32/native_ccache/native_ccache-3.3.3-43ca3e6a03b.tar.gz
+    e570ae6cfafe1e268a011dce2617111df32c3b2893eecc80b4064d269f363d09  x86_64-w64-mingw32/native_ccache/native_ccache-3.3.3-43ca3e6a03b.tar.gz.hash
+    72e48d599d621c147b12323331370655b1a80c7311de22a8704bfdc0dfa7f3cc  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz
+    def7ef7073cac1c0becb427099c6f3c965890e132d695db1aeb4b325c75a21cd  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz.hash
+    c3da3f698f3cb18da1db8932e878f54945e0b4d197d5c5d9c39518093db946d9  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c4a5ead41ed.tar.gz
+    1bcf5f5e7d6c144ea81d3d597efd10d43b4becc392ef41157435958cf9f6e020  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c4a5ead41ed.tar.gz.hash
+    1054fea461ba71527a9ed4ac24338d1623cdb16080c8e796fd2ae3523eecbb7f  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-ce6c9ad7520.tar.gz
+    32b639234020c70254732e34007dfd3a5fd202d54d863ae1abd2e9d1ac8718a1  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-ce6c9ad7520.tar.gz.hash
+    b8d00ca6f9393927334250c46b298f85797aa9c7f442c610b140c4809f8b988d  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-0376a372ca6.tar.gz
+    b3da3ff30cd036a9e55c35310b6b34dedcd84727e6bc0fb8441252527358bdf6  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-0376a372ca6.tar.gz.hash
+    6caa79cbe81cc3b0418dde549e35b3e50081666ddcfaa30853bbb35a491586ab  x86_64-w64-mingw32/qt/qt-5.7.1-a82a9643e8f.tar.gz
+    194473e9e46ef37619afb5c57206cfd54d0bf68f7b175a733de445635b6c2025  x86_64-w64-mingw32/qt/qt-5.7.1-a82a9643e8f.tar.gz.hash
+    9c95cbd625e5a997291160a8be8a4e592b1fc15039b9272a852e3e6f24c04d93  x86_64-w64-mingw32/zeromq/zeromq-4.1.5-065d5ff546d.tar.gz
+    849403c970b6bd694fe11d8c0cd9199c0cc09d5fdd705c3789293f51887b2c4b  x86_64-w64-mingw32/zeromq/zeromq-4.1.5-065d5ff546d.tar.gz.hash
+    21d9221ddba73396d60048741ae44b3fd1e0d8876ad763255ec16487b72201c6  x86_64-w64-mingw32/zlib/zlib-1.2.11-8af9cef5598.tar.gz
+    893908eb0cb9c3b427fa8d3278175c980ad801efc0d934e8212218633531d3c4  x86_64-w64-mingw32/zlib/zlib-1.2.11-8af9cef5598.tar.gz.hash
 - release: 3.0.4-win-unsigned
-- name: pivx-win-3.1
+- name: pivx-win-3.0
 - type: build
 - optionals: 

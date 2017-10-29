@@ -4,7 +4,7 @@
     a4cb917536259db0cbdb81831f387c80b131fb02eb9aeec92abc2fe260181255  pivx-3.0.4-aarch64-linux-gnu.tar.gz
     78ef3853cabb85e0dc9c1e2f1046795c65c031d50c110d07bc3a7145f2a8b427  src/pivx-3.0.4.tar.gz
 - in_manifest: |-
-    c9dbe76b17703326d5605a62ae244481fbf38359d648491bf2a0f736b800186b  pivx-aarch64-3.1-desc.yml
+    b6a001cb03ae080c35a8aeb29e4f714f427d831fd8397b28cbb382ee1209cdbe  pivx-aarch64-3.0-desc.yml
     git:c792ac185d0912a528400d12b0db7852c48e01d9 pivx
 - base_manifests: !omap
   - xenial-amd64: |
@@ -645,6 +645,6 @@
     191f2111e1d27571b9b000c1cf79515624b3fd08a75c3381cdb87b589a5060ba  aarch64-linux-gnu/zlib/zlib-1.2.11-78c710569d0.tar.gz
     295d970d2b6d5e676fde23c2a66b4191682ae81641b5301dcebc797eb0d00ab2  aarch64-linux-gnu/zlib/zlib-1.2.11-78c710569d0.tar.gz.hash
 - release: 3.0.4-aarch64
-- name: pivx-aarch64-3.1
+- name: pivx-aarch64-3.0
 - type: build
 - optionals: 
