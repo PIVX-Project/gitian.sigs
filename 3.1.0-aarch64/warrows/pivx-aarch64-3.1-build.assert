@@ -651,7 +651,7 @@
     904efd0d9e0f38ebe81a37141933ab3ba3001088143544809d107d011c364156  aarch64-linux-gnu/zeromq/zeromq-4.2.2-bb02f54e135.tar.gz.hash
     64dc8ed08faa79bd2c5b1b226403e7dd3e4c656500fe98decc515803408b6014  aarch64-linux-gnu/zlib/zlib-1.2.11-6c8d4376df3.tar.gz
     40ba5a0b1c25aa12c84174b7fc4101b5bee234e50bb8f367ba2b90f5fe12cc78  aarch64-linux-gnu/zlib/zlib-1.2.11-6c8d4376df3.tar.gz.hash
-- release: 3.1.0-linux
+- release: 3.1.0-aarch64
 - name: pivx-aarch64-3.1
 - type: build
 - optionals: 
