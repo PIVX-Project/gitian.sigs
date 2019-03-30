@@ -1,12 +1,12 @@
 --- !!omap
 - out_manifest: |
-    69010f43a9a3b8934745463631c0a3de9b1cb68cc5c8b8687699b7efcc9925aa  pivx-3.2.0-osx-unsigned.dmg
-    5e14e7318b4baf127f3c43487b3546d7f33eff921eb9f2d2264eb6404e01a18f  pivx-3.2.0-osx-unsigned.tar.gz
-    6db7c2df169c14c071b29779ffac69b1694ff34ce94c2437a1ebbd1be63df1db  pivx-3.2.0-osx64.tar.gz
+    dae844e0a2aa8b72c09bba8cd40d46e338d3d6801aa342a9b79e7bbe5e7e5f8a  pivx-3.2.0-osx-unsigned.dmg
+    de2f698df70752bc9e5f39b181649d108b03cd03c60b73629c81335c015af13d  pivx-3.2.0-osx-unsigned.tar.gz
+    7178c990901ee8bfd3fe0afc2f89eb8fc77a30d2388aba1f960e01de0459a07d  pivx-3.2.0-osx64.tar.gz
     d7bbae69c2b95dccb3f5ad27616bf46f752e84a32f6fe05de3ec8316c0bc4fdd  src/pivx-3.2.0.tar.gz
 - in_manifest: |-
     7e29993a6592ffb38c04cdb9c9351029107df2fb2e73202fa2a409103085e92b  pivx-osx-3.2-desc.yml
-    412728654915b942068155f5686cb89c775219ea963a6743f8f8b07743c785e2  MacOSX10.11.sdk.tar.gz
+    83c01f4e834e44a1b0f7208ed56fcf86c6d336290dbc4f4d625903b4bbbe9ece  MacOSX10.11.sdk.tar.gz
     git:ab66c1a4a0b57c80eeaa614759cfa898bec1087a pivx
 - base_manifests: !!omap
   - bionic-amd64: |
