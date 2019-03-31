@@ -1,11 +1,11 @@
 --- !!omap
 - out_manifest: |
-    f9ff136682674d981bfbda5506f4d2a5d5bcd8ff597aca12d0c3a3e345790624  pivx-3.2.0-win-unsigned.tar.gz
+    4fe108ad5acde5051dc63ac4862182d0a21ef207f10ba2fda100a41321f82bfd  pivx-3.2.0-win-unsigned.tar.gz
     928bcbdfea1ca57b04c23e0565892379ce6b8d5e106da11648d715fd31f03677  pivx-3.2.0-win32-debug.zip
-    23d71106a31bae9facac3adb16c5916750e4a4d5340e693a0c25304f4e96de56  pivx-3.2.0-win32-setup-unsigned.exe
+    1a844b8cee2f7f5cb06438425f2970de5a323ce64828cc8f19f894489996262b  pivx-3.2.0-win32-setup-unsigned.exe
     a530a0cbee943295773843dc4c44233f7505ee5295b4dbb097e1548e621fb2db  pivx-3.2.0-win32.zip
     0de370a30639d005bd5c85dfd40f01fa248e73e46f00a5c9e0cfc1879cb3f15f  pivx-3.2.0-win64-debug.zip
-    a6332eae273a62b0e6ca78cb08c4587e35d27f30ec7dcf0452e6e1ce3edc8319  pivx-3.2.0-win64-setup-unsigned.exe
+    9e0f5771f2c43d4f14d456e659054cf32230611958ea95f13b247afff2603f1b  pivx-3.2.0-win64-setup-unsigned.exe
     2c566c6d7c9b39ba1e370ea641cf32d3591e49009ab535039a59ede5a47eed29  pivx-3.2.0-win64.zip
     d7bbae69c2b95dccb3f5ad27616bf46f752e84a32f6fe05de3ec8316c0bc4fdd  src/pivx-3.2.0.tar.gz
 - in_manifest: |-
