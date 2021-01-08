@@ -1,8 +1,8 @@
 --- !!omap
 - out_manifest: |
-    a6fa375f46bbacc3163006180cd12a6cd6ac3d40f051d5102fb4967f2f19414b  pivx-5.0.0-osx-unsigned.dmg
-    05c0b4ad5e22c4b562b756f0fe9da39a6fe783fded1e4c033094bef1b4aae707  pivx-5.0.0-osx-unsigned.tar.gz
-    0af152dd872ea7493221f91d6d2f0267db4658448fba3e0bc7816ac3f950be2a  pivx-5.0.0-osx64.tar.gz
+    dc56d2ca27fe6f5c91322f2b3738c03a438eda28ce13674a50f5928778231cbe  pivx-5.0.0-osx-unsigned.dmg
+    4d2bae3a053f9924aef05e41fee3860536619d0820f1831eeed637d8244d82fc  pivx-5.0.0-osx-unsigned.tar.gz
+    c786c3b470c15a311110926b4602d95149d8e7e0434d0795e7649ce4ecec75e9  pivx-5.0.0-osx64.tar.gz
     c822c1adfb7966f22c65833d3985789322d882b23da3f4ca702c83a5a71df01f  src/pivx-5.0.0.tar.gz
 - in_manifest: |-
     dd4d277ce4603a8d2430fe661e0c399894976ce8978ceafd4ea05c66acaba1d8  pivx-osx-5.0-desc.yml
@@ -26,11 +26,13 @@
       d34835828bad74f2289562641ba0a7b3d21f906a579f282141e63ac687b8eb72  bsdmainutils_11.1.2ubuntu1_amd64.deb
       f2f19c529e88a07ec764256fd75d12c95190f79ffa38f33ba5cd096effdf7760  bsdutils_1%3a2.31.1-0.4ubuntu3.7_amd64.deb
       bb2ac7aae21544446f45e200aacb961f0dcc42c8caacdc8da37d392b222abfa0  build-essential_12.4ubuntu1_amd64.deb
+      494c2a7de3499ab5ac1bf861860f29e98be905e707c73197439392dfb2330d8b  busybox-initramfs_1%3a1.27.2-2ubuntu3.3_amd64.deb
       14955e4660d85da6507e9074f14f4d412bc7bf9e7841f327cf8751a6d227e329  bzip2_1.0.6-8.1ubuntu0.2_amd64.deb
       51650de9a87e47b87eaed3d2dd4680ef60fec90bba11ae629441355f5a4faff8  ca-certificates_20201027ubuntu0.18.04.1_all.deb
       011ab89d7d0a1f87d401abee744eb6709818bfb45b89e6631f166b1cfcd954a8  cmake-data_3.10.2-1ubuntu2.18.04.1_all.deb
       1354cd9b70704068f8e9e1ebc70b4d554210ccccb79e0c199813db9c5e4834aa  cmake_3.10.2-1ubuntu2.18.04.1_amd64.deb
       24541a48e25dfb17c98ce77dda61800e6cd68d74c25725753613fbcc00f2418f  coreutils_8.28-1ubuntu1_amd64.deb
+      890e103c4928af0f0586feed78cb670f068ce144d8c323df96ce80651b24fa77  cpio_2.12+dfsg-6ubuntu0.18.04.1_amd64.deb
       54ef20b753876e38ac478f05170ef1c4fc856db12b1dfaa0ffb14e220e527d61  cpp-7_7.5.0-3ubuntu1~18.04_amd64.deb
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
@@ -83,9 +85,13 @@
       39abc57c137266bd1ee51255433ee9b4c7e6c9ef7a3cd34a5032e07bac1683cc  imagemagick-6.q16_8%3a6.9.7.4+dfsg-16ubuntu6.9_amd64.deb
       e94dc4c56d630d816627b761a3515c0386cafc6a6638948629a3a491134deb3e  imagemagick_8%3a6.9.7.4+dfsg-16ubuntu6.9_amd64.deb
       5be3de2fafd378bbd0a39106536c6960087bdbaa0fad88f35396ec9e1401282e  init-system-helpers_1.51_all.deb
+      3f375bbb00c33305d7633d6077c6f73876481b01f6fe6d36890ce07e7f1a2dae  initramfs-tools-bin_0.130ubuntu3.11_amd64.deb
+      cb27d72e2ec4fa42ad417075dd5f9830ef58bb581a39ce508289de72db080c7e  initramfs-tools-core_0.130ubuntu3.11_all.deb
+      9d25bbd9e0fe528b750fc0d09f6966d3d33c8bfea68960227c28d3ebe206d233  initramfs-tools_0.130ubuntu3.11_all.deb
       668b3b755b9632bc95129748ec36eb09aae97a0e9975a7d92f043a2a31b0c947  intel-microcode_3.20201110.0ubuntu0.18.04.2_amd64.deb
       31066ceac0a040b114fc3cd03b012a483d6f5572699c71fda4140f8a6c3bb821  iucode-tool_2.3.1-1_amd64.deb
       1dc183cf940369f9a8263312a7e71cc9603dc9ad14c196002c02ab681493c39d  iw_4.14-0.1_amd64.deb
+      367220c54e8f6433231c15cf70d0f7ff479d41eb6088fe05f196238e8112677f  klibc-utils_2.0.4-9ubuntu2_amd64.deb
       95c7b910461c543322289239749a3afccc3617ab9506d708cef617d408bcd815  kmod_24-1ubuntu3.5_amd64.deb
       b0b341667a2776a2e3c49350b6b3efaa7b16c7a4ad54c8f61afb4e2afdac75fa  language-pack-en-base_1%3a18.04+20180712_all.deb
       a12f3f826072887540620f277977a92344cfcd662eea549e5f4c39ff333d1d66  language-pack-en_1%3a18.04+20190718_all.deb
@@ -184,6 +190,7 @@
       c0467781913f8a59e60b63efcbf334f17058128076c1b265803d98e9e93815cd  libjsoncpp1_1.7.4-3_amd64.deb
       d3cf88802e2a182ccd2214c454adda9fd895d35d73c9cda2c7ce53e5356c1927  libk5crypto3_1.16-2ubuntu0.2_amd64.deb
       0ba4ab4a5b6510de82a45a2ed69250b866f330bb761f2d478b6382a402c889f0  libkeyutils1_1.5.9-9.2ubuntu2_amd64.deb
+      46ee064e6cf6537ea83963ef70d316b98dd9a133817484c7e45384d75bb3aee4  libklibc_2.0.4-9ubuntu2_amd64.deb
       f6041aae36c1f90ecd40cf1d8da5493775aec92eb7ae597fc496ef160f8205c7  libkmod2_24-1ubuntu3.5_amd64.deb
       375544daaee0c81460d8be276bf6c382eb2e8fb1ca197599a82263d025f81844  libkrb5-26-heimdal_7.5.0+dfsg-1_amd64.deb
       43344f93c620dbaa9d3941cbad6900492273c609a728739dc68d816ca23a5df0  libkrb5-3_1.16-2ubuntu0.2_amd64.deb
@@ -243,8 +250,8 @@
       afa1ec0a8dfecd7f443e221eac261df2f4027e162ac155edce23b08373212aa6  librsvg2-bin_2.40.20-2ubuntu0.2_amd64.deb
       0b8f22e206bc29ccb18fb9ed2b906a2adcefa28c95783afd60eb153bcc219c48  librsvg2-common_2.40.20-2ubuntu0.2_amd64.deb
       1a1f9615c0b907b897cbbe61f4f6d29e395c9bb9bcfb94621fa73fe2fb8cb7d2  librtmp1_2.4+20151223.gitfa8646d.1-1_amd64.deb
-      ea64861482b2e4149f4aa95ef0dbc0619ee7b1405754c201c90e9f6aad6d1bdb  libsasl2-2_2.1.27~101-g0780600+dfsg-3ubuntu2.1_amd64.deb
-      c18d7b86ab609e0a3806abfdf8279e414e15bc8690b6b5978a37f35f9c7cc255  libsasl2-modules-db_2.1.27~101-g0780600+dfsg-3ubuntu2.1_amd64.deb
+      8a40e69b276872dc9c448e4415e251cf268f63ce34788a8c319ef4475aba30ee  libsasl2-2_2.1.27~101-g0780600+dfsg-3ubuntu2.3_amd64.deb
+      a58a2bd1fbf45e82236a1e06afce5d06d98fb6a26bb4af7b058c40e1e39736b3  libsasl2-modules-db_2.1.27~101-g0780600+dfsg-3ubuntu2.3_amd64.deb
       d14a352e5e6e3ee4b6f84166b24821b8b6b526202b2a3eada01de0b39bac83c9  libseccomp2_2.4.3-1ubuntu3.18.04.3_amd64.deb
       6b6c70f809e8b13f0b1f27006e125abb3a8c3195f5c888dce0df1a5d3f211c0d  libselinux1_2.7-2build2_amd64.deb
       7cdc8045ff29946fe605e2f4d0afa85a284f0be217e897549f90b2e8cd1b62e6  libsemanage-common_2.7-2build2_all.deb
@@ -302,11 +309,14 @@
       ad7f4d72fffdbb13e474b821e1bef7a7913f0cff9ff5a48c0e1a6690d10c6b9b  libzstd1_1.3.3+dfsg-2ubuntu1.1_amd64.deb
       7c269c1acefd5cca185a583714c0055961063a8a0d211a33a7d6d3b6fd71062b  linux-base_4.5ubuntu1.2_all.deb
       bab1a6e80b7c87b73e85ab0c580c0642a90f99eb9ad3f2da9889fc9b9d30eb71  linux-firmware_1.173.19_all.deb
-      ce3362d61e0a93fd223b3cc9566caf4d5f3831e330c5e57a61fda847272adbce  linux-image-4.15.0-129-generic_4.15.0-129.132_amd64.deb
-      f3a95ed4e1bc49746d84867ca1507c02663c0832726cb1969b6cd4a65261acf8  linux-image-generic_4.15.0.129.116_amd64.deb
-      87c49084aed7491b36842a8d9f38cb03b2c02b97ddb90fc54efb811b096e8cf4  linux-libc-dev_4.15.0-129.132_amd64.deb
-      57863e7c8aba7835edb8c7d1fc063dbeb304888fb5712cade4a34f007c731aed  linux-modules-4.15.0-129-generic_4.15.0-129.132_amd64.deb
-      2dd1d2953f1fc47253864d0612f93364c47114c654dd2933c35d5bd64e6b66a4  linux-modules-extra-4.15.0-129-generic_4.15.0-129.132_amd64.deb
+      5f25da35f1c98ea73bfebd6d112ef90969eb652bcfbebd38001ecfc295becd9b  linux-image-4.15.0-130-generic_4.15.0-130.134_amd64.deb
+      cffcbf9781b8b2ea2037f490654e6368cdeb14091d4aa99310226b22082a2e33  linux-image-4.15.0-72-generic_4.15.0-72.81_amd64.deb
+      6dd7add1946e689cc572bdd3ae6b4ff9af46d9aa5a8dbdf50016e90cc0dbab52  linux-image-generic_4.15.0.130.117_amd64.deb
+      e03cf0b061789b6192f4e7fb341a02cbc4dfb34c487c1c9a04286ea396ba640e  linux-libc-dev_4.15.0-130.134_amd64.deb
+      1b18c6d815c4d1abb4a883b2f708ef4ba0d15b21311f29b3629815b9220f50f1  linux-modules-4.15.0-130-generic_4.15.0-130.134_amd64.deb
+      e90c234a4caef70fdeabef348bdd155a2c867220f21164e577dcf9d017103b03  linux-modules-4.15.0-72-generic_4.15.0-72.81_amd64.deb
+      405b94a76ce69c21da06a7bcaf920bdc11ebdd7027164eda8b382fdabc38cac5  linux-modules-extra-4.15.0-130-generic_4.15.0-130.134_amd64.deb
+      e63f91ed3ec70f3738fdf1f5dec810bba82cf985c4e130c7b2da14b729d53cb3  linux-modules-extra-4.15.0-72-generic_4.15.0-72.81_amd64.deb
       c1cda3cefb278f248d4baee75bcbd6e24968d3d3b4a46709992f2c81c2f1741f  locales_2.27-3ubuntu1.4_all.deb
       eb443f6634f8a00400e33a0306728404198726a29c73d6dbc3ebab4626f59c47  login_1%3a4.5-1ubuntu2_amd64.deb
       fc5414daefad5c2eecb490979063f7856b300fb51dc911485663b4a5067b8aa8  lsb-base_9.20170808ubuntu1_all.deb
@@ -351,6 +361,7 @@
       af39e00234afc33204cde7cc6f59d1651e4f69aad23e5135c7a12ca6cdf5bdad  ubuntu-keyring_2018.09.18.1~18.04.0_all.deb
       65399cbe23b12eef5f1a878a595f82cfe1c423eec2b7e876385d3e61e3dbaa70  ubuntu-mono_16.10+18.04.20181005-0ubuntu1_all.deb
       fb069365dce07ec9b04110e806736c5a5d0b0f350216c90912749226f1187ed5  ucf_3.0038_all.deb
+      d30c730d2bbc8a230ce3aa027278e996d4074a6efa02bdcc5d003ae18e518745  udev_237-3ubuntu10.43_amd64.deb
       4480cf8e9202013611aa00b79834a9b6808617c66f521d894bd17905218c6544  util-linux_2.31.1-0.4ubuntu3.7_amd64.deb
       ccf494f932e83e08b218702b9c2fc00cfcdf697ab0c7b3af62e94f99e427f048  wget_1.19.4-1ubuntu2.2_amd64.deb
       dbe6a706f87cfc99639a61aa2eb3d24376f59cff47366adbb653967e50656c09  wireless-regdb_2020.11.20-0ubuntu1~18.04.1_all.deb
@@ -359,6 +370,7 @@
       1bd6bfc66d1de113f14a9afdd61d7f4b911c11c570403dd9785aa937b88f9ea9  zlib1g-dev_1%3a1.2.11.dfsg-0ubuntu2_amd64.deb
       2e6dafb986ee8ebbc4e1c344fab090a41710cab878fc9cd89336cdd1740518c5  zlib1g_1%3a1.2.11.dfsg-0ubuntu2_amd64.deb
 - cache_common_manifest: |
+    d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3  .DS_Store
     a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
     54eb1d8fe354e5fc611daf4f2ea97dd45a765f4f1e4512306ec183ae2e8f20c9  aes-0.3.2.crate
     cfd7e7ae3f9a1fb5c03b389fc6bb9a51400d0c13053f0dca698c832bfd893a0d  aes-soft-0.3.3.crate
@@ -489,14 +501,14 @@
     3728c9a0ac4bd203cbc38b0fc668914eeaaeb7a1c4d3ed9fe18c3a86028e497e  download-stamps/.stamp_fetched-openssl-openssl-1.0.1k.tar.gz.hash
     e412c568c1086517540477f53471bd60e4963b4d1c741eb3077f7384f5e2e013  download-stamps/.stamp_fetched-protobuf-protobuf-2.6.1.tar.bz2.hash
     4f1aae01029d0f1b99e12c7c7277ad2aa6029c6deb679a8b39fbea5f49bceeea  download-stamps/.stamp_fetched-qrencode-qrencode-3.4.4.tar.bz2.hash
-    27c50ac05c79b3e94940b88d96f59675e0c488c441f6a43b3c983cc831a7ec58  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.7.tar.xz.hash
+    d4b22239cd823ba16790457664844fd4932f8af9823e860fc1975c5e9731a5d5  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.7.tar.xz.hash
     12ebe1b7ec5e51131037d6a2715475226c8b045ea8c6ea03d4bddd94af9a2d09  download-stamps/.stamp_fetched-rust-rust-1.42.0-x86_64-unknown-linux-gnu.tar.gz.hash
     24e3e293abfc8bb6855d9654b6e537a40f8b5a766c31cea289722972464aa120  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-aarch64-unknown-linux-gnu.tar.gz.hash
     5eb02af9b8bc88b208f93e386adab3e344f9a637ac2e371ff720aa4659564640  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-arm-unknown-linux-gnueabihf.tar.gz.hash
     69fa347148c1ee2b4d45545b5adee0abb07dfa6315d8f5624042d996b66942ee  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-i686-unknown-linux-gnu.tar.gz.hash
-    276eca2dc4a09e63e793a5861ac5c2d94d12e84c8a5a22a91638a515af11ca1a  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-apple-darwin.tar.gz.hash
-    43d49d52521a19d23946703efea7c2e6df61c4a38977be4ebf113424155f7644  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-pc-windows-gnu.tar.gz.hash
-    51a17d2a9b805f8175ad134d5a3f68d301f4db6af84c17747eb28f96f0d2def8  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-unknown-linux-gnu.tar.gz.hash
+    cdef0a58ca2d36976c8114dcc71f3d92091c4c9956e7f12c344a289505c58868  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-apple-darwin.tar.gz.hash
+    55b5f807a3763f9d71d08a7feb4cc26a4b9c83ce8ba98de92cafe689960089f8  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-pc-windows-gnu.tar.gz.hash
+    226394b5598dbd55b03670621fb1d5a3538c615cef9399fdf41e4876fc77414e  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-unknown-linux-gnu.tar.gz.hash
     4af4da419d7b883f3408f4481d01673d281d6cfb94ff377d4bd8355db55fcb06  download-stamps/.stamp_fetched-xcb_proto-xcb-proto-1.10.tar.bz2.hash
     ee2477a7137b31b74af6257a0667cf4865dc30627db29457533ad21090a9004b  download-stamps/.stamp_fetched-xextproto-xextproto-7.3.0.tar.bz2.hash
     bd6d9005476f33b17b4a42e0b621c97d083653dfee0412067b1956c2520fbd9b  download-stamps/.stamp_fetched-xproto-xproto-7.0.26.tar.bz2.hash
@@ -552,6 +564,7 @@
     ca3129af7b92a17112d59ad498c6f81eaf463253766b90396d39ea7a39d6613c  rand_hc-0.2.0.crate
     77d416b86801d23dde1aa643023b775c3a462efc0ed96443add11546cdf1dca8  rand_xorshift-0.2.0.crate
     316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d  release-2.1.8-stable.tar.gz
+    db1055c46e0d54b99da05e88c71fea21b3897e74a4f5ff9390e934f3f050c0a8  rust-1.42.0-x86_64-apple-darwin.tar.gz
     5fed7d705e215fc129c4ace8060b5dc1a47e88228ce0249d48f30d769fcb6fe3  rust-1.42.0-x86_64-unknown-linux-gnu.tar.gz
     782b2ab52d062ecc7077ddbfff1f21b553ac21845688a75aed45d70214a3c3e7  rust-std-1.42.0-aarch64-unknown-linux-gnu.tar.gz
     f91d28115a46eb9af5bb73bb776269534e02add1125346b2dd7e29ecf34da892  rust-std-1.42.0-arm-unknown-linux-gnueabihf.tar.gz
@@ -582,188 +595,188 @@
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    aa8df7c0edde7bec3f7137d8c66642a3f7e906d52cd5544f567885e52923b98b  x86_64-apple-darwin14/bdb/bdb-4.8.30-4d3ce48d129.tar.gz
-    8d293c6208191f3f522d426bfa82ee39d7724c4d6aedbc6671da7b6c76e2c09b  x86_64-apple-darwin14/bdb/bdb-4.8.30-4d3ce48d129.tar.gz.hash
-    68cdd15660a0215494fd1b8ad5732fef177bf19e89a846cb36b5b292b93081d1  x86_64-apple-darwin14/boost/boost-1_64_0-b16e4aeb440.tar.gz
-    0fea89b7eba980587ddfcb632f9e248382a39043aa0d7c07e92e41ad73d79c53  x86_64-apple-darwin14/boost/boost-1_64_0-b16e4aeb440.tar.gz.hash
-    85465bb0265df2e174ac5e2cc130270f23a008459a3e36e4263fd25928b23a81  x86_64-apple-darwin14/crate_aes/crate_aes-0.3.2-98261c4862c.tar.gz
-    d4871b686d5390bd977a10968a71636d264437429d641d377886b1c96c3bb3cf  x86_64-apple-darwin14/crate_aes/crate_aes-0.3.2-98261c4862c.tar.gz.hash
-    4e1697145670e3742f05b58f4702df1623e42689e67277aa1bd248e2984d8e61  x86_64-apple-darwin14/crate_aes_soft/crate_aes_soft-0.3.3-faa45221164.tar.gz
-    be719796850a4954f65d8112a3b3e81c8a8ef29215130832c9394561e9f2af05  x86_64-apple-darwin14/crate_aes_soft/crate_aes_soft-0.3.3-faa45221164.tar.gz.hash
-    ce3988e9352bf1648b1a95c1b59537a600d43787813565a4212358cfc8bd7e34  x86_64-apple-darwin14/crate_aesni/crate_aesni-0.6.0-1d6555d3b8c.tar.gz
-    37c4e73372debc5bb6bd1176a69c63a11f7e74f825d96b0d1a45ae170cd68b58  x86_64-apple-darwin14/crate_aesni/crate_aesni-0.6.0-1d6555d3b8c.tar.gz.hash
-    21a833862b3dd8a4d83671f4d2a958de667305e99ce378723cf40a3ee84f08b7  x86_64-apple-darwin14/crate_arrayref/crate_arrayref-0.3.5-a1dc7f60c44.tar.gz
-    0c7637e2a03844dfa6b389fd882bbac983ed6c11714800e452c4f4b188e0e944  x86_64-apple-darwin14/crate_arrayref/crate_arrayref-0.3.5-a1dc7f60c44.tar.gz.hash
-    5acb887bfa3f70191df8df712ff4138bf42f535485cf90c227f9fa968efa695d  x86_64-apple-darwin14/crate_arrayvec/crate_arrayvec-0.4.11-875d2a2147c.tar.gz
-    ddb46adaac9842d5812d055aeec3b2340277d9ad871efa68b1d8e7f9409ad145  x86_64-apple-darwin14/crate_arrayvec/crate_arrayvec-0.4.11-875d2a2147c.tar.gz.hash
-    2c2f56d93cd11a225d6da9b01c31fd219b47097439b202b7dfceb97b663d9f5c  x86_64-apple-darwin14/crate_autocfg/crate_autocfg-0.1.6-c4726f7578e.tar.gz
-    c3cf75311febca0fa117a078cbc751e77073294ec1938e67045ee6fd595b0e39  x86_64-apple-darwin14/crate_autocfg/crate_autocfg-0.1.6-c4726f7578e.tar.gz.hash
-    c32d93816065f7434f346f9208df03b2b763b46e2beabc28440220ee5069a771  x86_64-apple-darwin14/crate_bellman/crate_bellman-0.2.0-b063c159df0.tar.gz
-    1794cd6d959bf05613c698c25580e8a7a48048e64f01e51f6539bcb9273d82da  x86_64-apple-darwin14/crate_bellman/crate_bellman-0.2.0-b063c159df0.tar.gz.hash
-    2f4e2883a48dfbf72b4926194143e5af5c84767bc5f746b5ad09db51f646e1ab  x86_64-apple-darwin14/crate_bit_vec/crate_bit_vec-0.4.4-cb90bd397db.tar.gz
-    67ff18a90ea0c1c54f1b685afb08141d08c280075287ebb4228d566aa7d0a961  x86_64-apple-darwin14/crate_bit_vec/crate_bit_vec-0.4.4-cb90bd397db.tar.gz.hash
-    cab0d11eb19af7b49aae12bba3d10582ba9f9ad39ae136cf0e733227278076fa  x86_64-apple-darwin14/crate_blake2b_simd/crate_blake2b_simd-0.5.8-91bd8c4dfbc.tar.gz
-    a165176ca44f11b93cf978457c8adffca60dce1880e60362bf68c7cda40f2325  x86_64-apple-darwin14/crate_blake2b_simd/crate_blake2b_simd-0.5.8-91bd8c4dfbc.tar.gz.hash
-    f73a9f4773492556ad3d6469d1d121a731e82b6694a771c4be6a4368137f80fb  x86_64-apple-darwin14/crate_blake2s_simd/crate_blake2s_simd-0.5.8-d222fe00c4d.tar.gz
-    4a81f906824fb392a5563450ab08cefb5f51c21a2249d4f69ba7911207e5c1ee  x86_64-apple-darwin14/crate_blake2s_simd/crate_blake2s_simd-0.5.8-d222fe00c4d.tar.gz.hash
-    52387ca21b8165fa099b21c5c943b130974bf56b1855571bc79eaf02dcdba53c  x86_64-apple-darwin14/crate_block_buffer/crate_block_buffer-0.7.3-b8be3ca1b30.tar.gz
-    b643910919c9439eb52dbbf41ed17a23b1ee590fb7c32276c73a674deea08081  x86_64-apple-darwin14/crate_block_buffer/crate_block_buffer-0.7.3-b8be3ca1b30.tar.gz.hash
-    e5fd43f663c6add14680f64fe05e789f8d4cbb91ce7ee0150207f362f2ed3a73  x86_64-apple-darwin14/crate_block_cipher_trait/crate_block_cipher_trait-0.6.2-ebda3082db0.tar.gz
-    2c1e422b5a7e7b1e6e3dbc52dd68aaa5af50b30c5a8c4cc527df359f5fb820c6  x86_64-apple-darwin14/crate_block_cipher_trait/crate_block_cipher_trait-0.6.2-ebda3082db0.tar.gz.hash
-    269276f51e841ad83ad9dfa41ba94ce176530b814204bd847630d6887c568cc9  x86_64-apple-darwin14/crate_block_padding/crate_block_padding-0.1.4-dc62f0a1591.tar.gz
-    e993c5a53f3427e5aca969058c84aeeec58335ebc2935c7bc9d42170111c5297  x86_64-apple-darwin14/crate_block_padding/crate_block_padding-0.1.4-dc62f0a1591.tar.gz.hash
-    a08d8dec8f7cd4470e3804c6b5d136f173acc4e45be0f055960f271bb0f00b08  x86_64-apple-darwin14/crate_byte_tools/crate_byte_tools-0.3.1-1e1734f9f42.tar.gz
-    efa5bb8b878d1f6ad4492aed533e578841153f36ae31f6b5269a02b747975751  x86_64-apple-darwin14/crate_byte_tools/crate_byte_tools-0.3.1-1e1734f9f42.tar.gz.hash
-    c5a504602ffb8c44f8c5252b7354c607c88f3bc52254ffe68061d298708df8e8  x86_64-apple-darwin14/crate_byteorder/crate_byteorder-1.3.2-4ac2dbd8e5f.tar.gz
-    a70d71b6a14af7471a191e3489d1ffec03d52ea25a2b1a148391b8a022d86f33  x86_64-apple-darwin14/crate_byteorder/crate_byteorder-1.3.2-4ac2dbd8e5f.tar.gz.hash
-    1c9b5e6eff02a6dd9f3e17fe9435e488cb39af062c10e56ffc6d3221d648c9bc  x86_64-apple-darwin14/crate_c2_chacha/crate_c2_chacha-0.2.2-84b4cfe0d25.tar.gz
-    9f180170fed78a1259119a981895fea29917d22b4879742d6ed5dbef12b45df3  x86_64-apple-darwin14/crate_c2_chacha/crate_c2_chacha-0.2.2-84b4cfe0d25.tar.gz.hash
-    1cef1742a91dbc8a166d4b48305d7e2d001bcff080da517f8b204d69030961dc  x86_64-apple-darwin14/crate_cfg_if/crate_cfg_if-0.1.9-d328313d960.tar.gz
-    d287ed4030d41ee450ba67008296a2d16ee9e29329f63c3d35b57f25bc64d4da  x86_64-apple-darwin14/crate_cfg_if/crate_cfg_if-0.1.9-d328313d960.tar.gz.hash
-    8ff3d1a1832078d82f1adad56134e8b4a76b72d7d223d06fc870dd6424e11203  x86_64-apple-darwin14/crate_constant_time_eq/crate_constant_time_eq-0.1.4-1ab7845e0e3.tar.gz
-    aa7987830032dd317c9aa5d23647b0e1772f9760525dfc0a485906a237263609  x86_64-apple-darwin14/crate_constant_time_eq/crate_constant_time_eq-0.1.4-1ab7845e0e3.tar.gz.hash
-    e400294204a8b2d6b2935f695c43e3beb5e24b00efb639966fcc0e5091e05b87  x86_64-apple-darwin14/crate_crossbeam/crate_crossbeam-0.7.2-76f236ee59f.tar.gz
-    741e4cb0e53db99398559a3432933489b2b1cebcc18d6a73a8763e61b1e24b3a  x86_64-apple-darwin14/crate_crossbeam/crate_crossbeam-0.7.2-76f236ee59f.tar.gz.hash
-    e1f5b86ad48301b8a1e40c2b23327b208e8ef0f07cc540ff84055d35117c436a  x86_64-apple-darwin14/crate_crossbeam_channel/crate_crossbeam_channel-0.3.9-0454ba408b9.tar.gz
-    75b940525dda8ab6a9a05f0a12d6ea4c177a88265f9458f0809ac99f372d1364  x86_64-apple-darwin14/crate_crossbeam_channel/crate_crossbeam_channel-0.3.9-0454ba408b9.tar.gz.hash
-    549ab3d9b5b8ab9af05d60eda6abc0fe0ebb2351fc754c9d0d4e27339f90856a  x86_64-apple-darwin14/crate_crossbeam_deque/crate_crossbeam_deque-0.7.1-78a7ae4d57c.tar.gz
-    987875591e42f6da3c0a8132d9748059fc16f35216cd8be31a7d4abb7fb4dafd  x86_64-apple-darwin14/crate_crossbeam_deque/crate_crossbeam_deque-0.7.1-78a7ae4d57c.tar.gz.hash
-    e4641b40c04587a6f8a27f5d0bf4f9fabeb89f95f9a453a35feed20dd4a9cd1c  x86_64-apple-darwin14/crate_crossbeam_epoch/crate_crossbeam_epoch-0.7.2-523bcc25368.tar.gz
-    9452c894386ef4b3d207c0adfb062970706db1b51417fae3ca252854eab139b8  x86_64-apple-darwin14/crate_crossbeam_epoch/crate_crossbeam_epoch-0.7.2-523bcc25368.tar.gz.hash
-    ca6bd06a3a26eafd309e5faca60558d19e71c788c13b04f7239862fdcaa84aab  x86_64-apple-darwin14/crate_crossbeam_queue/crate_crossbeam_queue-0.1.2-daf16b5110b.tar.gz
-    7402afe5eccd69256cca2efc3b27b6f78b84e5a904585fd95c09d20ff9b26cca  x86_64-apple-darwin14/crate_crossbeam_queue/crate_crossbeam_queue-0.1.2-daf16b5110b.tar.gz.hash
-    51ad8f6b8156722b8d8fed063ff3243e108f5d0d120d2b6b40284f20110841e1  x86_64-apple-darwin14/crate_crossbeam_utils/crate_crossbeam_utils-0.6.6-26c700f6584.tar.gz
-    43faf01b90fd79429e7a51225c7fd8de275adf029610a278087debb6b7e0e3ec  x86_64-apple-darwin14/crate_crossbeam_utils/crate_crossbeam_utils-0.6.6-26c700f6584.tar.gz.hash
-    64ba29d78d6376c8f585b2330d263c07bff40b8227ba07ae159470087e30ac99  x86_64-apple-darwin14/crate_crypto_api/crate_crypto_api-0.2.2-347cc7e9b6a.tar.gz
-    24ed3d14f3edf2fa30c4c55e352a652687c704c6fecd2d2866135001b7a5efdc  x86_64-apple-darwin14/crate_crypto_api/crate_crypto_api-0.2.2-347cc7e9b6a.tar.gz.hash
-    713e542812f2f17ae1d3f8505f8b5459081bafd80a710732e55a1134e1138f18  x86_64-apple-darwin14/crate_crypto_api_chachapoly/crate_crypto_api_chachapoly-0.2.2-9a467ba3e2d.tar.gz
-    e98e7496737bcab626facec19145cc6f7bb597b620901b2db53e4d74102d14e8  x86_64-apple-darwin14/crate_crypto_api_chachapoly/crate_crypto_api_chachapoly-0.2.2-9a467ba3e2d.tar.gz.hash
-    e1de619f207b7640886646c989bba53e6a160cf3eedf2a09b150a7a82204e38c  x86_64-apple-darwin14/crate_digest/crate_digest-0.8.1-806f664d36c.tar.gz
-    2e5e62b3709b2dbafc4d055d936d9749a6c9bc64dc0f2f2f3e2b12a05faa1c33  x86_64-apple-darwin14/crate_digest/crate_digest-0.8.1-806f664d36c.tar.gz.hash
-    e40ac908e230262aff1c192a453ccda3ec112e6c006a9dcc45c669763d455821  x86_64-apple-darwin14/crate_directories/crate_directories-1.0.2-be23ddc07e5.tar.gz
-    45177b15835b94e84843fa80a6166d1330df7dd103df9bc59db2b0ecbbd65a6a  x86_64-apple-darwin14/crate_directories/crate_directories-1.0.2-be23ddc07e5.tar.gz.hash
-    9aa04535550f4b6afdb3fa4308eda2ca076b6d14c7edf71d15b1ced84b3fe4f3  x86_64-apple-darwin14/crate_fake_simd/crate_fake_simd-0.1.2-f00e864e0cf.tar.gz
-    e2aefcd346416c53d266a4ac9cc3a84684b0d71d6aa02d9d8180fbd292a82f0a  x86_64-apple-darwin14/crate_fake_simd/crate_fake_simd-0.1.2-f00e864e0cf.tar.gz.hash
-    cf606a5f15922298441304886b3e82c74eb1eadb7ee984d1130000a368044522  x86_64-apple-darwin14/crate_ff/crate_ff-0.5.0-ad5a30cff79.tar.gz
-    2129b03a6f7b3cb8ac2e720d8dbb5f2b57bfe9a2a55e22d4bb86513ecdd1b088  x86_64-apple-darwin14/crate_ff/crate_ff-0.5.0-ad5a30cff79.tar.gz.hash
-    64b6a56edaa395ac295752f02c2e33623789864f0ec9ab71d1126aef5ac87af4  x86_64-apple-darwin14/crate_ff_derive/crate_ff_derive-0.4.0-ac902db794e.tar.gz
-    3fbb042382d32c62b826b5a6c2915055a42b5438a4fd355b26fa4199e781162a  x86_64-apple-darwin14/crate_ff_derive/crate_ff_derive-0.4.0-ac902db794e.tar.gz.hash
-    6b36cf04e3db87c78b80f112456b5b7947fb7f19ad9ca91f40aaf2573cbe81bf  x86_64-apple-darwin14/crate_fpe/crate_fpe-0.2.0-11e2390fd6b.tar.gz
-    2968e8cde50d279df7ef028c893047f6f7ca505e22cdad6085958c4cb4039f7a  x86_64-apple-darwin14/crate_fpe/crate_fpe-0.2.0-11e2390fd6b.tar.gz.hash
-    2ad17cf416289e9cd790eed371b02e5ab63b7ff3b038a49bd721215ce2582acd  x86_64-apple-darwin14/crate_futures/crate_futures-0.1.29-83d330f6519.tar.gz
-    757014c68e6e8c6bc1e1a4716093a499331bbdc4b09ffc79f41d8220b27825c3  x86_64-apple-darwin14/crate_futures/crate_futures-0.1.29-83d330f6519.tar.gz.hash
-    253018a451b01a6d52518ce8bbc5df8d7dac4ad4dd92910389a138a996eb5e33  x86_64-apple-darwin14/crate_futures_cpupool/crate_futures_cpupool-0.1.8-a1b3105b523.tar.gz
-    f7dae33a3f2d6bc357571b2062fcfdd972e0b7d54b49a55405c54d99df911f45  x86_64-apple-darwin14/crate_futures_cpupool/crate_futures_cpupool-0.1.8-a1b3105b523.tar.gz.hash
-    b41df127d80ce9f1fa578860194443712a8b9ba97d4ff29b0f3895348baa1416  x86_64-apple-darwin14/crate_generic_array/crate_generic_array-0.12.3-59c0545e739.tar.gz
-    477a29a0ab22bcdcfc72191405ef14a704a4f9fea03a8e861ccda9b0dfc74ea5  x86_64-apple-darwin14/crate_generic_array/crate_generic_array-0.12.3-59c0545e739.tar.gz.hash
-    61d9c79911206ca43c7512f21f05c9fe4b76add4bb2154ecb91feeca5fbb06bc  x86_64-apple-darwin14/crate_getrandom/crate_getrandom-0.1.12-651d73828b5.tar.gz
-    0d3caa6ac9a415e8f215dbcc16dfa506d6964bf9f9718e9740f9d31b0cee5f3b  x86_64-apple-darwin14/crate_getrandom/crate_getrandom-0.1.12-651d73828b5.tar.gz.hash
-    d6875142a73707fcea155a6484d1065efd88d9255c47bce0ed6290c6221f08ef  x86_64-apple-darwin14/crate_group/crate_group-0.2.0-6f1628580a2.tar.gz
-    06bc286b691ca57d7739430900ffa90648a7fa8cbff6536fe9d19dab6e271a0e  x86_64-apple-darwin14/crate_group/crate_group-0.2.0-6f1628580a2.tar.gz.hash
-    512a1196b17e45b6f06ef1a514f8e6dbb923bfecdf3b0c0a05267f73add45b36  x86_64-apple-darwin14/crate_hex/crate_hex-0.3.2-f80eb236c27.tar.gz
-    6d8d8b9aa69457a7787dfcee7bf82c25ef5415154d700930684130d913322438  x86_64-apple-darwin14/crate_hex/crate_hex-0.3.2-f80eb236c27.tar.gz.hash
-    ff9f11936433a4b59176a8558326fcaef82dc4ce5a9146cdda6f873ab46e5e9f  x86_64-apple-darwin14/crate_lazy_static/crate_lazy_static-1.4.0-1ac9757a236.tar.gz
-    558143f7f34f895eb4cddbe5de335f61666f45b5e433653bd9e5bb62f13f25a3  x86_64-apple-darwin14/crate_lazy_static/crate_lazy_static-1.4.0-1ac9757a236.tar.gz.hash
-    03114c55863bf06096bd08eb741504cc71ea2b861a2631891415c9fafa100d8e  x86_64-apple-darwin14/crate_libc/crate_libc-0.2.62-eeec69bb8d5.tar.gz
-    3ca2ea3e139bbc9c1257457fc760a229ca90a34a6c4872429c83f187bbe8fd91  x86_64-apple-darwin14/crate_libc/crate_libc-0.2.62-eeec69bb8d5.tar.gz.hash
-    8848bd11c45e7ec43a1e04919c39dd76dbb0f92d520427a81806c35e9ba38551  x86_64-apple-darwin14/crate_log/crate_log-0.4.8-787c270b7fb.tar.gz
-    501d7e05a4aa18dfa772f30e48d9d23b8f5c2f28018b49fa8ce5c529e3b47204  x86_64-apple-darwin14/crate_log/crate_log-0.4.8-787c270b7fb.tar.gz.hash
-    aa61ceaaadd3b7ad8509738cb109ce4baeb4bb3f4fa96e72154979e66a0c79f4  x86_64-apple-darwin14/crate_memoffset/crate_memoffset-0.5.1-f2adc881663.tar.gz
-    fe6c4c76102fecf10a14de203c2327d73ab299bd28d84eb7b5aededf904bd01b  x86_64-apple-darwin14/crate_memoffset/crate_memoffset-0.5.1-f2adc881663.tar.gz.hash
-    a08a861604e2289bb9d336f53facf34dec8e06e01a3f6d276ff17df88719d194  x86_64-apple-darwin14/crate_nodrop/crate_nodrop-0.1.13-5f35294409b.tar.gz
-    5670da42f19f19243525562f73f9d432c962498892bfbb9987e487c7ddec2d8e  x86_64-apple-darwin14/crate_nodrop/crate_nodrop-0.1.13-5f35294409b.tar.gz.hash
-    c22214121de91b47388677323ab1f71b2a0ce27f64b0e1d3c6d523dcc3ec68cc  x86_64-apple-darwin14/crate_num_bigint/crate_num_bigint-0.2.3-23eb7b698a0.tar.gz
-    53cfe50aa489cc258cf9aec12518a7f4264a1886f488f8a4d7236840750d5f77  x86_64-apple-darwin14/crate_num_bigint/crate_num_bigint-0.2.3-23eb7b698a0.tar.gz.hash
-    14f40bf4dbaf0ee3fb6f4985900cb48287d0fea521c0384396d909a7185c0cc5  x86_64-apple-darwin14/crate_num_cpus/crate_num_cpus-1.10.1-99d37ef1691.tar.gz
-    c5f7b5cbc0b49472f4102dbe53d4980dedf440adce8e4f0467af3828b57260d0  x86_64-apple-darwin14/crate_num_cpus/crate_num_cpus-1.10.1-99d37ef1691.tar.gz.hash
-    d16b33a3410ce9748a7420e07b40c4d7a3f601a2c5eedb1fbc717ba1748b487f  x86_64-apple-darwin14/crate_num_integer/crate_num_integer-0.1.41-1c5bf08f5de.tar.gz
-    e46bf9034a63a6455b8d54d652999c3459dc6129d48cbeffdf9f8d614f97551a  x86_64-apple-darwin14/crate_num_integer/crate_num_integer-0.1.41-1c5bf08f5de.tar.gz.hash
-    9874db08705b4863dc92c39198877b44d4ef10e6ffb050b37e8302dc6564120b  x86_64-apple-darwin14/crate_num_traits/crate_num_traits-0.2.8-96953be6e01.tar.gz
-    20ae0784ddf7a49cec3c78c1cce425dfb2411e5d4ca963ab98ced0fba51d0505  x86_64-apple-darwin14/crate_num_traits/crate_num_traits-0.2.8-96953be6e01.tar.gz.hash
-    997a692d0bbe7b8e1d09f39d0ce613c5133ae0490be259376e7330caffd3a8e3  x86_64-apple-darwin14/crate_opaque_debug/crate_opaque_debug-0.2.3-8b5f506090e.tar.gz
-    2193cd5871bd9b5c3d42146ece9591c7026510da8324b378d9a2faff56b5fd20  x86_64-apple-darwin14/crate_opaque_debug/crate_opaque_debug-0.2.3-8b5f506090e.tar.gz.hash
-    2dff0ddf049063ec67724821c6a3c58fce0350279ffdb4873d7435ad67f0d778  x86_64-apple-darwin14/crate_pairing/crate_pairing-0.15.0-a56cc2d7690.tar.gz
-    512016de0383de5332ff7251d4690e7d4ec06a43bee9ef3a32f42eb65c1fd9dd  x86_64-apple-darwin14/crate_pairing/crate_pairing-0.15.0-a56cc2d7690.tar.gz.hash
-    77cc745d245d546850db3b51e6bff4d6f6d4b54787486ed61dbb78dc8928da2a  x86_64-apple-darwin14/crate_ppv_lite86/crate_ppv_lite86-0.2.5-28bff7adbe4.tar.gz
-    1614e1f74ebd2c63b6264b3778cecff0820b5f29de978fc05ebb6b04b2d4ac53  x86_64-apple-darwin14/crate_ppv_lite86/crate_ppv_lite86-0.2.5-28bff7adbe4.tar.gz.hash
-    0c4609cd2d543024b9859aec55eb610d8ad4e341b1634a1d9dc6eb3e41cb80c0  x86_64-apple-darwin14/crate_proc_macro2/crate_proc_macro2-1.0.3-0ddeb1e8be8.tar.gz
-    dce77c161ba1c792e9b0a1344071e4c9c48430aa72d85d98b0cd2501f1c0c762  x86_64-apple-darwin14/crate_proc_macro2/crate_proc_macro2-1.0.3-0ddeb1e8be8.tar.gz.hash
-    425c3baf38cefaaa4b5e05292537ffff13cff466e0eff56149d96ae7c056a693  x86_64-apple-darwin14/crate_quote/crate_quote-1.0.2-c65527de699.tar.gz
-    205fc1eaf7b5f2a920238b698c1613a1789aedecef9bdb7a4784d418b5ff9239  x86_64-apple-darwin14/crate_quote/crate_quote-1.0.2-c65527de699.tar.gz.hash
-    ae8634e74b33fca5841ea2aee60616692ec871a49b949e37f7004830d89a7aa0  x86_64-apple-darwin14/crate_rand/crate_rand-0.7.0-f4f10bbedda.tar.gz
-    a16852481de9d139e9d3c7cd3fb38c10c9178a044a4c871c05024a11dd6d5954  x86_64-apple-darwin14/crate_rand/crate_rand-0.7.0-f4f10bbedda.tar.gz.hash
-    6fdffee51a4353de010b266f3f64d125984ed00bf7ac17d9255009c5038fecd6  x86_64-apple-darwin14/crate_rand_chacha/crate_rand_chacha-0.2.1-5a10eeecc73.tar.gz
-    0d23ff7da283b246943453df43f56f0496ffc5623038fedf70cf575464aef6fd  x86_64-apple-darwin14/crate_rand_chacha/crate_rand_chacha-0.2.1-5a10eeecc73.tar.gz.hash
-    9289c5146d947c49ed00ea8d49e1d8dfbed0e990a656d18df39135e32340d62e  x86_64-apple-darwin14/crate_rand_core/crate_rand_core-0.5.1-3f98d7f3441.tar.gz
-    d11b25fabc0722fb161634340ecb73ef91732776a06126372419d1078199c249  x86_64-apple-darwin14/crate_rand_core/crate_rand_core-0.5.1-3f98d7f3441.tar.gz.hash
-    6e29e564f49ea0c98e27d077af7fa7a94e105f3769c22215c20f2d3b97a51e5e  x86_64-apple-darwin14/crate_rand_hc/crate_rand_hc-0.2.0-e43f4586ec1.tar.gz
-    39846b8b22600f8477602df6e5387aaf63264c195db2cd51d7723f7e7b60aa26  x86_64-apple-darwin14/crate_rand_hc/crate_rand_hc-0.2.0-e43f4586ec1.tar.gz.hash
-    3970d5cc31652541a1ab81e7b0b1428e4a5a246831dcd9cf4e57b93903144c52  x86_64-apple-darwin14/crate_rand_xorshift/crate_rand_xorshift-0.2.0-81e08f6895e.tar.gz
-    db3246ecc64ff1f315c0e60326c11ce0087e3022434c60c788bb1c70ab451e5a  x86_64-apple-darwin14/crate_rand_xorshift/crate_rand_xorshift-0.2.0-81e08f6895e.tar.gz.hash
-    b8c69492257a329278bb28d084a8eae3cc506efe2a14baa42cb5dd89a8ae5d2f  x86_64-apple-darwin14/crate_rustc_version/crate_rustc_version-0.2.3-77a64ebfa6e.tar.gz
-    a3246d3557190c910e9031be39ac0b953d4521a71f41a0194b70805acaf81794  x86_64-apple-darwin14/crate_rustc_version/crate_rustc_version-0.2.3-77a64ebfa6e.tar.gz.hash
-    ba799f17da64bbec69674bb009a08ba1f244fbb741b9ec87c113ca43d1ad639e  x86_64-apple-darwin14/crate_scopeguard/crate_scopeguard-1.0.0-85121944a66.tar.gz
-    c7f1bb933a00d4e7d24db9b7497f3847a44555b56b277405e7a83c1d68540036  x86_64-apple-darwin14/crate_scopeguard/crate_scopeguard-1.0.0-85121944a66.tar.gz.hash
-    e8444817dac95fa5c164f6d0f0c47c21910d699196de1fec1f187702d60afc81  x86_64-apple-darwin14/crate_semver/crate_semver-0.9.0-b058f331d58.tar.gz
-    af47f679eeabc07fdc38f3c7624645b3446cbfea2cb0cf138d1ce20044f015d1  x86_64-apple-darwin14/crate_semver/crate_semver-0.9.0-b058f331d58.tar.gz.hash
-    cccf8f5b933f07cbf4b67a1055a2cb12a0ee7253ba6b01b93eacaaf6fc7a87d8  x86_64-apple-darwin14/crate_semver_parser/crate_semver_parser-0.7.0-c888117e6bf.tar.gz
-    20345a6ad3ba7d92559dd243ecb305f6b891cbc7e1ac5f42683e351519f388e6  x86_64-apple-darwin14/crate_semver_parser/crate_semver_parser-0.7.0-c888117e6bf.tar.gz.hash
-    8bb0ca640a30c23a63dcf676f7acc852444dc92fa72a0cf3693043199a7eb6f8  x86_64-apple-darwin14/crate_sha2/crate_sha2-0.8.0-717c05d593b.tar.gz
-    b6317ee4d64bf81d1185a3700a2d97f247a8e8fdb2edd76bde3d73c7ca52939a  x86_64-apple-darwin14/crate_sha2/crate_sha2-0.8.0-717c05d593b.tar.gz.hash
-    9bd5ab784106abf296ef4e2e77ede4e1efd4dec652311d5bd75011764a85f1ca  x86_64-apple-darwin14/crate_syn/crate_syn-1.0.5-16516bdf3f7.tar.gz
-    721310356b4aed34a35b494d8c7050f8f3fbb0037a09a701786128a65cba8d36  x86_64-apple-darwin14/crate_syn/crate_syn-1.0.5-16516bdf3f7.tar.gz.hash
-    07f64f32e1a47aaf249f3c6bf3986666065067e80f269254b9a868dbc8ceba0c  x86_64-apple-darwin14/crate_typenum/crate_typenum-1.11.2-908f4573339.tar.gz
-    9e5b826763e68232c3d18084ecd72e6ea779972f67b3f286fbe7cb7b768b6a3c  x86_64-apple-darwin14/crate_typenum/crate_typenum-1.11.2-908f4573339.tar.gz.hash
-    2760a5d7170c8c1d7a0c92e9e250815d9fe5d2fe7696390020061f236e3943b1  x86_64-apple-darwin14/crate_unicode_xid/crate_unicode_xid-0.2.0-2fa33297907.tar.gz
-    d13607ea4c04a550ec5aec0c808a343f4b28597a710adc794695096abcd6949a  x86_64-apple-darwin14/crate_unicode_xid/crate_unicode_xid-0.2.0-2fa33297907.tar.gz.hash
-    b665afc6cc94c1c461077117e96aa8f35228ab82c759d6ff437a3177aa35dd30  x86_64-apple-darwin14/crate_wasi/crate_wasi-0.7.0-39cdafb0c10.tar.gz
-    d871c9fe5aa764eac43e389828e325f7f4e97e4806804224dc7bb3a6e8f4ec07  x86_64-apple-darwin14/crate_wasi/crate_wasi-0.7.0-39cdafb0c10.tar.gz.hash
-    274a8151c65f9cfd9434fbd0f83f7b6dc9c8a63c659abc42a6e40a16bcd7d8f6  x86_64-apple-darwin14/crate_winapi/crate_winapi-0.3.8-688f604c064.tar.gz
-    0ca7a5e8deaa4065674b2b7de884daacd3791e63da55fa8325ce2c21a76bd841  x86_64-apple-darwin14/crate_winapi/crate_winapi-0.3.8-688f604c064.tar.gz.hash
-    f593476b754b00c508e963e95972badde01b3c1565991b66d48336af08a678a7  x86_64-apple-darwin14/crate_winapi_i686_pc_windows_gnu/crate_winapi_i686_pc_windows_gnu-0.4.0-7b6833cbc5f.tar.gz
-    781f29bc6a60e881c8b5ed78e4c74ccd222582fbc1105406a3ebf2779e706222  x86_64-apple-darwin14/crate_winapi_i686_pc_windows_gnu/crate_winapi_i686_pc_windows_gnu-0.4.0-7b6833cbc5f.tar.gz.hash
-    7ba1f3daac87e29c91b16d66c0c3928a50d5ed06f75d97f0d9488500283c80c7  x86_64-apple-darwin14/crate_winapi_x86_64_pc_windows_gnu/crate_winapi_x86_64_pc_windows_gnu-0.4.0-939ffcad04d.tar.gz
-    abc33e919181e192cc232297a63837ba5e63c39209bd69f467a12629c221d683  x86_64-apple-darwin14/crate_winapi_x86_64_pc_windows_gnu/crate_winapi_x86_64_pc_windows_gnu-0.4.0-939ffcad04d.tar.gz.hash
-    4df4eade593dcb38e1d6fa05fdcd4bfffd0e6e59f8ea8cb4bbdf837c16ec1e51  x86_64-apple-darwin14/crate_zcash_primitives/crate_zcash_primitives-0.1.0-7612f68531f.tar.gz
-    11db49d57d05bd5fdfc8a14201131e34ae9bae97239bd5a40b60b6077574b090  x86_64-apple-darwin14/crate_zcash_primitives/crate_zcash_primitives-0.1.0-7612f68531f.tar.gz.hash
-    a31761f6b1697d54b225e236a35de9e62896ac6b507f2b6c6bf411a5ee1b68cf  x86_64-apple-darwin14/crate_zcash_proofs/crate_zcash_proofs-0.1.0-fa578387acf.tar.gz
-    b6243c362e1b024dbca15cdedc6997f27b72eb995cae149ba0f9c5b20f2d4099  x86_64-apple-darwin14/crate_zcash_proofs/crate_zcash_proofs-0.1.0-fa578387acf.tar.gz.hash
-    9d925f78908829f84c650b4d9f2971d1f898a5bcd303381c2fdb2733e75b1d70  x86_64-apple-darwin14/gmp/gmp-6.1.2-4f8ed56833d.tar.gz
-    963ab0277e292622d87a260e64b918d5b79bb406652f24f4f1da33d6ca0b3a87  x86_64-apple-darwin14/gmp/gmp-6.1.2-4f8ed56833d.tar.gz.hash
-    50ee051f78067d1718ee2eaf36b9ba4d58fad764cbffaab1558fed996b993ad9  x86_64-apple-darwin14/libevent/libevent-2.1.8-stable-6bd33b9c2ba.tar.gz
-    b60b21cd25d36a674b755e2cba4ee4434a26ff16e36920916366069d48d43152  x86_64-apple-darwin14/libevent/libevent-2.1.8-stable-6bd33b9c2ba.tar.gz.hash
-    3d9b80666f36e552191092a616327850bed362b02d7d85abb49f0af9a5cf3c47  x86_64-apple-darwin14/libsodium/libsodium-1.0.15-ac2e8981723.tar.gz
-    aa16f894aac7aaa73e6955452ef557732076280e5a01ba603d6a84dcd8bb7ddb  x86_64-apple-darwin14/libsodium/libsodium-1.0.15-ac2e8981723.tar.gz.hash
-    b4f87f43694fff3b2e37af9332271e9d3f5b3d01468355e283bc37df114f45ab  x86_64-apple-darwin14/miniupnpc/miniupnpc-2.0.20180203-0b41b9a452a.tar.gz
-    c6425f05edd9b7ef8b3748bfe0aaaa13d44e3a34b4dd90164905070651bdcb95  x86_64-apple-darwin14/miniupnpc/miniupnpc-2.0.20180203-0b41b9a452a.tar.gz.hash
-    f5c7dc3f78b0e5e7f41c5ad8aad153261e937ccaf18785823f7b977095cfa183  x86_64-apple-darwin14/native_biplist/native_biplist-1.0.3-76bec6137e1.tar.gz
-    12c35bf8441645269d85f65527911864538b7c099a8401477bbc09e7b8463fce  x86_64-apple-darwin14/native_biplist/native_biplist-1.0.3-76bec6137e1.tar.gz.hash
-    df9d7294ba682cada8321d264276e0ed2dba1a2abc799bcbebf448421c1405f8  x86_64-apple-darwin14/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-4ab4718c877.tar.gz
-    bfdf619bca11c58d6bc0784f674f2271f4d1bc6aeb7dc43f0408cbc9c898b845  x86_64-apple-darwin14/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-4ab4718c877.tar.gz.hash
-    a950569237d1aa14c94d3e1433f62b343abbb4537ebbdf113ecb70b7e46eae1b  x86_64-apple-darwin14/native_cdrkit/native_cdrkit-1.1.11-7ee4fe6a00e.tar.gz
-    b42465f3c72479d1a1602f73df861b7d0a583d61eadf29ec359ae60e0df44328  x86_64-apple-darwin14/native_cdrkit/native_cdrkit-1.1.11-7ee4fe6a00e.tar.gz.hash
-    b4be207dc1eea5419c0bd6125a6c38d79a4095c68013244a95d18d5263e01ce9  x86_64-apple-darwin14/native_ds_store/native_ds_store-1.1.2-0e2d73757c7.tar.gz
-    d27636ca58ec3d99565f9f6a65b1839691747e0daf68dce3a8ee4e530a451f0d  x86_64-apple-darwin14/native_ds_store/native_ds_store-1.1.2-0e2d73757c7.tar.gz.hash
-    55ff53ef82cf208ed9d52fd7ec971b87cf570536ee6056eb2131152d0734b228  x86_64-apple-darwin14/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-80a1befea89.tar.gz
-    b9b6dec5093dba463009df3236ba3bc912925d47c73e4f3e8c2c00c451fa9550  x86_64-apple-darwin14/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-80a1befea89.tar.gz.hash
-    0f76064adf2fade6ac5b215bf24895650bc6695417ffe291613bbcb46f5eccff  x86_64-apple-darwin14/native_mac_alias/native_mac_alias-2.0.7-07a3be57c4b.tar.gz
-    e735c3e4ca62e55abcf92a6506c311572d16eb1f6c8e91fdda41a0cd9322d88e  x86_64-apple-darwin14/native_mac_alias/native_mac_alias-2.0.7-07a3be57c4b.tar.gz.hash
-    b646932a042fee7c36df3c229fcc6089748d8ad31f55a4d5becafd058375a5ee  x86_64-apple-darwin14/native_protobuf/native_protobuf-2.6.1-d5dfc4192ce.tar.gz
-    f73ad70c20b942cd2169de148a737684c2a7c6de6a21d5be71f87b60fc9ef42e  x86_64-apple-darwin14/native_protobuf/native_protobuf-2.6.1-d5dfc4192ce.tar.gz.hash
-    e2b817f9591df0f19587b11b838d944a764a48e97ad1903970a4131a46b607cf  x86_64-apple-darwin14/openssl/openssl-1.0.1k-02397ed6877.tar.gz
-    2b057dd10c536a4a81e6d52705550eb14178c9ae3bd2787d6fa7998d465b21b8  x86_64-apple-darwin14/openssl/openssl-1.0.1k-02397ed6877.tar.gz.hash
-    ab1bb7d128c591f4d431e53610bd4d2918c423acd36300c1810a32388e6cf954  x86_64-apple-darwin14/protobuf/protobuf-2.6.1-f3c4356330b.tar.gz
-    98107702a2b3211c6dad5e89bd87d71244f9818b07e3b65ae78741ffd1adf452  x86_64-apple-darwin14/protobuf/protobuf-2.6.1-f3c4356330b.tar.gz.hash
-    801fd01e22bea1bd83b36d8c5000d7e3ee722fe5d36b3a28f6c2a8e0ffe63ac5  x86_64-apple-darwin14/qrencode/qrencode-3.4.4-040782151ce.tar.gz
-    0723ecb5a6af320ee6119ed970ab5834399c54911a428e33bfe88da2c238bfc6  x86_64-apple-darwin14/qrencode/qrencode-3.4.4-040782151ce.tar.gz.hash
-    1be8417bde13593b6399b15d28d6828dccc3bd4e466998883812453d3c0a481e  x86_64-apple-darwin14/qt/qt-5.9.7-317e2485d2d.tar.gz
-    386631bb215817209fdef618abf77e2ad6131d3259e00cf0a3590cb0af8e983b  x86_64-apple-darwin14/qt/qt-5.9.7-317e2485d2d.tar.gz.hash
-    f2f8a6162b2e5c8b11e83c589d098c5d92c8572ead2a37b7715b196b6396b133  x86_64-apple-darwin14/rust/rust-1.42.0-a4d68971558.tar.gz
-    996bb63acefb84a2a1ebf90f6a1ab1cadcd28758ac311f924c4f557108c41538  x86_64-apple-darwin14/rust/rust-1.42.0-a4d68971558.tar.gz.hash
-    b5a7be33cce6308ce9d6fdd912befe8f17827c86ccf786b94f6ed3d8093fd206  x86_64-apple-darwin14/zeromq/zeromq-4.3.1-3ed4d8f9f16.tar.gz
-    3485c8517a74ebb4b5264e5b588affec4577d5b3f332c0f8ea48c33fb8bd22e9  x86_64-apple-darwin14/zeromq/zeromq-4.3.1-3ed4d8f9f16.tar.gz.hash
-    ece0faba8d983ec9230c59e2442635b209750a46888c49234188391f760094d3  x86_64-apple-darwin14/zlib/zlib-1.2.11-e1bd726d17e.tar.gz
-    7292a90abe4d7f2772493c0200b67166530eb5ff2303810282f8e5081b7903d3  x86_64-apple-darwin14/zlib/zlib-1.2.11-e1bd726d17e.tar.gz.hash
+    c6d2ac2c3241cb63571ec8490cd76b5a1163ad230d54c86510f85e0abaeb7f99  x86_64-apple-darwin14/bdb/bdb-4.8.30-4d3ce48d129.tar.gz
+    7f1e9d143a1ffc305c3db84207c25a5b94a408365090b6abf33f97dad93c9d48  x86_64-apple-darwin14/bdb/bdb-4.8.30-4d3ce48d129.tar.gz.hash
+    e453d0b5e5c99d70f4473dc9bf10c95414da6afc83de39da2f56111c8009b930  x86_64-apple-darwin14/boost/boost-1_64_0-b16e4aeb440.tar.gz
+    29d19053a7aca1661cc2a3828880449c267593575affc6ddd48103b847653b80  x86_64-apple-darwin14/boost/boost-1_64_0-b16e4aeb440.tar.gz.hash
+    9a6461ae5a90d7f616f3a792980f6a2c4f866b20e96834cbd7c3a17e9c461342  x86_64-apple-darwin14/crate_aes/crate_aes-0.3.2-98261c4862c.tar.gz
+    f7d5076525048cb15401a958dee7105d09957053b1c4613bb0dee55ccd77708b  x86_64-apple-darwin14/crate_aes/crate_aes-0.3.2-98261c4862c.tar.gz.hash
+    8f4d899a91157013d98b4cd8303a9071917e45802a67918a362f30a30a25cbb7  x86_64-apple-darwin14/crate_aes_soft/crate_aes_soft-0.3.3-faa45221164.tar.gz
+    fc641f09fc4ca180642022b6d064e3fcb6d52c1209c17fb2de6d340637c156dd  x86_64-apple-darwin14/crate_aes_soft/crate_aes_soft-0.3.3-faa45221164.tar.gz.hash
+    33330df08d33ac6eb28ad0eada83813b665b80d6c42ee8ccf6f4d3bfbd215755  x86_64-apple-darwin14/crate_aesni/crate_aesni-0.6.0-1d6555d3b8c.tar.gz
+    38cb8dd057b49d36f265b40bdb692fb98991606025baf735bf54cdb3f6e8ed69  x86_64-apple-darwin14/crate_aesni/crate_aesni-0.6.0-1d6555d3b8c.tar.gz.hash
+    87a94bc3e08854d64ff2696f0a61f33840e8c725a7baed6a81301ab7665b729a  x86_64-apple-darwin14/crate_arrayref/crate_arrayref-0.3.5-a1dc7f60c44.tar.gz
+    6b32b97436f57df11214201bb3acdb2eb0cffb6b99d57a5d8f11bc28e2ab38c3  x86_64-apple-darwin14/crate_arrayref/crate_arrayref-0.3.5-a1dc7f60c44.tar.gz.hash
+    2f4a4c59ff7ca117269e25d7eacd953a53721ab2e45d0e5df354229207a2c1b4  x86_64-apple-darwin14/crate_arrayvec/crate_arrayvec-0.4.11-875d2a2147c.tar.gz
+    a492033a913977ac55ab108f8b66398ff4350caf47126512a0ae4e26c456f24b  x86_64-apple-darwin14/crate_arrayvec/crate_arrayvec-0.4.11-875d2a2147c.tar.gz.hash
+    7a901e30c96b0ff828ee8cd2345aa2567d478bce72b7ffd4882685e234fd518b  x86_64-apple-darwin14/crate_autocfg/crate_autocfg-0.1.6-c4726f7578e.tar.gz
+    09f1941b1fb901845c332cee7434e080ff52567bfb8bd68f39c761104c74e9a7  x86_64-apple-darwin14/crate_autocfg/crate_autocfg-0.1.6-c4726f7578e.tar.gz.hash
+    107fa927ae714e8f0d318e89e1414e499af496373abb98a23345414ba7eb4fef  x86_64-apple-darwin14/crate_bellman/crate_bellman-0.2.0-b063c159df0.tar.gz
+    23e4c2f0097c558c9bb87b30c0f172940b9313cee917692bd5fcfa1bc2c6576a  x86_64-apple-darwin14/crate_bellman/crate_bellman-0.2.0-b063c159df0.tar.gz.hash
+    15cedafd1a03923b44a5839fd87f1a87fb51b207673288d7b43210b575241980  x86_64-apple-darwin14/crate_bit_vec/crate_bit_vec-0.4.4-cb90bd397db.tar.gz
+    07d7defb06d08486883cc99671467c0eb507e37387701b073721e92f6b7f4b51  x86_64-apple-darwin14/crate_bit_vec/crate_bit_vec-0.4.4-cb90bd397db.tar.gz.hash
+    2cc9e38f5aebdbe98cc345d6ffd9fb1886b2c8a80d38c12613d3179dc77c0244  x86_64-apple-darwin14/crate_blake2b_simd/crate_blake2b_simd-0.5.8-91bd8c4dfbc.tar.gz
+    c1db4ef5c643e399213829541234fc6b720df3155927295b0e0a294f8a70db74  x86_64-apple-darwin14/crate_blake2b_simd/crate_blake2b_simd-0.5.8-91bd8c4dfbc.tar.gz.hash
+    169723c008bcbbcd965222203cbfb0133dd9521252db6a95652b4a71030244a3  x86_64-apple-darwin14/crate_blake2s_simd/crate_blake2s_simd-0.5.8-d222fe00c4d.tar.gz
+    99b02ff2a27fa789cab630e8c92611a85cc64c36371f39712f984f26bd9054a3  x86_64-apple-darwin14/crate_blake2s_simd/crate_blake2s_simd-0.5.8-d222fe00c4d.tar.gz.hash
+    3d404790f7e640b651c7820f9c7f7cc8d41647f0902610131c708d160e994402  x86_64-apple-darwin14/crate_block_buffer/crate_block_buffer-0.7.3-b8be3ca1b30.tar.gz
+    ceb46f792ab5bc103dcd58ff50ecb25d29a8b1163d642363cd2feb17d36309ef  x86_64-apple-darwin14/crate_block_buffer/crate_block_buffer-0.7.3-b8be3ca1b30.tar.gz.hash
+    ff0ddea13175fec7404e02ac1bbd76b425295fb1d0d84cf5a9341c662fa0c986  x86_64-apple-darwin14/crate_block_cipher_trait/crate_block_cipher_trait-0.6.2-ebda3082db0.tar.gz
+    84f1bce599e37d0d8b40d226c859381e5f890121f9c912cff698d0026504f18b  x86_64-apple-darwin14/crate_block_cipher_trait/crate_block_cipher_trait-0.6.2-ebda3082db0.tar.gz.hash
+    fc08006dd9bfbf203c4f8720570ca2a89b12186b6a49927dc40c48d7e7752841  x86_64-apple-darwin14/crate_block_padding/crate_block_padding-0.1.4-dc62f0a1591.tar.gz
+    1fa8c0235e6ba27ed7fdd950eed3946416805fb75772d8153247414cf1728851  x86_64-apple-darwin14/crate_block_padding/crate_block_padding-0.1.4-dc62f0a1591.tar.gz.hash
+    a5e945efd93673017b3bf7df600263fe63315d53d4f77bfaf2c18769bc3b8833  x86_64-apple-darwin14/crate_byte_tools/crate_byte_tools-0.3.1-1e1734f9f42.tar.gz
+    c95942c6ec83be391cb0600f5de57bd795e62e321d8d746683db16ab9ccd4c10  x86_64-apple-darwin14/crate_byte_tools/crate_byte_tools-0.3.1-1e1734f9f42.tar.gz.hash
+    6657bb6c0d0445f21b701126ef83102bb9118474bc73ffc74898d79bfac08738  x86_64-apple-darwin14/crate_byteorder/crate_byteorder-1.3.2-4ac2dbd8e5f.tar.gz
+    21c14b1fa150ce83fbfed325a70dc034bf0495422952e34c7a4af27a5e0d426e  x86_64-apple-darwin14/crate_byteorder/crate_byteorder-1.3.2-4ac2dbd8e5f.tar.gz.hash
+    274fa61f01b0e9798bf8e47c0a8177b6aeeff932b3861a151e72cc0df7024658  x86_64-apple-darwin14/crate_c2_chacha/crate_c2_chacha-0.2.2-84b4cfe0d25.tar.gz
+    0cbc49a0adb05ec8dfcb0eb4a6cb9fa9701c3a7e7fac25aeacacf76f7937bba3  x86_64-apple-darwin14/crate_c2_chacha/crate_c2_chacha-0.2.2-84b4cfe0d25.tar.gz.hash
+    fbcf719d6ba2060d6a16910210725bff28b040c6b30a765003ea5200a8fd3393  x86_64-apple-darwin14/crate_cfg_if/crate_cfg_if-0.1.9-d328313d960.tar.gz
+    32b609b512a3ed41e34dedabe5657a2de0fa8daa85608e63a6654be19196124a  x86_64-apple-darwin14/crate_cfg_if/crate_cfg_if-0.1.9-d328313d960.tar.gz.hash
+    2465b8cc44a6b80aab292657e8bf795fb3599a173281e33c4107a01d48af0c0e  x86_64-apple-darwin14/crate_constant_time_eq/crate_constant_time_eq-0.1.4-1ab7845e0e3.tar.gz
+    a26be4168eac916ac53ce8aedf6931508b03d9fc58431f6191900289f5dd47c4  x86_64-apple-darwin14/crate_constant_time_eq/crate_constant_time_eq-0.1.4-1ab7845e0e3.tar.gz.hash
+    48b3b6288285c22358192082e9b637337288cbe5d05c158741bf2f5f1401b0fb  x86_64-apple-darwin14/crate_crossbeam/crate_crossbeam-0.7.2-76f236ee59f.tar.gz
+    4c9decca39ecf3403606736a9f8920d01bbeb53ee478e8635e1033a0658dc46b  x86_64-apple-darwin14/crate_crossbeam/crate_crossbeam-0.7.2-76f236ee59f.tar.gz.hash
+    a192bf151992344398ac0836759586edf94c788c0be33e00a163715d16c090b1  x86_64-apple-darwin14/crate_crossbeam_channel/crate_crossbeam_channel-0.3.9-0454ba408b9.tar.gz
+    97d7140f5c07c08a8667493ae624748358534e0b0eeed57fd1e35d04a57d9c33  x86_64-apple-darwin14/crate_crossbeam_channel/crate_crossbeam_channel-0.3.9-0454ba408b9.tar.gz.hash
+    19dc1adf7112e5de9e6163d479ea2c209ea4eb7d3ac85151228ad861b101fbfc  x86_64-apple-darwin14/crate_crossbeam_deque/crate_crossbeam_deque-0.7.1-78a7ae4d57c.tar.gz
+    68e6e757431bee2d207fea257b87552c39b45fe07fc0a32dce1da90295299258  x86_64-apple-darwin14/crate_crossbeam_deque/crate_crossbeam_deque-0.7.1-78a7ae4d57c.tar.gz.hash
+    ac1947b2812d69a4346fa0f70de45b2ea6747116559d22cdf633715b4e42858b  x86_64-apple-darwin14/crate_crossbeam_epoch/crate_crossbeam_epoch-0.7.2-523bcc25368.tar.gz
+    2dc47e419534eba7e6a44424121d805269dd129589f267033e6954cfe78bf0c5  x86_64-apple-darwin14/crate_crossbeam_epoch/crate_crossbeam_epoch-0.7.2-523bcc25368.tar.gz.hash
+    8a93a5e5064bba3909ae25dfb5049fd59c03e94c5654eadf90c9cf6fa34dd95a  x86_64-apple-darwin14/crate_crossbeam_queue/crate_crossbeam_queue-0.1.2-daf16b5110b.tar.gz
+    6750286f327c30f26f11809ab4e8ba6832e49434bd5e4f618df6183e10b4dd5d  x86_64-apple-darwin14/crate_crossbeam_queue/crate_crossbeam_queue-0.1.2-daf16b5110b.tar.gz.hash
+    e8df32b5bfa8988e56e880b6029e90a128d2fdc4b335a31f0d0aafcd6fb41bda  x86_64-apple-darwin14/crate_crossbeam_utils/crate_crossbeam_utils-0.6.6-26c700f6584.tar.gz
+    dae4bfe646b4d31571881f1c04aa2efe35d22b55b81c8bec9303eb336f0cd589  x86_64-apple-darwin14/crate_crossbeam_utils/crate_crossbeam_utils-0.6.6-26c700f6584.tar.gz.hash
+    31ff2c1d740aeb159efe0e25f591f0ab138e77d8a40edd746313a2ced3481850  x86_64-apple-darwin14/crate_crypto_api/crate_crypto_api-0.2.2-347cc7e9b6a.tar.gz
+    6ba04146dfbaddf811214e61048e3e50816b511bb9be390c925e45cbcd860ebe  x86_64-apple-darwin14/crate_crypto_api/crate_crypto_api-0.2.2-347cc7e9b6a.tar.gz.hash
+    3fb5cfa9976f6b1f02938bd508702bdb50dce198075e0128e9434ad0f36014b7  x86_64-apple-darwin14/crate_crypto_api_chachapoly/crate_crypto_api_chachapoly-0.2.2-9a467ba3e2d.tar.gz
+    1ad457bda0c30f0ad67bca25315dbbc42b9d44cb0979234b7d16ba0529b2b208  x86_64-apple-darwin14/crate_crypto_api_chachapoly/crate_crypto_api_chachapoly-0.2.2-9a467ba3e2d.tar.gz.hash
+    539d816e7dfa1925ede1c985d50cb46915deca1c92e75dd20ba0775a6245ba7b  x86_64-apple-darwin14/crate_digest/crate_digest-0.8.1-806f664d36c.tar.gz
+    6f55dc2397033fa6ec28f4662e830d321a6d701993a4285fedb39ad978bd243c  x86_64-apple-darwin14/crate_digest/crate_digest-0.8.1-806f664d36c.tar.gz.hash
+    33dafdc28cafba51c50b429b15855c79f6c4004bb8a839b907897d55ed1c9165  x86_64-apple-darwin14/crate_directories/crate_directories-1.0.2-be23ddc07e5.tar.gz
+    1d5d356372bd717fd7ec4378ee0f7d4cf2e3c9e6e86735b19b4dd3b8a3370590  x86_64-apple-darwin14/crate_directories/crate_directories-1.0.2-be23ddc07e5.tar.gz.hash
+    d3139286914bad76dcc58a8f551fd4245836cb944816d7c98785123eb4af952d  x86_64-apple-darwin14/crate_fake_simd/crate_fake_simd-0.1.2-f00e864e0cf.tar.gz
+    ec56a9f3eefafe2efe39a405b138052ad1a8fdb087cc755096dde893d8982c60  x86_64-apple-darwin14/crate_fake_simd/crate_fake_simd-0.1.2-f00e864e0cf.tar.gz.hash
+    3f45958f23b6a273c9aa3ca1254348c7f31d895002ee1586fb1a7b4e7a4b6329  x86_64-apple-darwin14/crate_ff/crate_ff-0.5.0-ad5a30cff79.tar.gz
+    e14d2c553a48a11bf6b328cf40c2ad4a913f328d8ae4422b28276165cd107d63  x86_64-apple-darwin14/crate_ff/crate_ff-0.5.0-ad5a30cff79.tar.gz.hash
+    0c1dd7f60048f4f8583127dea7a73d37a4e0297d4a70ff7a4b6b4b47be687dc4  x86_64-apple-darwin14/crate_ff_derive/crate_ff_derive-0.4.0-ac902db794e.tar.gz
+    26bf62dde16c4c2dc004affbcf4bac146cf23ca145af581e98b5cb7266a0d514  x86_64-apple-darwin14/crate_ff_derive/crate_ff_derive-0.4.0-ac902db794e.tar.gz.hash
+    d55905e0c44711a889e435fad15b75116ae3da25c56c89662f4bc9482b3c5695  x86_64-apple-darwin14/crate_fpe/crate_fpe-0.2.0-11e2390fd6b.tar.gz
+    3db2e97a2b073e42e69c109a3b1d74c7d36270f31ed4cd05af7a131764a141cb  x86_64-apple-darwin14/crate_fpe/crate_fpe-0.2.0-11e2390fd6b.tar.gz.hash
+    694225719b3ce27726c4f92c21a755794e47d8e24ed326d7586ea7eec90f9ae2  x86_64-apple-darwin14/crate_futures/crate_futures-0.1.29-83d330f6519.tar.gz
+    a072eeff23f971942862bf401239d10cc081bfc6e857b5d026252334b4fd9f99  x86_64-apple-darwin14/crate_futures/crate_futures-0.1.29-83d330f6519.tar.gz.hash
+    70f51bad7c612ce4eab2a467040e8627d7d6132ba01279441945333048aa68d9  x86_64-apple-darwin14/crate_futures_cpupool/crate_futures_cpupool-0.1.8-a1b3105b523.tar.gz
+    e7a28fc4c337d96b107c32e34f1c7fd1288908f74dcb5e596e422452162e68af  x86_64-apple-darwin14/crate_futures_cpupool/crate_futures_cpupool-0.1.8-a1b3105b523.tar.gz.hash
+    283784158beac7a50672c0a6d9f6a6efbc5d8b2635c9bc5f9a18685e369973c0  x86_64-apple-darwin14/crate_generic_array/crate_generic_array-0.12.3-59c0545e739.tar.gz
+    d1c0fc8432517d5ea2de71362fdc42a33dc7bceb0b75cbb2f64ea7145372e6f2  x86_64-apple-darwin14/crate_generic_array/crate_generic_array-0.12.3-59c0545e739.tar.gz.hash
+    88b5b596814fa11d7fd04cc11842323e8b0b78fb949295ec9b96f585953e57f9  x86_64-apple-darwin14/crate_getrandom/crate_getrandom-0.1.12-651d73828b5.tar.gz
+    c1ba5ce642f0f3bf058cf3d8c83dc6d57550709bb4d1565d908416de299285ac  x86_64-apple-darwin14/crate_getrandom/crate_getrandom-0.1.12-651d73828b5.tar.gz.hash
+    ecbffaa10ad1d06a7ecf1715c8988f9779aee22ab242f8fb9c876aaba35621ea  x86_64-apple-darwin14/crate_group/crate_group-0.2.0-6f1628580a2.tar.gz
+    a1401589d0d9f71ed532dfe0a4a900ce51e50da135cb6458feb179683a18bb4f  x86_64-apple-darwin14/crate_group/crate_group-0.2.0-6f1628580a2.tar.gz.hash
+    f0b093d364e759cfdafe962a6f4894efebdf886c251a99f7ebf31ffb3ab7becc  x86_64-apple-darwin14/crate_hex/crate_hex-0.3.2-f80eb236c27.tar.gz
+    9947ae48e23ea9df16980d84b3e37c92d4320b0d82855e377de270d061aec6a6  x86_64-apple-darwin14/crate_hex/crate_hex-0.3.2-f80eb236c27.tar.gz.hash
+    1eb6944c5114c3f49e93019906206f675a6e6b584abaa7e6a1fdf733b75c7c42  x86_64-apple-darwin14/crate_lazy_static/crate_lazy_static-1.4.0-1ac9757a236.tar.gz
+    81c7e59ae20bddbf1e8feacb3d7718444edd90a197aa9b3b67d5698eb398508c  x86_64-apple-darwin14/crate_lazy_static/crate_lazy_static-1.4.0-1ac9757a236.tar.gz.hash
+    88256e9191ad5a87df673aa4b1ece25ad5e301b759d82347b770ce26464a5e36  x86_64-apple-darwin14/crate_libc/crate_libc-0.2.62-eeec69bb8d5.tar.gz
+    ffd1e53bb2b5feeefd739f1213c9f6fd7091dd8a28e6d14b1d206a802e8ab1a2  x86_64-apple-darwin14/crate_libc/crate_libc-0.2.62-eeec69bb8d5.tar.gz.hash
+    52ec86f9fe9bb66f274812d09a930f832df8e4a896c4b6f2d873b77fb27bac34  x86_64-apple-darwin14/crate_log/crate_log-0.4.8-787c270b7fb.tar.gz
+    d7a3339f19957ddedacf5d84c2034eae6e2f8e98813f1099d0cdfcc0b900f66f  x86_64-apple-darwin14/crate_log/crate_log-0.4.8-787c270b7fb.tar.gz.hash
+    f1ac5bebcfbf7e6ad1686ff7cb19dbea5360d815618d315165f48ada3da7af2b  x86_64-apple-darwin14/crate_memoffset/crate_memoffset-0.5.1-f2adc881663.tar.gz
+    e21eb8700165e19776a51878e150fe99d4d6795ca30b274fb3919309fa33ecbd  x86_64-apple-darwin14/crate_memoffset/crate_memoffset-0.5.1-f2adc881663.tar.gz.hash
+    41f2c0728058704834db8f8b9aa230b056fcba3fe254652771c877dbbc57db18  x86_64-apple-darwin14/crate_nodrop/crate_nodrop-0.1.13-5f35294409b.tar.gz
+    98c61822a14add86238df1a6ee15e32cdb6288811cf91d9f3dcf0ba8807cfa36  x86_64-apple-darwin14/crate_nodrop/crate_nodrop-0.1.13-5f35294409b.tar.gz.hash
+    63d1413306218ecb50a04e237448c92378b148402e8dae343a77c680ddad0f31  x86_64-apple-darwin14/crate_num_bigint/crate_num_bigint-0.2.3-23eb7b698a0.tar.gz
+    d9d60939227f998f3e98ae683be641cb7cb08555ac3dd7a791ddc53467b571ee  x86_64-apple-darwin14/crate_num_bigint/crate_num_bigint-0.2.3-23eb7b698a0.tar.gz.hash
+    7809ae2255f45ae02801339d64973e7cd26b06c3ab3bc514a168c76fbfcca829  x86_64-apple-darwin14/crate_num_cpus/crate_num_cpus-1.10.1-99d37ef1691.tar.gz
+    c13cba4cf71af2c2c28c6f03b02dfa87f2780c4dd2f801da59f89606c03b3945  x86_64-apple-darwin14/crate_num_cpus/crate_num_cpus-1.10.1-99d37ef1691.tar.gz.hash
+    a414d9449032192bd53eeba2041394eabfb687712111404b45ed5e80b2981884  x86_64-apple-darwin14/crate_num_integer/crate_num_integer-0.1.41-1c5bf08f5de.tar.gz
+    ec73327576ad48d771c899595ee5443b1608fddc2fcc6c6fb3908ac84aa729fe  x86_64-apple-darwin14/crate_num_integer/crate_num_integer-0.1.41-1c5bf08f5de.tar.gz.hash
+    eb5597276b86ca3237963947e6a835cec3545d311d661e20a7551f1588276cb5  x86_64-apple-darwin14/crate_num_traits/crate_num_traits-0.2.8-96953be6e01.tar.gz
+    05d9403d9d367f4d6312232b4e5205c45d27379de061b5126f42633ad1721e16  x86_64-apple-darwin14/crate_num_traits/crate_num_traits-0.2.8-96953be6e01.tar.gz.hash
+    34cf651b809f8c55f0d8e72bb1cb4c4ad4d46a68a2eeaa277d2b8d3ec997e8d0  x86_64-apple-darwin14/crate_opaque_debug/crate_opaque_debug-0.2.3-8b5f506090e.tar.gz
+    c4cd3a02b5a57796d7b4a473aab6fd6fc4174e869049d343f52e2c77565797cc  x86_64-apple-darwin14/crate_opaque_debug/crate_opaque_debug-0.2.3-8b5f506090e.tar.gz.hash
+    7f06d630dbe8639f277b92bfa654129cc0c1a41b00f17ce862a0effd74e91b6a  x86_64-apple-darwin14/crate_pairing/crate_pairing-0.15.0-a56cc2d7690.tar.gz
+    8b59149a14289a4f82f31943edf79860244e4669d26b731123c35d5468c0d646  x86_64-apple-darwin14/crate_pairing/crate_pairing-0.15.0-a56cc2d7690.tar.gz.hash
+    1d03d4dd7fe028e7a228be2d2f79138d7b94e0b00d3835d3ac541acb34c9efa8  x86_64-apple-darwin14/crate_ppv_lite86/crate_ppv_lite86-0.2.5-28bff7adbe4.tar.gz
+    40162b5a529742e0c5e969784b0fd67e96f3e83a9aae314d977bc9407b271a6a  x86_64-apple-darwin14/crate_ppv_lite86/crate_ppv_lite86-0.2.5-28bff7adbe4.tar.gz.hash
+    2f2d9adb515b4324d6f9747f379fbe26ac9600f51c904ba34e81c98b1e81fc14  x86_64-apple-darwin14/crate_proc_macro2/crate_proc_macro2-1.0.3-0ddeb1e8be8.tar.gz
+    c2dd5a3398b6f98f49c10ca3b1ac7b15725e76fdf10487ae01cf3b50f0ac114b  x86_64-apple-darwin14/crate_proc_macro2/crate_proc_macro2-1.0.3-0ddeb1e8be8.tar.gz.hash
+    a16cf760f15eacd8566e4cfac33309d4d1ef71b44d42597017f1ab21c4d010c4  x86_64-apple-darwin14/crate_quote/crate_quote-1.0.2-c65527de699.tar.gz
+    34b7a66f9dd74627f6ee852ae4b59a761832184680c351ee95e17d9e0d607c71  x86_64-apple-darwin14/crate_quote/crate_quote-1.0.2-c65527de699.tar.gz.hash
+    d6ce952b63dc680609ff0d83b77aa34f6b689df9f4bd63482e9aead3dfee1fdf  x86_64-apple-darwin14/crate_rand/crate_rand-0.7.0-f4f10bbedda.tar.gz
+    c0a4ad1299966dcbc18ada795ba505cf8fbec7c3201856c5de839ecb7a85d198  x86_64-apple-darwin14/crate_rand/crate_rand-0.7.0-f4f10bbedda.tar.gz.hash
+    d48c2b1640ea14bfa8502ab75fcfe9623f72cd636cc3399f82e34bb2813ecb4a  x86_64-apple-darwin14/crate_rand_chacha/crate_rand_chacha-0.2.1-5a10eeecc73.tar.gz
+    7ab52ff77026a0a7ca1f4e3eb23d7d81081fbe2bd76046fe64355b61605fe157  x86_64-apple-darwin14/crate_rand_chacha/crate_rand_chacha-0.2.1-5a10eeecc73.tar.gz.hash
+    796145e30fdb6b6ad103edbbcde559be7c7226539b38c64086cf809266fa8719  x86_64-apple-darwin14/crate_rand_core/crate_rand_core-0.5.1-3f98d7f3441.tar.gz
+    668c33cc45db49d4eb264e6fc59e1135248ab13cd5954bb231a1184977833d87  x86_64-apple-darwin14/crate_rand_core/crate_rand_core-0.5.1-3f98d7f3441.tar.gz.hash
+    a964fe9f7008192999205a2717e92fd5664afa60ce4c219db905c7ca8c3603d6  x86_64-apple-darwin14/crate_rand_hc/crate_rand_hc-0.2.0-e43f4586ec1.tar.gz
+    0ed8a68def78a7e0fb2c61b67198e65418c321ecf3c4855f1630313ab3964e3f  x86_64-apple-darwin14/crate_rand_hc/crate_rand_hc-0.2.0-e43f4586ec1.tar.gz.hash
+    dcb60188feef64ebac29ed49860a8057bd15c753bca64c7533c4b760015fd2d6  x86_64-apple-darwin14/crate_rand_xorshift/crate_rand_xorshift-0.2.0-81e08f6895e.tar.gz
+    c45b5f1f4931fe7c78e0e3354d79b159534bcbc15ff8f437c8efe94f5e55b46d  x86_64-apple-darwin14/crate_rand_xorshift/crate_rand_xorshift-0.2.0-81e08f6895e.tar.gz.hash
+    ff23c08b229e6725f318c588ed9b64b7de9e851044cda6db4acdcc9948cc3b45  x86_64-apple-darwin14/crate_rustc_version/crate_rustc_version-0.2.3-77a64ebfa6e.tar.gz
+    14560fb6f17dcde55bb7b0d49a89f5a9b0c7bd730ffc2cbf25e79bd9e70df589  x86_64-apple-darwin14/crate_rustc_version/crate_rustc_version-0.2.3-77a64ebfa6e.tar.gz.hash
+    e43242894f1be7d3bf5e97cae527cea5d9e26d846c51cfb80233ec769187dd24  x86_64-apple-darwin14/crate_scopeguard/crate_scopeguard-1.0.0-85121944a66.tar.gz
+    3d86aefe72836453de1c9e5640582f07260637aecaa5ad605e7fd111eba4a2a7  x86_64-apple-darwin14/crate_scopeguard/crate_scopeguard-1.0.0-85121944a66.tar.gz.hash
+    f47471a1518087e3d68b0943ff8a0a42d8ad5b4df721520b94464853e7dd7dd4  x86_64-apple-darwin14/crate_semver/crate_semver-0.9.0-b058f331d58.tar.gz
+    2e17a96d0b58777771809bf73dedf0828f70dec976a0f09ec63d46fff2946e0c  x86_64-apple-darwin14/crate_semver/crate_semver-0.9.0-b058f331d58.tar.gz.hash
+    012cb0fa42e1a6c452ece193673aab9f805b6c12bd3d96e74db86adb394b1a56  x86_64-apple-darwin14/crate_semver_parser/crate_semver_parser-0.7.0-c888117e6bf.tar.gz
+    55e307a34b6d9fa54a1122520fbd393062cf644e83d9df26e453a8668606b068  x86_64-apple-darwin14/crate_semver_parser/crate_semver_parser-0.7.0-c888117e6bf.tar.gz.hash
+    b9431d732fa3f82cb1542a2db881e8b05e66fab04e9c9597a753470d3c22be61  x86_64-apple-darwin14/crate_sha2/crate_sha2-0.8.0-717c05d593b.tar.gz
+    da860bba0847cef97e646f6d40bc6ab3da2d2812e690e1c25278bf5d0c2dfe5c  x86_64-apple-darwin14/crate_sha2/crate_sha2-0.8.0-717c05d593b.tar.gz.hash
+    9f18584cb3abfb2228c66473eb46910e76645e7705665e7efd804ea22adc3437  x86_64-apple-darwin14/crate_syn/crate_syn-1.0.5-16516bdf3f7.tar.gz
+    e8287af4a35449f1a7cbd0ddc1d562fd5e7068db7a60bf47a985bf667e83ecb8  x86_64-apple-darwin14/crate_syn/crate_syn-1.0.5-16516bdf3f7.tar.gz.hash
+    f268b304c007e9d16841e250242c69dd2e152c1895c48f3f2ed71db2dffba8c7  x86_64-apple-darwin14/crate_typenum/crate_typenum-1.11.2-908f4573339.tar.gz
+    5e9e92132bba3722c8bbced246a4e5c40217f41dc7a792cb3720c45f3ba923f5  x86_64-apple-darwin14/crate_typenum/crate_typenum-1.11.2-908f4573339.tar.gz.hash
+    77ea97ef4d15797a06b3786b56f0452f16c76082b3338427bbd77c6fb833a694  x86_64-apple-darwin14/crate_unicode_xid/crate_unicode_xid-0.2.0-2fa33297907.tar.gz
+    d71a90a205ab0d82f5b66f02bb8d87732145da29fad46823c2a7c8e0078327e9  x86_64-apple-darwin14/crate_unicode_xid/crate_unicode_xid-0.2.0-2fa33297907.tar.gz.hash
+    e9dac9ea56a1264684905bc93537938264b9b01229be58d34b825248186473af  x86_64-apple-darwin14/crate_wasi/crate_wasi-0.7.0-39cdafb0c10.tar.gz
+    848ead72733141bcddae0ebe7a1fd04978cbaca5c247ba24f6d3a80f2cb2bcb6  x86_64-apple-darwin14/crate_wasi/crate_wasi-0.7.0-39cdafb0c10.tar.gz.hash
+    e3c6d58f56c309d9dd1b87bd57a62bb8a9192f2fd5e9f06e0d7a0dce245ede01  x86_64-apple-darwin14/crate_winapi/crate_winapi-0.3.8-688f604c064.tar.gz
+    1fcc2a928e7e87c3fa7810c3564d17b4fa8055520c70c764a02ead262efdb154  x86_64-apple-darwin14/crate_winapi/crate_winapi-0.3.8-688f604c064.tar.gz.hash
+    aff9625862d796f89169940b4dd231c9a9108734e909bfed0070067ec9f2c60a  x86_64-apple-darwin14/crate_winapi_i686_pc_windows_gnu/crate_winapi_i686_pc_windows_gnu-0.4.0-7b6833cbc5f.tar.gz
+    12e3a4e2ceee42d6fcfc1e6765d147a365fafc7d7abaca5feace11567a903583  x86_64-apple-darwin14/crate_winapi_i686_pc_windows_gnu/crate_winapi_i686_pc_windows_gnu-0.4.0-7b6833cbc5f.tar.gz.hash
+    20825a2c93c76fa49c4184551b0a1a3b4b4406f02e6d7bf7fcdabbf034b82921  x86_64-apple-darwin14/crate_winapi_x86_64_pc_windows_gnu/crate_winapi_x86_64_pc_windows_gnu-0.4.0-939ffcad04d.tar.gz
+    b63bde316d7ad480a5cd299bf91a324de91a178c7e07e10bdf9497d944e47348  x86_64-apple-darwin14/crate_winapi_x86_64_pc_windows_gnu/crate_winapi_x86_64_pc_windows_gnu-0.4.0-939ffcad04d.tar.gz.hash
+    d54ae54058d8848f3461837b10bfbdd439f114c03b21445d6d17f030bf279642  x86_64-apple-darwin14/crate_zcash_primitives/crate_zcash_primitives-0.1.0-7612f68531f.tar.gz
+    9783fddc8d537572f66f4f69c2da0586a8fe5f52df7fd6eb8426249efd8e324d  x86_64-apple-darwin14/crate_zcash_primitives/crate_zcash_primitives-0.1.0-7612f68531f.tar.gz.hash
+    d5f356f8afe0d48da0396c41f83747cb2dccd631bdf1a0717f1c762f7a2fa422  x86_64-apple-darwin14/crate_zcash_proofs/crate_zcash_proofs-0.1.0-fa578387acf.tar.gz
+    a0a629286b508e0f14ca01c5b97fdf6d23c9070eab9e0502535fbcd36e7b8cf7  x86_64-apple-darwin14/crate_zcash_proofs/crate_zcash_proofs-0.1.0-fa578387acf.tar.gz.hash
+    872b92b98c016da38d5c1eb575e45573d60607b6de9e608f764f28fc3f16e716  x86_64-apple-darwin14/gmp/gmp-6.1.2-4f8ed56833d.tar.gz
+    f2c544e89996e64989167b437aacfa64926b67dd9a17ac2533246677935acc4f  x86_64-apple-darwin14/gmp/gmp-6.1.2-4f8ed56833d.tar.gz.hash
+    b9a38c8b1137e2632889a765bf7c803d0c15329f4b3f70a8353d749fbbeba05f  x86_64-apple-darwin14/libevent/libevent-2.1.8-stable-6bd33b9c2ba.tar.gz
+    75731e2232c65a3a0d4d11298460eb36893c036d670c91439a32039203cb8583  x86_64-apple-darwin14/libevent/libevent-2.1.8-stable-6bd33b9c2ba.tar.gz.hash
+    31f154c88a844fd0b486563222fd4c267136cccf5863f73116e775bac58229cd  x86_64-apple-darwin14/libsodium/libsodium-1.0.15-ac2e8981723.tar.gz
+    3307527a0593cd6094adc8269767cf63b20f0c599dd46c78ba695741d152d135  x86_64-apple-darwin14/libsodium/libsodium-1.0.15-ac2e8981723.tar.gz.hash
+    72eae715651823705b37f42323edecbda5a3be863c3cc43b3ad94fdfcd1f538c  x86_64-apple-darwin14/miniupnpc/miniupnpc-2.0.20180203-0b41b9a452a.tar.gz
+    655a54fcf61ad122cb74c96742c43787dfc348f49247823e07c1be8d0207be0f  x86_64-apple-darwin14/miniupnpc/miniupnpc-2.0.20180203-0b41b9a452a.tar.gz.hash
+    43db2224932e9aa49e5ec2875e4e2c6c6069c44d029d6e9944e025771ac4ee4d  x86_64-apple-darwin14/native_biplist/native_biplist-1.0.3-76bec6137e1.tar.gz
+    5d5dbfd8e1a8e5a8a175717b115e2b04551da1b323db5ee5bdffcbedeb008439  x86_64-apple-darwin14/native_biplist/native_biplist-1.0.3-76bec6137e1.tar.gz.hash
+    3d245963359d8d624b24b4562046ac217c999eec32a59731236f6e7accd3fe5f  x86_64-apple-darwin14/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-4ab4718c877.tar.gz
+    0d3d59df67c92cbb3e6d1defbb74d230d84722182d63bb86117462a44df07f92  x86_64-apple-darwin14/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-4ab4718c877.tar.gz.hash
+    4edbf06105d1ab068190842183282ddb69be7173a2428c78c20e381796c67a69  x86_64-apple-darwin14/native_cdrkit/native_cdrkit-1.1.11-7ee4fe6a00e.tar.gz
+    0c5b26fd0e6aa1657334dba7cee37f9c4d66a0cbe0f4ebc1fbbea39386d2a3df  x86_64-apple-darwin14/native_cdrkit/native_cdrkit-1.1.11-7ee4fe6a00e.tar.gz.hash
+    7d12ff549f164a9f302c366b7b8c1fc118e185836ea73beafbba920635d326b0  x86_64-apple-darwin14/native_ds_store/native_ds_store-1.1.2-0e2d73757c7.tar.gz
+    2ec07ea30c0bbb27ddd6809c9c4cd40f74640ba518ded0da27a65eddc12ce323  x86_64-apple-darwin14/native_ds_store/native_ds_store-1.1.2-0e2d73757c7.tar.gz.hash
+    55fd4e4e2e8fa3ec79501d66e1ef11bf6394d25a76821c27176298fc57dac133  x86_64-apple-darwin14/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-80a1befea89.tar.gz
+    b3c7d4db42fbb1c56cf17341479411866ab21434380e92d28de09d5457edb10d  x86_64-apple-darwin14/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-80a1befea89.tar.gz.hash
+    7470ad1258565392097b3c1eaafa9bcd4cbaa48aba9a4b3a9b875c92418330a1  x86_64-apple-darwin14/native_mac_alias/native_mac_alias-2.0.7-07a3be57c4b.tar.gz
+    642b0af5fce1679fa68a7814a2d1be7ce5db87bc547456e40bbbf1d6220e953a  x86_64-apple-darwin14/native_mac_alias/native_mac_alias-2.0.7-07a3be57c4b.tar.gz.hash
+    ec994f5efa678fd0f2cff9527ce6c7bd761f5441c16d363de17cb4c63f89404e  x86_64-apple-darwin14/native_protobuf/native_protobuf-2.6.1-d5dfc4192ce.tar.gz
+    63f60d6abfc1fb90a66b47537f4d5d8bcd9f48d52c233274bb1afafbd49e8c12  x86_64-apple-darwin14/native_protobuf/native_protobuf-2.6.1-d5dfc4192ce.tar.gz.hash
+    7d4355a41907cb22c2bc96281d1483c22d397fc6ec8b2b608690780be484272a  x86_64-apple-darwin14/openssl/openssl-1.0.1k-02397ed6877.tar.gz
+    98147e435edb8aa73375ab49e8af609e042bada69f6782ec12d569c2c5f91798  x86_64-apple-darwin14/openssl/openssl-1.0.1k-02397ed6877.tar.gz.hash
+    e5e4ea578a234bd9595ab8019d9917fc3ffff982ea1a88683ecf54dc6d816009  x86_64-apple-darwin14/protobuf/protobuf-2.6.1-f3c4356330b.tar.gz
+    b69f1483f51ba25195ac03340641b95d0961c474443e85a741cc47186a6247aa  x86_64-apple-darwin14/protobuf/protobuf-2.6.1-f3c4356330b.tar.gz.hash
+    1ad829846208af991404e44b619af579703ed9231c152895615738357f81a22b  x86_64-apple-darwin14/qrencode/qrencode-3.4.4-040782151ce.tar.gz
+    05dc29c9a6104c6efc82a4e0216f8ddd0002e431a0674c2d23cb9d20117eee22  x86_64-apple-darwin14/qrencode/qrencode-3.4.4-040782151ce.tar.gz.hash
+    d307c64778d5081f3a81a90810f4b0ca02ec76bc325cb2b4ea40043346cf6464  x86_64-apple-darwin14/qt/qt-5.9.7-317e2485d2d.tar.gz
+    a3b86273cf00e2b06051e9f731286ac7e625821a267717620fb0ed9649ed53a6  x86_64-apple-darwin14/qt/qt-5.9.7-317e2485d2d.tar.gz.hash
+    6bfad2a75feaef07a4faf3c3324d549c8becf90f1f8cd11369d970b431d82b72  x86_64-apple-darwin14/rust/rust-1.42.0-a4d68971558.tar.gz
+    aee67e3877e128c748c90594a6560a2c294856887905e815467686e9fdfd2401  x86_64-apple-darwin14/rust/rust-1.42.0-a4d68971558.tar.gz.hash
+    6be512003380c44834b1e25e016b04627113914bc7c428670c380ea2a391874a  x86_64-apple-darwin14/zeromq/zeromq-4.3.1-3ed4d8f9f16.tar.gz
+    88aa69ffe043b5e2e98cf0a2e28a3fe6b8fcae52194908edb28bc8ba42e7580a  x86_64-apple-darwin14/zeromq/zeromq-4.3.1-3ed4d8f9f16.tar.gz.hash
+    51b8efaa359e1bd649e6962cf0dda2ae1f2568d4142958f40034954490c82d3c  x86_64-apple-darwin14/zlib/zlib-1.2.11-e1bd726d17e.tar.gz
+    b73cf24bb150a00c75f0fb3aedfe3764e1f69150110997378896965f0c171489  x86_64-apple-darwin14/zlib/zlib-1.2.11-e1bd726d17e.tar.gz.hash
 - release: 5.0.0-osx-unsigned
 - name: pivx-osx-5.0
 - type: build

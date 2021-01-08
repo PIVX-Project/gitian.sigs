@@ -27,9 +27,11 @@
       d34835828bad74f2289562641ba0a7b3d21f906a579f282141e63ac687b8eb72  bsdmainutils_11.1.2ubuntu1_amd64.deb
       f2f19c529e88a07ec764256fd75d12c95190f79ffa38f33ba5cd096effdf7760  bsdutils_1%3a2.31.1-0.4ubuntu3.7_amd64.deb
       bb2ac7aae21544446f45e200aacb961f0dcc42c8caacdc8da37d392b222abfa0  build-essential_12.4ubuntu1_amd64.deb
+      494c2a7de3499ab5ac1bf861860f29e98be905e707c73197439392dfb2330d8b  busybox-initramfs_1%3a1.27.2-2ubuntu3.3_amd64.deb
       14955e4660d85da6507e9074f14f4d412bc7bf9e7841f327cf8751a6d227e329  bzip2_1.0.6-8.1ubuntu0.2_amd64.deb
       51650de9a87e47b87eaed3d2dd4680ef60fec90bba11ae629441355f5a4faff8  ca-certificates_20201027ubuntu0.18.04.1_all.deb
       24541a48e25dfb17c98ce77dda61800e6cd68d74c25725753613fbcc00f2418f  coreutils_8.28-1ubuntu1_amd64.deb
+      890e103c4928af0f0586feed78cb670f068ce144d8c323df96ce80651b24fa77  cpio_2.12+dfsg-6ubuntu0.18.04.1_amd64.deb
       54ef20b753876e38ac478f05170ef1c4fc856db12b1dfaa0ffb14e220e527d61  cpp-7_7.5.0-3ubuntu1~18.04_amd64.deb
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
@@ -72,9 +74,13 @@
       8fedf4bd27fc3f5d7b2fe3f1412e9221fbc36c47d60376fc13cf9e9d693a6557  gzip_1.6-5ubuntu1_amd64.deb
       220e0bfc812916f6f94d603096298591272dc4645a057b7734d211c7f81e9ec7  hostname_3.20_amd64.deb
       5be3de2fafd378bbd0a39106536c6960087bdbaa0fad88f35396ec9e1401282e  init-system-helpers_1.51_all.deb
+      3f375bbb00c33305d7633d6077c6f73876481b01f6fe6d36890ce07e7f1a2dae  initramfs-tools-bin_0.130ubuntu3.11_amd64.deb
+      cb27d72e2ec4fa42ad417075dd5f9830ef58bb581a39ce508289de72db080c7e  initramfs-tools-core_0.130ubuntu3.11_all.deb
+      9d25bbd9e0fe528b750fc0d09f6966d3d33c8bfea68960227c28d3ebe206d233  initramfs-tools_0.130ubuntu3.11_all.deb
       668b3b755b9632bc95129748ec36eb09aae97a0e9975a7d92f043a2a31b0c947  intel-microcode_3.20201110.0ubuntu0.18.04.2_amd64.deb
       31066ceac0a040b114fc3cd03b012a483d6f5572699c71fda4140f8a6c3bb821  iucode-tool_2.3.1-1_amd64.deb
       1dc183cf940369f9a8263312a7e71cc9603dc9ad14c196002c02ab681493c39d  iw_4.14-0.1_amd64.deb
+      367220c54e8f6433231c15cf70d0f7ff479d41eb6088fe05f196238e8112677f  klibc-utils_2.0.4-9ubuntu2_amd64.deb
       95c7b910461c543322289239749a3afccc3617ab9506d708cef617d408bcd815  kmod_24-1ubuntu3.5_amd64.deb
       b0b341667a2776a2e3c49350b6b3efaa7b16c7a4ad54c8f61afb4e2afdac75fa  language-pack-en-base_1%3a18.04+20180712_all.deb
       a12f3f826072887540620f277977a92344cfcd662eea549e5f4c39ff333d1d66  language-pack-en_1%3a18.04+20190718_all.deb
@@ -137,6 +143,7 @@
       457bf0aeba42cf1365bfe04af9a0094e3f5fd9104a59ea68ce95b32308ed0c69  libitm1_8.4.0-1ubuntu1~18.04_amd64.deb
       d3cf88802e2a182ccd2214c454adda9fd895d35d73c9cda2c7ce53e5356c1927  libk5crypto3_1.16-2ubuntu0.2_amd64.deb
       0ba4ab4a5b6510de82a45a2ed69250b866f330bb761f2d478b6382a402c889f0  libkeyutils1_1.5.9-9.2ubuntu2_amd64.deb
+      46ee064e6cf6537ea83963ef70d316b98dd9a133817484c7e45384d75bb3aee4  libklibc_2.0.4-9ubuntu2_amd64.deb
       f6041aae36c1f90ecd40cf1d8da5493775aec92eb7ae597fc496ef160f8205c7  libkmod2_24-1ubuntu3.5_amd64.deb
       375544daaee0c81460d8be276bf6c382eb2e8fb1ca197599a82263d025f81844  libkrb5-26-heimdal_7.5.0+dfsg-1_amd64.deb
       43344f93c620dbaa9d3941cbad6900492273c609a728739dc68d816ca23a5df0  libkrb5-3_1.16-2ubuntu0.2_amd64.deb
@@ -177,8 +184,8 @@
       8706403267e95615f1b70db31ff16709361982728b308466346e01c20a743dd5  libreadline7_7.0-3_amd64.deb
       387e00fbdf31384eb031cd3297c1cbec4d22b07e724d8ce2d8b219fdabac9ba8  libroken18-heimdal_7.5.0+dfsg-1_amd64.deb
       1a1f9615c0b907b897cbbe61f4f6d29e395c9bb9bcfb94621fa73fe2fb8cb7d2  librtmp1_2.4+20151223.gitfa8646d.1-1_amd64.deb
-      ea64861482b2e4149f4aa95ef0dbc0619ee7b1405754c201c90e9f6aad6d1bdb  libsasl2-2_2.1.27~101-g0780600+dfsg-3ubuntu2.1_amd64.deb
-      c18d7b86ab609e0a3806abfdf8279e414e15bc8690b6b5978a37f35f9c7cc255  libsasl2-modules-db_2.1.27~101-g0780600+dfsg-3ubuntu2.1_amd64.deb
+      8a40e69b276872dc9c448e4415e251cf268f63ce34788a8c319ef4475aba30ee  libsasl2-2_2.1.27~101-g0780600+dfsg-3ubuntu2.3_amd64.deb
+      a58a2bd1fbf45e82236a1e06afce5d06d98fb6a26bb4af7b058c40e1e39736b3  libsasl2-modules-db_2.1.27~101-g0780600+dfsg-3ubuntu2.3_amd64.deb
       d14a352e5e6e3ee4b6f84166b24821b8b6b526202b2a3eada01de0b39bac83c9  libseccomp2_2.4.3-1ubuntu3.18.04.3_amd64.deb
       6b6c70f809e8b13f0b1f27006e125abb3a8c3195f5c888dce0df1a5d3f211c0d  libselinux1_2.7-2build2_amd64.deb
       7cdc8045ff29946fe605e2f4d0afa85a284f0be217e897549f90b2e8cd1b62e6  libsemanage-common_2.7-2build2_all.deb
@@ -208,11 +215,14 @@
       ad7f4d72fffdbb13e474b821e1bef7a7913f0cff9ff5a48c0e1a6690d10c6b9b  libzstd1_1.3.3+dfsg-2ubuntu1.1_amd64.deb
       7c269c1acefd5cca185a583714c0055961063a8a0d211a33a7d6d3b6fd71062b  linux-base_4.5ubuntu1.2_all.deb
       bab1a6e80b7c87b73e85ab0c580c0642a90f99eb9ad3f2da9889fc9b9d30eb71  linux-firmware_1.173.19_all.deb
-      ce3362d61e0a93fd223b3cc9566caf4d5f3831e330c5e57a61fda847272adbce  linux-image-4.15.0-129-generic_4.15.0-129.132_amd64.deb
-      f3a95ed4e1bc49746d84867ca1507c02663c0832726cb1969b6cd4a65261acf8  linux-image-generic_4.15.0.129.116_amd64.deb
-      87c49084aed7491b36842a8d9f38cb03b2c02b97ddb90fc54efb811b096e8cf4  linux-libc-dev_4.15.0-129.132_amd64.deb
-      57863e7c8aba7835edb8c7d1fc063dbeb304888fb5712cade4a34f007c731aed  linux-modules-4.15.0-129-generic_4.15.0-129.132_amd64.deb
-      2dd1d2953f1fc47253864d0612f93364c47114c654dd2933c35d5bd64e6b66a4  linux-modules-extra-4.15.0-129-generic_4.15.0-129.132_amd64.deb
+      5f25da35f1c98ea73bfebd6d112ef90969eb652bcfbebd38001ecfc295becd9b  linux-image-4.15.0-130-generic_4.15.0-130.134_amd64.deb
+      cffcbf9781b8b2ea2037f490654e6368cdeb14091d4aa99310226b22082a2e33  linux-image-4.15.0-72-generic_4.15.0-72.81_amd64.deb
+      6dd7add1946e689cc572bdd3ae6b4ff9af46d9aa5a8dbdf50016e90cc0dbab52  linux-image-generic_4.15.0.130.117_amd64.deb
+      e03cf0b061789b6192f4e7fb341a02cbc4dfb34c487c1c9a04286ea396ba640e  linux-libc-dev_4.15.0-130.134_amd64.deb
+      1b18c6d815c4d1abb4a883b2f708ef4ba0d15b21311f29b3629815b9220f50f1  linux-modules-4.15.0-130-generic_4.15.0-130.134_amd64.deb
+      e90c234a4caef70fdeabef348bdd155a2c867220f21164e577dcf9d017103b03  linux-modules-4.15.0-72-generic_4.15.0-72.81_amd64.deb
+      405b94a76ce69c21da06a7bcaf920bdc11ebdd7027164eda8b382fdabc38cac5  linux-modules-extra-4.15.0-130-generic_4.15.0-130.134_amd64.deb
+      e63f91ed3ec70f3738fdf1f5dec810bba82cf985c4e130c7b2da14b729d53cb3  linux-modules-extra-4.15.0-72-generic_4.15.0-72.81_amd64.deb
       c1cda3cefb278f248d4baee75bcbd6e24968d3d3b4a46709992f2c81c2f1741f  locales_2.27-3ubuntu1.4_all.deb
       eb443f6634f8a00400e33a0306728404198726a29c73d6dbc3ebab4626f59c47  login_1%3a4.5-1ubuntu2_amd64.deb
       fc5414daefad5c2eecb490979063f7856b300fb51dc911485663b4a5067b8aa8  lsb-base_9.20170808ubuntu1_all.deb
@@ -255,6 +265,7 @@
       787b362aba5699faa66d6db0a8af48ca7bc6a0ccc96f11f459158d73cfa52042  tar_1.29b-2ubuntu0.1_amd64.deb
       af39e00234afc33204cde7cc6f59d1651e4f69aad23e5135c7a12ca6cdf5bdad  ubuntu-keyring_2018.09.18.1~18.04.0_all.deb
       fb069365dce07ec9b04110e806736c5a5d0b0f350216c90912749226f1187ed5  ucf_3.0038_all.deb
+      d30c730d2bbc8a230ce3aa027278e996d4074a6efa02bdcc5d003ae18e518745  udev_237-3ubuntu10.43_amd64.deb
       4480cf8e9202013611aa00b79834a9b6808617c66f521d894bd17905218c6544  util-linux_2.31.1-0.4ubuntu3.7_amd64.deb
       ccf494f932e83e08b218702b9c2fc00cfcdf697ab0c7b3af62e94f99e427f048  wget_1.19.4-1ubuntu2.2_amd64.deb
       dbe6a706f87cfc99639a61aa2eb3d24376f59cff47366adbb653967e50656c09  wireless-regdb_2020.11.20-0ubuntu1~18.04.1_all.deb
@@ -262,6 +273,7 @@
       800a02ee081bc8cedafe6b0a3da1193de3e0c281ae1e7a04b091db01cd301d92  zip_3.0-11build1_amd64.deb
       2e6dafb986ee8ebbc4e1c344fab090a41710cab878fc9cd89336cdd1740518c5  zlib1g_1%3a1.2.11.dfsg-0ubuntu2_amd64.deb
 - cache_common_manifest: |
+    d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3  .DS_Store
     a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
     54eb1d8fe354e5fc611daf4f2ea97dd45a765f4f1e4512306ec183ae2e8f20c9  aes-0.3.2.crate
     cfd7e7ae3f9a1fb5c03b389fc6bb9a51400d0c13053f0dca698c832bfd893a0d  aes-soft-0.3.3.crate
@@ -392,14 +404,14 @@
     3728c9a0ac4bd203cbc38b0fc668914eeaaeb7a1c4d3ed9fe18c3a86028e497e  download-stamps/.stamp_fetched-openssl-openssl-1.0.1k.tar.gz.hash
     e412c568c1086517540477f53471bd60e4963b4d1c741eb3077f7384f5e2e013  download-stamps/.stamp_fetched-protobuf-protobuf-2.6.1.tar.bz2.hash
     4f1aae01029d0f1b99e12c7c7277ad2aa6029c6deb679a8b39fbea5f49bceeea  download-stamps/.stamp_fetched-qrencode-qrencode-3.4.4.tar.bz2.hash
-    27c50ac05c79b3e94940b88d96f59675e0c488c441f6a43b3c983cc831a7ec58  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.7.tar.xz.hash
+    d4b22239cd823ba16790457664844fd4932f8af9823e860fc1975c5e9731a5d5  download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.9.7.tar.xz.hash
     12ebe1b7ec5e51131037d6a2715475226c8b045ea8c6ea03d4bddd94af9a2d09  download-stamps/.stamp_fetched-rust-rust-1.42.0-x86_64-unknown-linux-gnu.tar.gz.hash
     24e3e293abfc8bb6855d9654b6e537a40f8b5a766c31cea289722972464aa120  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-aarch64-unknown-linux-gnu.tar.gz.hash
     5eb02af9b8bc88b208f93e386adab3e344f9a637ac2e371ff720aa4659564640  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-arm-unknown-linux-gnueabihf.tar.gz.hash
     69fa347148c1ee2b4d45545b5adee0abb07dfa6315d8f5624042d996b66942ee  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-i686-unknown-linux-gnu.tar.gz.hash
-    276eca2dc4a09e63e793a5861ac5c2d94d12e84c8a5a22a91638a515af11ca1a  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-apple-darwin.tar.gz.hash
-    43d49d52521a19d23946703efea7c2e6df61c4a38977be4ebf113424155f7644  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-pc-windows-gnu.tar.gz.hash
-    51a17d2a9b805f8175ad134d5a3f68d301f4db6af84c17747eb28f96f0d2def8  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-unknown-linux-gnu.tar.gz.hash
+    cdef0a58ca2d36976c8114dcc71f3d92091c4c9956e7f12c344a289505c58868  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-apple-darwin.tar.gz.hash
+    55b5f807a3763f9d71d08a7feb4cc26a4b9c83ce8ba98de92cafe689960089f8  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-pc-windows-gnu.tar.gz.hash
+    226394b5598dbd55b03670621fb1d5a3538c615cef9399fdf41e4876fc77414e  download-stamps/.stamp_fetched-rust-rust-std-1.42.0-x86_64-unknown-linux-gnu.tar.gz.hash
     4af4da419d7b883f3408f4481d01673d281d6cfb94ff377d4bd8355db55fcb06  download-stamps/.stamp_fetched-xcb_proto-xcb-proto-1.10.tar.bz2.hash
     ee2477a7137b31b74af6257a0667cf4865dc30627db29457533ad21090a9004b  download-stamps/.stamp_fetched-xextproto-xextproto-7.3.0.tar.bz2.hash
     bd6d9005476f33b17b4a42e0b621c97d083653dfee0412067b1956c2520fbd9b  download-stamps/.stamp_fetched-xproto-xproto-7.0.26.tar.bz2.hash
@@ -455,6 +467,7 @@
     ca3129af7b92a17112d59ad498c6f81eaf463253766b90396d39ea7a39d6613c  rand_hc-0.2.0.crate
     77d416b86801d23dde1aa643023b775c3a462efc0ed96443add11546cdf1dca8  rand_xorshift-0.2.0.crate
     316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d  release-2.1.8-stable.tar.gz
+    db1055c46e0d54b99da05e88c71fea21b3897e74a4f5ff9390e934f3f050c0a8  rust-1.42.0-x86_64-apple-darwin.tar.gz
     5fed7d705e215fc129c4ace8060b5dc1a47e88228ce0249d48f30d769fcb6fe3  rust-1.42.0-x86_64-unknown-linux-gnu.tar.gz
     782b2ab52d062ecc7077ddbfff1f21b553ac21845688a75aed45d70214a3c3e7  rust-std-1.42.0-aarch64-unknown-linux-gnu.tar.gz
     f91d28115a46eb9af5bb73bb776269534e02add1125346b2dd7e29ecf34da892  rust-std-1.42.0-arm-unknown-linux-gnueabihf.tar.gz
@@ -485,176 +498,176 @@
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    2e014e15014e08c503969a32990f009114c67c61565f08a72535da17b1d151dc  x86_64-w64-mingw32/bdb/bdb-4.8.30-8d313ce6d2c.tar.gz
-    d04b9eb04f99d2a0274bd1d03ab29babcb967f7725e81a5d436f192c6dedd388  x86_64-w64-mingw32/bdb/bdb-4.8.30-8d313ce6d2c.tar.gz.hash
-    03ba7c3c0e2e6332e1f33b2a3a97ebe6315ecb1b471b40c7617b2f047a216d39  x86_64-w64-mingw32/boost/boost-1_64_0-0359df9ca64.tar.gz
-    8c4049e6211d0e8c94c8d22218b1788044d157c1c76411836753449de3ec4dc3  x86_64-w64-mingw32/boost/boost-1_64_0-0359df9ca64.tar.gz.hash
-    85465bb0265df2e174ac5e2cc130270f23a008459a3e36e4263fd25928b23a81  x86_64-w64-mingw32/crate_aes/crate_aes-0.3.2-f4d0f43d654.tar.gz
-    c180d79e505ffb4f375e3b325aa0e770940f466b9e7b0e34a55bbb43b137930e  x86_64-w64-mingw32/crate_aes/crate_aes-0.3.2-f4d0f43d654.tar.gz.hash
-    4e1697145670e3742f05b58f4702df1623e42689e67277aa1bd248e2984d8e61  x86_64-w64-mingw32/crate_aes_soft/crate_aes_soft-0.3.3-26a383f35e0.tar.gz
-    29d8d70a12e93e0d7f0fa6cb104d45c5427414c657c7ae6159cd76adea674848  x86_64-w64-mingw32/crate_aes_soft/crate_aes_soft-0.3.3-26a383f35e0.tar.gz.hash
-    ce3988e9352bf1648b1a95c1b59537a600d43787813565a4212358cfc8bd7e34  x86_64-w64-mingw32/crate_aesni/crate_aesni-0.6.0-d23e17dfb98.tar.gz
-    62c3037830a245c99290922f012a1d6f1e5f81d04c33fcb810b105c9e1ad82ea  x86_64-w64-mingw32/crate_aesni/crate_aesni-0.6.0-d23e17dfb98.tar.gz.hash
-    21a833862b3dd8a4d83671f4d2a958de667305e99ce378723cf40a3ee84f08b7  x86_64-w64-mingw32/crate_arrayref/crate_arrayref-0.3.5-1e77b3680f8.tar.gz
-    306b4e18b1d85a5b843ed4ce80ece7c57b6f2a760ed4551a215ae60785cdaa2a  x86_64-w64-mingw32/crate_arrayref/crate_arrayref-0.3.5-1e77b3680f8.tar.gz.hash
-    5acb887bfa3f70191df8df712ff4138bf42f535485cf90c227f9fa968efa695d  x86_64-w64-mingw32/crate_arrayvec/crate_arrayvec-0.4.11-1b5bdbe2373.tar.gz
-    033248046e55e4a938177f0c4d71fa95051c066258f9487d5687f7d7e4c0991a  x86_64-w64-mingw32/crate_arrayvec/crate_arrayvec-0.4.11-1b5bdbe2373.tar.gz.hash
-    2c2f56d93cd11a225d6da9b01c31fd219b47097439b202b7dfceb97b663d9f5c  x86_64-w64-mingw32/crate_autocfg/crate_autocfg-0.1.6-85f35d999b1.tar.gz
-    b24063527849dcb25a07b8dd295e8390a18a354fa5260f6c57e8a440685829a0  x86_64-w64-mingw32/crate_autocfg/crate_autocfg-0.1.6-85f35d999b1.tar.gz.hash
-    c32d93816065f7434f346f9208df03b2b763b46e2beabc28440220ee5069a771  x86_64-w64-mingw32/crate_bellman/crate_bellman-0.2.0-b0405e12a70.tar.gz
-    d9f8520e747ccef5a7a7b04f408ee550b7365c2a690ffc7545195cc680491449  x86_64-w64-mingw32/crate_bellman/crate_bellman-0.2.0-b0405e12a70.tar.gz.hash
-    2f4e2883a48dfbf72b4926194143e5af5c84767bc5f746b5ad09db51f646e1ab  x86_64-w64-mingw32/crate_bit_vec/crate_bit_vec-0.4.4-ae76069de54.tar.gz
-    d4e5d2f493c30e857b3798396a91a3f843947c3c8ebe6b9b10f3764018c60b7e  x86_64-w64-mingw32/crate_bit_vec/crate_bit_vec-0.4.4-ae76069de54.tar.gz.hash
-    cab0d11eb19af7b49aae12bba3d10582ba9f9ad39ae136cf0e733227278076fa  x86_64-w64-mingw32/crate_blake2b_simd/crate_blake2b_simd-0.5.8-bef750335e6.tar.gz
-    c02242e093f83f81bbb896898b162bef07b8a090db7b8280f66ec86273327842  x86_64-w64-mingw32/crate_blake2b_simd/crate_blake2b_simd-0.5.8-bef750335e6.tar.gz.hash
-    f73a9f4773492556ad3d6469d1d121a731e82b6694a771c4be6a4368137f80fb  x86_64-w64-mingw32/crate_blake2s_simd/crate_blake2s_simd-0.5.8-e529be068a7.tar.gz
-    383aa7c29ece989c4961b0671349f6f5f29853cd249901ace7a9ae1286281a77  x86_64-w64-mingw32/crate_blake2s_simd/crate_blake2s_simd-0.5.8-e529be068a7.tar.gz.hash
-    52387ca21b8165fa099b21c5c943b130974bf56b1855571bc79eaf02dcdba53c  x86_64-w64-mingw32/crate_block_buffer/crate_block_buffer-0.7.3-63d4d08e797.tar.gz
-    aaf2bd2fcc55d92e8b3ce5dfd1096a715e553236a131a9593a78c7f561147a0f  x86_64-w64-mingw32/crate_block_buffer/crate_block_buffer-0.7.3-63d4d08e797.tar.gz.hash
-    e5fd43f663c6add14680f64fe05e789f8d4cbb91ce7ee0150207f362f2ed3a73  x86_64-w64-mingw32/crate_block_cipher_trait/crate_block_cipher_trait-0.6.2-6e0e2daa843.tar.gz
-    e6c0dd6a7e8b06503a737e7f6a944bb175f3c4e155fc1ed526357b66fb1cff57  x86_64-w64-mingw32/crate_block_cipher_trait/crate_block_cipher_trait-0.6.2-6e0e2daa843.tar.gz.hash
-    269276f51e841ad83ad9dfa41ba94ce176530b814204bd847630d6887c568cc9  x86_64-w64-mingw32/crate_block_padding/crate_block_padding-0.1.4-82bab617913.tar.gz
-    2c3c40e35f15a72dddd601cce498dfe8ed753c512c6f0a7d3b136498691c4e99  x86_64-w64-mingw32/crate_block_padding/crate_block_padding-0.1.4-82bab617913.tar.gz.hash
-    a08d8dec8f7cd4470e3804c6b5d136f173acc4e45be0f055960f271bb0f00b08  x86_64-w64-mingw32/crate_byte_tools/crate_byte_tools-0.3.1-535b8f384ec.tar.gz
-    6bb8a599b7e715f4eb7a43c20ec89615b4b3b652d19798c0bc415b0ebda03022  x86_64-w64-mingw32/crate_byte_tools/crate_byte_tools-0.3.1-535b8f384ec.tar.gz.hash
-    c5a504602ffb8c44f8c5252b7354c607c88f3bc52254ffe68061d298708df8e8  x86_64-w64-mingw32/crate_byteorder/crate_byteorder-1.3.2-b9f61c39449.tar.gz
-    d6a7b95433da73cf17b16347a6547320de6b2858244014b9c47a732ae66f4d26  x86_64-w64-mingw32/crate_byteorder/crate_byteorder-1.3.2-b9f61c39449.tar.gz.hash
-    1c9b5e6eff02a6dd9f3e17fe9435e488cb39af062c10e56ffc6d3221d648c9bc  x86_64-w64-mingw32/crate_c2_chacha/crate_c2_chacha-0.2.2-e2bac769b4d.tar.gz
-    f10b12ac70be5ba35f0b3c9b581b385f516065f1ff7260dabd284b4a07f371f7  x86_64-w64-mingw32/crate_c2_chacha/crate_c2_chacha-0.2.2-e2bac769b4d.tar.gz.hash
-    1cef1742a91dbc8a166d4b48305d7e2d001bcff080da517f8b204d69030961dc  x86_64-w64-mingw32/crate_cfg_if/crate_cfg_if-0.1.9-d606969610b.tar.gz
-    801df967fe37079c8e0411df91816f81bb1ddb2e021e83c06034127150db7bff  x86_64-w64-mingw32/crate_cfg_if/crate_cfg_if-0.1.9-d606969610b.tar.gz.hash
-    8ff3d1a1832078d82f1adad56134e8b4a76b72d7d223d06fc870dd6424e11203  x86_64-w64-mingw32/crate_constant_time_eq/crate_constant_time_eq-0.1.4-01932bf4ab3.tar.gz
-    9d91b03a6b1801c4dfb2fba76f58e2fcf67350d9fc8b8287507b017854f8df75  x86_64-w64-mingw32/crate_constant_time_eq/crate_constant_time_eq-0.1.4-01932bf4ab3.tar.gz.hash
-    e400294204a8b2d6b2935f695c43e3beb5e24b00efb639966fcc0e5091e05b87  x86_64-w64-mingw32/crate_crossbeam/crate_crossbeam-0.7.2-69e7cb0b0c7.tar.gz
-    bdce87b3953311f3f4d89e1984fe62c2789a8c63a0f2987f97f4bf2a2b932868  x86_64-w64-mingw32/crate_crossbeam/crate_crossbeam-0.7.2-69e7cb0b0c7.tar.gz.hash
-    e1f5b86ad48301b8a1e40c2b23327b208e8ef0f07cc540ff84055d35117c436a  x86_64-w64-mingw32/crate_crossbeam_channel/crate_crossbeam_channel-0.3.9-65eaaf12104.tar.gz
-    c4630c2dc00b798ed1af8763521a7aa377c656fcd64c912bdda6baa66fe65118  x86_64-w64-mingw32/crate_crossbeam_channel/crate_crossbeam_channel-0.3.9-65eaaf12104.tar.gz.hash
-    549ab3d9b5b8ab9af05d60eda6abc0fe0ebb2351fc754c9d0d4e27339f90856a  x86_64-w64-mingw32/crate_crossbeam_deque/crate_crossbeam_deque-0.7.1-e3ffbcdb4c2.tar.gz
-    9fadbf9b9db105a8958209ab27df4522dd21ca91a1955aebf4a48b19632aa5dd  x86_64-w64-mingw32/crate_crossbeam_deque/crate_crossbeam_deque-0.7.1-e3ffbcdb4c2.tar.gz.hash
-    e4641b40c04587a6f8a27f5d0bf4f9fabeb89f95f9a453a35feed20dd4a9cd1c  x86_64-w64-mingw32/crate_crossbeam_epoch/crate_crossbeam_epoch-0.7.2-91b08fec1af.tar.gz
-    22a107a12e5667f5d0729dd6f338f6f5065738babe177d0e53dadd2503473288  x86_64-w64-mingw32/crate_crossbeam_epoch/crate_crossbeam_epoch-0.7.2-91b08fec1af.tar.gz.hash
-    ca6bd06a3a26eafd309e5faca60558d19e71c788c13b04f7239862fdcaa84aab  x86_64-w64-mingw32/crate_crossbeam_queue/crate_crossbeam_queue-0.1.2-b9a09deaab1.tar.gz
-    e76eb3a47e71c73f4b946675575b725aa3a36b7c1186549d241f615e07281199  x86_64-w64-mingw32/crate_crossbeam_queue/crate_crossbeam_queue-0.1.2-b9a09deaab1.tar.gz.hash
-    51ad8f6b8156722b8d8fed063ff3243e108f5d0d120d2b6b40284f20110841e1  x86_64-w64-mingw32/crate_crossbeam_utils/crate_crossbeam_utils-0.6.6-d6d8dd1a700.tar.gz
-    a274f4b85ab445e18fd99c3b31c3a9d153b469b26c51ffce3a1548256c048eff  x86_64-w64-mingw32/crate_crossbeam_utils/crate_crossbeam_utils-0.6.6-d6d8dd1a700.tar.gz.hash
-    64ba29d78d6376c8f585b2330d263c07bff40b8227ba07ae159470087e30ac99  x86_64-w64-mingw32/crate_crypto_api/crate_crypto_api-0.2.2-b82cf25212f.tar.gz
-    979781cc9e302f81dbd569bfe28648a3c7be44e43c8aa4278f03241c6c1feb04  x86_64-w64-mingw32/crate_crypto_api/crate_crypto_api-0.2.2-b82cf25212f.tar.gz.hash
-    713e542812f2f17ae1d3f8505f8b5459081bafd80a710732e55a1134e1138f18  x86_64-w64-mingw32/crate_crypto_api_chachapoly/crate_crypto_api_chachapoly-0.2.2-66f51651aaf.tar.gz
-    9bddc33581be48bb897f62a13d1dbc6954d333008cce4c3aae1dd1a007452c18  x86_64-w64-mingw32/crate_crypto_api_chachapoly/crate_crypto_api_chachapoly-0.2.2-66f51651aaf.tar.gz.hash
-    e1de619f207b7640886646c989bba53e6a160cf3eedf2a09b150a7a82204e38c  x86_64-w64-mingw32/crate_digest/crate_digest-0.8.1-063079a1afd.tar.gz
-    2256d859e005267ad36a750eac4d2220b9c721a1fc63ddef471fc62613d18feb  x86_64-w64-mingw32/crate_digest/crate_digest-0.8.1-063079a1afd.tar.gz.hash
-    e40ac908e230262aff1c192a453ccda3ec112e6c006a9dcc45c669763d455821  x86_64-w64-mingw32/crate_directories/crate_directories-1.0.2-54e4a0b55ca.tar.gz
-    29e79bb3db3c163eca259c780a1a1311e69eac9284bc37bf0f5d2cb68cd165af  x86_64-w64-mingw32/crate_directories/crate_directories-1.0.2-54e4a0b55ca.tar.gz.hash
-    9aa04535550f4b6afdb3fa4308eda2ca076b6d14c7edf71d15b1ced84b3fe4f3  x86_64-w64-mingw32/crate_fake_simd/crate_fake_simd-0.1.2-1288372d58b.tar.gz
-    54e438388d607b8a598fc231fc61c5d4a6795fb705b5be585dc8c61d59ca143b  x86_64-w64-mingw32/crate_fake_simd/crate_fake_simd-0.1.2-1288372d58b.tar.gz.hash
-    cf606a5f15922298441304886b3e82c74eb1eadb7ee984d1130000a368044522  x86_64-w64-mingw32/crate_ff/crate_ff-0.5.0-d7245a278ac.tar.gz
-    0aa66aa6bb82d238190fd0e9a6ab4bd83670350462a3b28a6a5c95fce786513f  x86_64-w64-mingw32/crate_ff/crate_ff-0.5.0-d7245a278ac.tar.gz.hash
-    64b6a56edaa395ac295752f02c2e33623789864f0ec9ab71d1126aef5ac87af4  x86_64-w64-mingw32/crate_ff_derive/crate_ff_derive-0.4.0-79dd2368400.tar.gz
-    4a93d7db2ddd39ca5696ee746d82c8e77cc795bd302c7520d4a6524f071ec437  x86_64-w64-mingw32/crate_ff_derive/crate_ff_derive-0.4.0-79dd2368400.tar.gz.hash
-    6b36cf04e3db87c78b80f112456b5b7947fb7f19ad9ca91f40aaf2573cbe81bf  x86_64-w64-mingw32/crate_fpe/crate_fpe-0.2.0-eee0c87c464.tar.gz
-    1d6d1692d43659907c9a4b40caabe0585be7d28c6de77208106634bbec5a35eb  x86_64-w64-mingw32/crate_fpe/crate_fpe-0.2.0-eee0c87c464.tar.gz.hash
-    2ad17cf416289e9cd790eed371b02e5ab63b7ff3b038a49bd721215ce2582acd  x86_64-w64-mingw32/crate_futures/crate_futures-0.1.29-ea0e19e0f08.tar.gz
-    716b92c4a933b1bdb7fc2037d900408366977ab1e521716a2b981990f2bbbf79  x86_64-w64-mingw32/crate_futures/crate_futures-0.1.29-ea0e19e0f08.tar.gz.hash
-    253018a451b01a6d52518ce8bbc5df8d7dac4ad4dd92910389a138a996eb5e33  x86_64-w64-mingw32/crate_futures_cpupool/crate_futures_cpupool-0.1.8-b5f2ca60640.tar.gz
-    3677b73f5c097602b94ebc32f8ae597a823caf35a528611de8ab66f0da13f8a2  x86_64-w64-mingw32/crate_futures_cpupool/crate_futures_cpupool-0.1.8-b5f2ca60640.tar.gz.hash
-    b41df127d80ce9f1fa578860194443712a8b9ba97d4ff29b0f3895348baa1416  x86_64-w64-mingw32/crate_generic_array/crate_generic_array-0.12.3-ef34ebc4a64.tar.gz
-    c47ace0bab5958be1227e59bb23cb23ae1c7cd1399bdf09331557f1060ed64b1  x86_64-w64-mingw32/crate_generic_array/crate_generic_array-0.12.3-ef34ebc4a64.tar.gz.hash
-    61d9c79911206ca43c7512f21f05c9fe4b76add4bb2154ecb91feeca5fbb06bc  x86_64-w64-mingw32/crate_getrandom/crate_getrandom-0.1.12-065ed6dcbcf.tar.gz
-    11f0f44eb1dce0bd657f26d7f87ca9bde6fc80aac65e3f6c352a5bd6df64a78f  x86_64-w64-mingw32/crate_getrandom/crate_getrandom-0.1.12-065ed6dcbcf.tar.gz.hash
-    d6875142a73707fcea155a6484d1065efd88d9255c47bce0ed6290c6221f08ef  x86_64-w64-mingw32/crate_group/crate_group-0.2.0-e3c655576b4.tar.gz
-    983b6440f4e3e3afce4aba1dda87ff52c574fc90ab7b3daa161994eaa27c7fd8  x86_64-w64-mingw32/crate_group/crate_group-0.2.0-e3c655576b4.tar.gz.hash
-    512a1196b17e45b6f06ef1a514f8e6dbb923bfecdf3b0c0a05267f73add45b36  x86_64-w64-mingw32/crate_hex/crate_hex-0.3.2-39b7ec17a23.tar.gz
-    314d5bd42a50b75df7b4f702ea37f8a7f4daff7393477a0fe55d6ba3d49f06b5  x86_64-w64-mingw32/crate_hex/crate_hex-0.3.2-39b7ec17a23.tar.gz.hash
-    ff9f11936433a4b59176a8558326fcaef82dc4ce5a9146cdda6f873ab46e5e9f  x86_64-w64-mingw32/crate_lazy_static/crate_lazy_static-1.4.0-e8ac8cdb9b0.tar.gz
-    7f976ee2081943f31465630963a76dba586354b2626854e2a4d80b91cb5fb7bf  x86_64-w64-mingw32/crate_lazy_static/crate_lazy_static-1.4.0-e8ac8cdb9b0.tar.gz.hash
-    03114c55863bf06096bd08eb741504cc71ea2b861a2631891415c9fafa100d8e  x86_64-w64-mingw32/crate_libc/crate_libc-0.2.62-dafe1e9775e.tar.gz
-    b5a3aae59ac2228cca6fb293e8f2aecbffc1459c9f65d050628aaadad006947c  x86_64-w64-mingw32/crate_libc/crate_libc-0.2.62-dafe1e9775e.tar.gz.hash
-    8848bd11c45e7ec43a1e04919c39dd76dbb0f92d520427a81806c35e9ba38551  x86_64-w64-mingw32/crate_log/crate_log-0.4.8-6dc9c9aabd7.tar.gz
-    10ef2a5ecee962d72e318d848c759caca64e4f398ad6d866b3ea2a018adfb56a  x86_64-w64-mingw32/crate_log/crate_log-0.4.8-6dc9c9aabd7.tar.gz.hash
-    aa61ceaaadd3b7ad8509738cb109ce4baeb4bb3f4fa96e72154979e66a0c79f4  x86_64-w64-mingw32/crate_memoffset/crate_memoffset-0.5.1-0b12be84951.tar.gz
-    b6928d5f2c5a861ae8ed1db5f90e1e66186a668cb485862184592b69ec445609  x86_64-w64-mingw32/crate_memoffset/crate_memoffset-0.5.1-0b12be84951.tar.gz.hash
-    a08a861604e2289bb9d336f53facf34dec8e06e01a3f6d276ff17df88719d194  x86_64-w64-mingw32/crate_nodrop/crate_nodrop-0.1.13-ce449dd4c3f.tar.gz
-    d601f04e5f2b0747a678c98ea68e0e99ea34b8fbf1144ed7abb62fdbad3c45a2  x86_64-w64-mingw32/crate_nodrop/crate_nodrop-0.1.13-ce449dd4c3f.tar.gz.hash
-    c22214121de91b47388677323ab1f71b2a0ce27f64b0e1d3c6d523dcc3ec68cc  x86_64-w64-mingw32/crate_num_bigint/crate_num_bigint-0.2.3-6bc9d99358e.tar.gz
-    c43cda5ef0362301d42a1c86b8abc0c20f3062fe814d9cbe5ca9dbacb5cfec46  x86_64-w64-mingw32/crate_num_bigint/crate_num_bigint-0.2.3-6bc9d99358e.tar.gz.hash
-    14f40bf4dbaf0ee3fb6f4985900cb48287d0fea521c0384396d909a7185c0cc5  x86_64-w64-mingw32/crate_num_cpus/crate_num_cpus-1.10.1-c337d266539.tar.gz
-    904893623e0b4b258310fc5cdb76ed7617d8563c752712fce0c0d39b7a63473b  x86_64-w64-mingw32/crate_num_cpus/crate_num_cpus-1.10.1-c337d266539.tar.gz.hash
-    d16b33a3410ce9748a7420e07b40c4d7a3f601a2c5eedb1fbc717ba1748b487f  x86_64-w64-mingw32/crate_num_integer/crate_num_integer-0.1.41-f54d16f8d22.tar.gz
-    dc7992b0264bcbd0119f36d7a3f8004ad1a7a6f8a4456224757586585deef67d  x86_64-w64-mingw32/crate_num_integer/crate_num_integer-0.1.41-f54d16f8d22.tar.gz.hash
-    9874db08705b4863dc92c39198877b44d4ef10e6ffb050b37e8302dc6564120b  x86_64-w64-mingw32/crate_num_traits/crate_num_traits-0.2.8-e4627e8e2a1.tar.gz
-    704ce3e188d7c1ac08b118881bfee586c4da3e1f434fe39d330eeec66fbf7194  x86_64-w64-mingw32/crate_num_traits/crate_num_traits-0.2.8-e4627e8e2a1.tar.gz.hash
-    997a692d0bbe7b8e1d09f39d0ce613c5133ae0490be259376e7330caffd3a8e3  x86_64-w64-mingw32/crate_opaque_debug/crate_opaque_debug-0.2.3-7926286ff76.tar.gz
-    5721d2698b75c77f0c9e0a4bb05b3b0553904806b0bcc6c9db2acb6f46e75b14  x86_64-w64-mingw32/crate_opaque_debug/crate_opaque_debug-0.2.3-7926286ff76.tar.gz.hash
-    2dff0ddf049063ec67724821c6a3c58fce0350279ffdb4873d7435ad67f0d778  x86_64-w64-mingw32/crate_pairing/crate_pairing-0.15.0-db4c9f4d3f4.tar.gz
-    e719986a8d2fa288e6b6a8a3ef0ba8d18b6226bb830c77e32ca2f0e80b5efe94  x86_64-w64-mingw32/crate_pairing/crate_pairing-0.15.0-db4c9f4d3f4.tar.gz.hash
-    77cc745d245d546850db3b51e6bff4d6f6d4b54787486ed61dbb78dc8928da2a  x86_64-w64-mingw32/crate_ppv_lite86/crate_ppv_lite86-0.2.5-f6cb51358cc.tar.gz
-    f9196b6cfe2885f24d3e4a78e770c8dcd7f7d62bd8c9aa1d8c8e7a641970b911  x86_64-w64-mingw32/crate_ppv_lite86/crate_ppv_lite86-0.2.5-f6cb51358cc.tar.gz.hash
-    0c4609cd2d543024b9859aec55eb610d8ad4e341b1634a1d9dc6eb3e41cb80c0  x86_64-w64-mingw32/crate_proc_macro2/crate_proc_macro2-1.0.3-fe36b7c9ba5.tar.gz
-    9e4725bb6ba4a67599de8b101fc32506ca7ca97923bcddbdfd0a9112899cd953  x86_64-w64-mingw32/crate_proc_macro2/crate_proc_macro2-1.0.3-fe36b7c9ba5.tar.gz.hash
-    425c3baf38cefaaa4b5e05292537ffff13cff466e0eff56149d96ae7c056a693  x86_64-w64-mingw32/crate_quote/crate_quote-1.0.2-317ddbcbd18.tar.gz
-    2eaf87eddd8f22fdd321df1726d53f3cb3554303920a41e671ecebbcf17ec9b3  x86_64-w64-mingw32/crate_quote/crate_quote-1.0.2-317ddbcbd18.tar.gz.hash
-    ae8634e74b33fca5841ea2aee60616692ec871a49b949e37f7004830d89a7aa0  x86_64-w64-mingw32/crate_rand/crate_rand-0.7.0-c8570a51d90.tar.gz
-    3553bb159bbad014cb4f990fb0d2101c2e48ac31a36a192a2d3041ce8c10ef96  x86_64-w64-mingw32/crate_rand/crate_rand-0.7.0-c8570a51d90.tar.gz.hash
-    6fdffee51a4353de010b266f3f64d125984ed00bf7ac17d9255009c5038fecd6  x86_64-w64-mingw32/crate_rand_chacha/crate_rand_chacha-0.2.1-d2e93f5dede.tar.gz
-    03bf3830e8648b415ef8a22dab3bed598538aa67dfa5f7e54b5305a09e332388  x86_64-w64-mingw32/crate_rand_chacha/crate_rand_chacha-0.2.1-d2e93f5dede.tar.gz.hash
-    9289c5146d947c49ed00ea8d49e1d8dfbed0e990a656d18df39135e32340d62e  x86_64-w64-mingw32/crate_rand_core/crate_rand_core-0.5.1-5bc98a64fa1.tar.gz
-    22f10744f40d61a5fc0e1eef434b01fe763498f4a57f5fa9fc3b7775eb67fb01  x86_64-w64-mingw32/crate_rand_core/crate_rand_core-0.5.1-5bc98a64fa1.tar.gz.hash
-    6e29e564f49ea0c98e27d077af7fa7a94e105f3769c22215c20f2d3b97a51e5e  x86_64-w64-mingw32/crate_rand_hc/crate_rand_hc-0.2.0-4be639b3dec.tar.gz
-    9cb5bb117257fad1863b0d6d476531887d11a55e09b616542abcfc0dd96e3bb5  x86_64-w64-mingw32/crate_rand_hc/crate_rand_hc-0.2.0-4be639b3dec.tar.gz.hash
-    3970d5cc31652541a1ab81e7b0b1428e4a5a246831dcd9cf4e57b93903144c52  x86_64-w64-mingw32/crate_rand_xorshift/crate_rand_xorshift-0.2.0-fe03518708c.tar.gz
-    9388cca33ac809e7d34262e359cd86852051c1e1c11f9a2fd7b0bab1f7c110c4  x86_64-w64-mingw32/crate_rand_xorshift/crate_rand_xorshift-0.2.0-fe03518708c.tar.gz.hash
-    b8c69492257a329278bb28d084a8eae3cc506efe2a14baa42cb5dd89a8ae5d2f  x86_64-w64-mingw32/crate_rustc_version/crate_rustc_version-0.2.3-64032eb5470.tar.gz
-    219198b29a47972c7991487d7939d6db2fa0f616f747d670bbab6e21b1133efe  x86_64-w64-mingw32/crate_rustc_version/crate_rustc_version-0.2.3-64032eb5470.tar.gz.hash
-    ba799f17da64bbec69674bb009a08ba1f244fbb741b9ec87c113ca43d1ad639e  x86_64-w64-mingw32/crate_scopeguard/crate_scopeguard-1.0.0-21ef1151a7f.tar.gz
-    e856dd67b863dc2ecd91d2a3151b9996837d6824aaba7414430317a7965fc01d  x86_64-w64-mingw32/crate_scopeguard/crate_scopeguard-1.0.0-21ef1151a7f.tar.gz.hash
-    e8444817dac95fa5c164f6d0f0c47c21910d699196de1fec1f187702d60afc81  x86_64-w64-mingw32/crate_semver/crate_semver-0.9.0-40a9c4d9f4e.tar.gz
-    34bf9c08fe19a9bef5fc879b6ce2a540b63cd90afe8fc178d9cda4e88fd8f342  x86_64-w64-mingw32/crate_semver/crate_semver-0.9.0-40a9c4d9f4e.tar.gz.hash
-    cccf8f5b933f07cbf4b67a1055a2cb12a0ee7253ba6b01b93eacaaf6fc7a87d8  x86_64-w64-mingw32/crate_semver_parser/crate_semver_parser-0.7.0-9503ee10eea.tar.gz
-    e83917c3c7e705d2a5c8aaeb29b1f19fb7f82ce86d4dc0d2468d8be0c86d90be  x86_64-w64-mingw32/crate_semver_parser/crate_semver_parser-0.7.0-9503ee10eea.tar.gz.hash
-    8bb0ca640a30c23a63dcf676f7acc852444dc92fa72a0cf3693043199a7eb6f8  x86_64-w64-mingw32/crate_sha2/crate_sha2-0.8.0-204296d1e5e.tar.gz
-    807d89851cfb211b01d5fc7a0014f8b63af224112a9314d8bac5372f2682855f  x86_64-w64-mingw32/crate_sha2/crate_sha2-0.8.0-204296d1e5e.tar.gz.hash
-    9bd5ab784106abf296ef4e2e77ede4e1efd4dec652311d5bd75011764a85f1ca  x86_64-w64-mingw32/crate_syn/crate_syn-1.0.5-b244dfcd7f9.tar.gz
-    919e2bd8366d7b81be9e5e960d4f59a1fedc9647ae754d5d6c84e5a2077aa691  x86_64-w64-mingw32/crate_syn/crate_syn-1.0.5-b244dfcd7f9.tar.gz.hash
-    07f64f32e1a47aaf249f3c6bf3986666065067e80f269254b9a868dbc8ceba0c  x86_64-w64-mingw32/crate_typenum/crate_typenum-1.11.2-3a06684c914.tar.gz
-    f2d7eb8c5e43ed586e4a0106a2a7d88ecb4c548aee0a254d0990ac3de9478356  x86_64-w64-mingw32/crate_typenum/crate_typenum-1.11.2-3a06684c914.tar.gz.hash
-    2760a5d7170c8c1d7a0c92e9e250815d9fe5d2fe7696390020061f236e3943b1  x86_64-w64-mingw32/crate_unicode_xid/crate_unicode_xid-0.2.0-19ebe3ba842.tar.gz
-    44c9062afb36f4236b130620224fdbae1e6ceafe926f786ec844b9f449819b41  x86_64-w64-mingw32/crate_unicode_xid/crate_unicode_xid-0.2.0-19ebe3ba842.tar.gz.hash
-    b665afc6cc94c1c461077117e96aa8f35228ab82c759d6ff437a3177aa35dd30  x86_64-w64-mingw32/crate_wasi/crate_wasi-0.7.0-4c14f55ce92.tar.gz
-    6b19c322d92bd52378ddae0a7fec0bbddc82a3f2f0ce5ff527c9193d668bc8f6  x86_64-w64-mingw32/crate_wasi/crate_wasi-0.7.0-4c14f55ce92.tar.gz.hash
-    274a8151c65f9cfd9434fbd0f83f7b6dc9c8a63c659abc42a6e40a16bcd7d8f6  x86_64-w64-mingw32/crate_winapi/crate_winapi-0.3.8-683f088d284.tar.gz
-    f42f500c87944edd650f0e1b2dd46cb823dc80df47f6b4ae9f25b74048507dd2  x86_64-w64-mingw32/crate_winapi/crate_winapi-0.3.8-683f088d284.tar.gz.hash
-    f593476b754b00c508e963e95972badde01b3c1565991b66d48336af08a678a7  x86_64-w64-mingw32/crate_winapi_i686_pc_windows_gnu/crate_winapi_i686_pc_windows_gnu-0.4.0-e0346634e8c.tar.gz
-    ef1d1963a51a1ff25e1f8736078ec2ade1d12856a44804c5eb03c6c867a207bb  x86_64-w64-mingw32/crate_winapi_i686_pc_windows_gnu/crate_winapi_i686_pc_windows_gnu-0.4.0-e0346634e8c.tar.gz.hash
-    7ba1f3daac87e29c91b16d66c0c3928a50d5ed06f75d97f0d9488500283c80c7  x86_64-w64-mingw32/crate_winapi_x86_64_pc_windows_gnu/crate_winapi_x86_64_pc_windows_gnu-0.4.0-4c6f3bcab87.tar.gz
-    d5d501f84802603bf2609eb6afac50bdda8cce72189237488c463ca3e42368f4  x86_64-w64-mingw32/crate_winapi_x86_64_pc_windows_gnu/crate_winapi_x86_64_pc_windows_gnu-0.4.0-4c6f3bcab87.tar.gz.hash
-    4df4eade593dcb38e1d6fa05fdcd4bfffd0e6e59f8ea8cb4bbdf837c16ec1e51  x86_64-w64-mingw32/crate_zcash_primitives/crate_zcash_primitives-0.1.0-b563d559f38.tar.gz
-    71919be763b9419f393e76317b6c80d9511ac0678b1d6527e87b95c5655bd206  x86_64-w64-mingw32/crate_zcash_primitives/crate_zcash_primitives-0.1.0-b563d559f38.tar.gz.hash
-    a31761f6b1697d54b225e236a35de9e62896ac6b507f2b6c6bf411a5ee1b68cf  x86_64-w64-mingw32/crate_zcash_proofs/crate_zcash_proofs-0.1.0-51075384451.tar.gz
-    da5112c094699f024ea9c1707349d1a024a9641a9134575a347c639aa7127db8  x86_64-w64-mingw32/crate_zcash_proofs/crate_zcash_proofs-0.1.0-51075384451.tar.gz.hash
-    05c3e6817dd648d14fbe624ea5e31fe4264bb2b8ff982549ba071e5a708eb830  x86_64-w64-mingw32/gmp/gmp-6.1.2-7eb2cae7c3e.tar.gz
-    eb2e037d27f39a385d3026eb3223ef5e3374506d7be001b2648e5a9274d72a13  x86_64-w64-mingw32/gmp/gmp-6.1.2-7eb2cae7c3e.tar.gz.hash
-    b1e7bf69beb19a61f4f5b69ff4aab3dd91c08f60cd4480aeb8c2ef03489aa7c7  x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-cfedee5256d.tar.gz
-    0e16a29b4b3a1fabadca39409a7399c682c7299d27833a29608744804adbf99a  x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-cfedee5256d.tar.gz.hash
-    b9e66edc8e03b3922c4d5111bfdc9c15a77c4eaa3f20bec49f0d04d6ef1564e3  x86_64-w64-mingw32/libsodium/libsodium-1.0.15-5d061b686e6.tar.gz
-    191388f07c446c4a722ca71acac5c461fa5d42ac5bccd311734214210ef12735  x86_64-w64-mingw32/libsodium/libsodium-1.0.15-5d061b686e6.tar.gz.hash
-    09ba5515d5aff73d3daea8d7ee2aef66115508674906d994a0003f094a2c5d99  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-1b42ce935ff.tar.gz
-    1fdc7dcba0991d6dbf809f4e708f1c7df3e3c2aa0cd924615eaa0f8d284c0d40  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-1b42ce935ff.tar.gz.hash
-    1869dca22f3b20dc66d01abd6b9d93a8291197c19ec3b0f6b8641c738632537b  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-2f64c21a6f1.tar.gz
-    d611e1a61a96ec93466da76647984181e91d31a0b4c9d4c9699e4501d7d02b93  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-2f64c21a6f1.tar.gz.hash
-    b0193922487a7526c14ce94ddb3935b3fe7353e2c7057991df0e69715c2fcb33  x86_64-w64-mingw32/openssl/openssl-1.0.1k-2aaa51705f6.tar.gz
-    b37e6956daa68aa6713e9cefe9b74d82ea9c6116aee548b0bedb7ab61eb4f6fa  x86_64-w64-mingw32/openssl/openssl-1.0.1k-2aaa51705f6.tar.gz.hash
-    6f20a31f3fdae5651ee55e74a71cbe038a3e7139aee5366ee230be58c277bb80  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-b26d89c52f5.tar.gz
-    6b27aaf4765e1b4f6503067c20a3503ad0724f1841397f292fd147bc597c933a  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-b26d89c52f5.tar.gz.hash
-    a1940d198407c9b86e4b01098f316ff2afd4cce19c725ca6d0596a27ff7e86b3  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-9ffd830043d.tar.gz
-    8f521fd2e87c39f3c876ecd2869474f895420ee4e1f62ea634181038f3efdd57  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-9ffd830043d.tar.gz.hash
-    676199dccd62e4fca4b5dad1dadca415930a2927083b50b85f5853295e83166b  x86_64-w64-mingw32/qt/qt-5.9.7-c0d983c6308.tar.gz
-    9b988e68a3902b02ee4ad49de0e402f8f8c48416490561520c54af244abb9944  x86_64-w64-mingw32/qt/qt-5.9.7-c0d983c6308.tar.gz.hash
-    e1462cb197b4576640b989bf7506acd8af195889254704311c6dc6489b02f45e  x86_64-w64-mingw32/rust/rust-1.42.0-97d4c365c93.tar.gz
-    b96c57a012afa06b5384da8ddbe256886b924709c798f3191a692bd87b27a4b6  x86_64-w64-mingw32/rust/rust-1.42.0-97d4c365c93.tar.gz.hash
-    4ad0e43e3b15045d7ea027b3b3cc433ada5246e0a01b32825951d5e6a017b4d8  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-588c69fe3b3.tar.gz
-    a0ce81ff817edb418487de846d4cfe0d91b7add52c031982e732a8014cb6df25  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-588c69fe3b3.tar.gz.hash
-    1e9febd32efd4ae89aaf949bd9ab04ad3822ffce982540570d8697719486beb8  x86_64-w64-mingw32/zlib/zlib-1.2.11-612a22df99e.tar.gz
-    77771ab81ab4b42e24df1930017dc8d800eea6bee0955e6040313ca256e4ea44  x86_64-w64-mingw32/zlib/zlib-1.2.11-612a22df99e.tar.gz.hash
+    c985ec37ea10df1915dbded817d5f18546d0ee35ddb205921d8d04aa970e8f80  x86_64-w64-mingw32/bdb/bdb-4.8.30-8d313ce6d2c.tar.gz
+    6fadf0e0532a04756b37ab64c57ba61b2b85952c74aa4478c69ae087bcd32d53  x86_64-w64-mingw32/bdb/bdb-4.8.30-8d313ce6d2c.tar.gz.hash
+    57d9383cb69326ea33246fa0333aa5b7581f01b38f779a724176dab7124e8f50  x86_64-w64-mingw32/boost/boost-1_64_0-0359df9ca64.tar.gz
+    b1f05942ead4f9b5c45e0bbb1fc781c0b0d599647617468f3b18d1ff3f5f8bca  x86_64-w64-mingw32/boost/boost-1_64_0-0359df9ca64.tar.gz.hash
+    5c0030c6e83cccf2e618bef9c80115c37c9321615f681d560c9aac1edd972523  x86_64-w64-mingw32/crate_aes/crate_aes-0.3.2-f4d0f43d654.tar.gz
+    29c65e897d6154b0a48f1f1c13f9a119c5f0d3d56443469c088010329802a9a5  x86_64-w64-mingw32/crate_aes/crate_aes-0.3.2-f4d0f43d654.tar.gz.hash
+    edc1e29f8e022576310382337a898ac7e17749b0753347d913e1ee4c38b2cdd3  x86_64-w64-mingw32/crate_aes_soft/crate_aes_soft-0.3.3-26a383f35e0.tar.gz
+    c0b8f9e12e162b10e8deef933f107d4c345bc253468ebac6c2d65fbd265b003d  x86_64-w64-mingw32/crate_aes_soft/crate_aes_soft-0.3.3-26a383f35e0.tar.gz.hash
+    41ea36f779c2bc6dac44788067ea462dc404a944a7bef76ead4717602ae66222  x86_64-w64-mingw32/crate_aesni/crate_aesni-0.6.0-d23e17dfb98.tar.gz
+    c21346585f20902b1aab4b9a880ccc98daee33cbdd4e8431661f81c8d20f5a33  x86_64-w64-mingw32/crate_aesni/crate_aesni-0.6.0-d23e17dfb98.tar.gz.hash
+    36a1a3e36b707bd2c292a864a99ed399c71195bab994ba66d47a37cce28aac07  x86_64-w64-mingw32/crate_arrayref/crate_arrayref-0.3.5-1e77b3680f8.tar.gz
+    7a6126addbf45c3e2d29a4af033d1e85215ef2c040e49339e75e02ef067e4cc3  x86_64-w64-mingw32/crate_arrayref/crate_arrayref-0.3.5-1e77b3680f8.tar.gz.hash
+    25375810affa19f930548b6bf7518109b80ecf1e81836b5f44e54b8545920de3  x86_64-w64-mingw32/crate_arrayvec/crate_arrayvec-0.4.11-1b5bdbe2373.tar.gz
+    deabca635247f2070d26dda0182763cb26dfbd22dcf33fdaebe840bd46e95985  x86_64-w64-mingw32/crate_arrayvec/crate_arrayvec-0.4.11-1b5bdbe2373.tar.gz.hash
+    4b783d8ce108bcaf05b3d20d5ea7df9adef12521731b510059837745e9c9c9b1  x86_64-w64-mingw32/crate_autocfg/crate_autocfg-0.1.6-85f35d999b1.tar.gz
+    9fa17491bce7facac53071d8f5b251451ed91b2cd29db27c3d21bdac3221b84c  x86_64-w64-mingw32/crate_autocfg/crate_autocfg-0.1.6-85f35d999b1.tar.gz.hash
+    72d3033f650c9d5e754a5c99aa7d3c1fa72bc08da37d2dc6f4968b1be743126b  x86_64-w64-mingw32/crate_bellman/crate_bellman-0.2.0-b0405e12a70.tar.gz
+    3ca19cf3cac0ec4923482e2a70ef3b6a2c742561fbf52fb35ee214805d5f3ec9  x86_64-w64-mingw32/crate_bellman/crate_bellman-0.2.0-b0405e12a70.tar.gz.hash
+    48ea71ce160dc6b4cb72aa30270a39f777f930ade0ec0043313d070613d7e3dd  x86_64-w64-mingw32/crate_bit_vec/crate_bit_vec-0.4.4-ae76069de54.tar.gz
+    615e6f4626639486346e0dc5118623a043da0f721997d2ff60e8a67e336acf54  x86_64-w64-mingw32/crate_bit_vec/crate_bit_vec-0.4.4-ae76069de54.tar.gz.hash
+    74a8c608d4f9110afdce216dffa165651af3915629763753c450d839f06599a4  x86_64-w64-mingw32/crate_blake2b_simd/crate_blake2b_simd-0.5.8-bef750335e6.tar.gz
+    4c292bc25ffc80e314d00c8745286bdcadbce69e565381b3f98dec291a859313  x86_64-w64-mingw32/crate_blake2b_simd/crate_blake2b_simd-0.5.8-bef750335e6.tar.gz.hash
+    4134c1a30872257aa327ab9766628a560155db5e94c76177e5d9c4b73773b94d  x86_64-w64-mingw32/crate_blake2s_simd/crate_blake2s_simd-0.5.8-e529be068a7.tar.gz
+    b1da7938ef415115e27eaf922e8624129569ff6aae8b906b428232bec0c36027  x86_64-w64-mingw32/crate_blake2s_simd/crate_blake2s_simd-0.5.8-e529be068a7.tar.gz.hash
+    ce5d117276a3625656229c17556bae2746594386c7c9f9b708f984fd87a02c71  x86_64-w64-mingw32/crate_block_buffer/crate_block_buffer-0.7.3-63d4d08e797.tar.gz
+    9f5d41b62d3a7147f85272b8ce86cf7d0082bd2b1a0aeaee93013afb0c796211  x86_64-w64-mingw32/crate_block_buffer/crate_block_buffer-0.7.3-63d4d08e797.tar.gz.hash
+    0ea484a5313cd098013f5548c7ef9bdbda5f558e123b93bfc378e20f4a6acca8  x86_64-w64-mingw32/crate_block_cipher_trait/crate_block_cipher_trait-0.6.2-6e0e2daa843.tar.gz
+    792f3889367976b872a818ba19d0a679d576aaa009ae5b43a8e10ee63e2cd308  x86_64-w64-mingw32/crate_block_cipher_trait/crate_block_cipher_trait-0.6.2-6e0e2daa843.tar.gz.hash
+    e124a343c34fe685c978fe7f271e2e134a2a2a67031a3f6486589981cdc2f04d  x86_64-w64-mingw32/crate_block_padding/crate_block_padding-0.1.4-82bab617913.tar.gz
+    90326bcc35661f7f01587b2952e9d5749e20137a2f237827bb44ea094f7a516c  x86_64-w64-mingw32/crate_block_padding/crate_block_padding-0.1.4-82bab617913.tar.gz.hash
+    e19130a1a5ae4f6cc9a84e5da5835440a2b06509416409a068413feee5a43356  x86_64-w64-mingw32/crate_byte_tools/crate_byte_tools-0.3.1-535b8f384ec.tar.gz
+    66076ea1887d7efb0977e60979cf6381f3862c64df939a70a2d5d9ed9ee6306c  x86_64-w64-mingw32/crate_byte_tools/crate_byte_tools-0.3.1-535b8f384ec.tar.gz.hash
+    c812dcd75e32d2eb70a781950bd200c98c01d74b5a6c990bf57d068d9a700fc8  x86_64-w64-mingw32/crate_byteorder/crate_byteorder-1.3.2-b9f61c39449.tar.gz
+    060c986df9c2faac169359609a44e84edbc338adab93c2f1fd624cb5b6def7f8  x86_64-w64-mingw32/crate_byteorder/crate_byteorder-1.3.2-b9f61c39449.tar.gz.hash
+    3e30f7e3bcc10c8867820fe6e00adba54e4a44c1b80a995b45ea3650178cde3e  x86_64-w64-mingw32/crate_c2_chacha/crate_c2_chacha-0.2.2-e2bac769b4d.tar.gz
+    63f43d2ae97d5c79b148e07f922a848c5ded095685ecbe5342a21a3e64008bc4  x86_64-w64-mingw32/crate_c2_chacha/crate_c2_chacha-0.2.2-e2bac769b4d.tar.gz.hash
+    6285fa308a719aeaea87a7e4a837018646f5fe6aa5b57ca1afee915937d71632  x86_64-w64-mingw32/crate_cfg_if/crate_cfg_if-0.1.9-d606969610b.tar.gz
+    1864be7a775b7bfd9d4951190ec076d6305e5069669bfea2528653424497a9a4  x86_64-w64-mingw32/crate_cfg_if/crate_cfg_if-0.1.9-d606969610b.tar.gz.hash
+    a2f152941bf9198a7424024b97cd82c0f815abaa8629ca1afcc1416d36da5e38  x86_64-w64-mingw32/crate_constant_time_eq/crate_constant_time_eq-0.1.4-01932bf4ab3.tar.gz
+    02b08a55e0beb65b71b31d9d982dea54f4e9b6ab610f348af253deab7120c3aa  x86_64-w64-mingw32/crate_constant_time_eq/crate_constant_time_eq-0.1.4-01932bf4ab3.tar.gz.hash
+    2d504bac120b015b125db34040a2719a8f1b14f36a287e0d90c414fac6b7c51a  x86_64-w64-mingw32/crate_crossbeam/crate_crossbeam-0.7.2-69e7cb0b0c7.tar.gz
+    1d0819ddd6042e7738251b2ec24b0d900d4f5cf8e4190ca47274a72e2d9d443f  x86_64-w64-mingw32/crate_crossbeam/crate_crossbeam-0.7.2-69e7cb0b0c7.tar.gz.hash
+    270d74514492a6b3c9acfe77b817b1da03fafb612068c202fc9f893022c2dff9  x86_64-w64-mingw32/crate_crossbeam_channel/crate_crossbeam_channel-0.3.9-65eaaf12104.tar.gz
+    e3aea62868778feacb8c8cd42a103fe60bc696d59c8fd552f3e9d9420c537df5  x86_64-w64-mingw32/crate_crossbeam_channel/crate_crossbeam_channel-0.3.9-65eaaf12104.tar.gz.hash
+    78cd07a5f992eca57c381ad77435d500fb1219f76759ad8c2b4fcf4b041f7962  x86_64-w64-mingw32/crate_crossbeam_deque/crate_crossbeam_deque-0.7.1-e3ffbcdb4c2.tar.gz
+    6793e91eb269e48c7d489a4e5e684ca1d587fb817c2ef67f8f1b24e6d12c9acb  x86_64-w64-mingw32/crate_crossbeam_deque/crate_crossbeam_deque-0.7.1-e3ffbcdb4c2.tar.gz.hash
+    cdca7a952b031a0b0bdcb0269bfa4ea95f373bd08ae07746a49786726b743558  x86_64-w64-mingw32/crate_crossbeam_epoch/crate_crossbeam_epoch-0.7.2-91b08fec1af.tar.gz
+    1494c0d667b71fef0e4207a7efa9d66267242b1df799354607a011c4e737baab  x86_64-w64-mingw32/crate_crossbeam_epoch/crate_crossbeam_epoch-0.7.2-91b08fec1af.tar.gz.hash
+    34ae920e31a3ce4e0feabf86afa044f9b1631de32df117cf4734cb3365cdb918  x86_64-w64-mingw32/crate_crossbeam_queue/crate_crossbeam_queue-0.1.2-b9a09deaab1.tar.gz
+    1a09170d49550359913a196e68082a11f263932c245365a81cb325f58a0db7ca  x86_64-w64-mingw32/crate_crossbeam_queue/crate_crossbeam_queue-0.1.2-b9a09deaab1.tar.gz.hash
+    8e4d858bcf521ba8e504eb4337037b5ceee52426877e4e3852cd1452372278a9  x86_64-w64-mingw32/crate_crossbeam_utils/crate_crossbeam_utils-0.6.6-d6d8dd1a700.tar.gz
+    eb059bc9f7155267fef9989d1e5d8ea39238ca17d87d41cd01bdd655ca581390  x86_64-w64-mingw32/crate_crossbeam_utils/crate_crossbeam_utils-0.6.6-d6d8dd1a700.tar.gz.hash
+    4d5e621a361070126f333a96d5608b1475cfab50b9e2b302b117e610ae809bbd  x86_64-w64-mingw32/crate_crypto_api/crate_crypto_api-0.2.2-b82cf25212f.tar.gz
+    36150ca67f0fa062d5084158551c6d0766fae80f33a561133ba16b1274198ad4  x86_64-w64-mingw32/crate_crypto_api/crate_crypto_api-0.2.2-b82cf25212f.tar.gz.hash
+    2d64d0ff1f3de4de2e897c087de681b5bc9cb87f7174dd3d16c12415aa6f9a29  x86_64-w64-mingw32/crate_crypto_api_chachapoly/crate_crypto_api_chachapoly-0.2.2-66f51651aaf.tar.gz
+    3ba5e4f5031bd592c192e8d8eace06b76653deb3ced0d2883bbf3d02ce05a775  x86_64-w64-mingw32/crate_crypto_api_chachapoly/crate_crypto_api_chachapoly-0.2.2-66f51651aaf.tar.gz.hash
+    7b9e8c8a69711176dc25eb4f0030557654903fea6da8242b6b4ef9eb23440f7a  x86_64-w64-mingw32/crate_digest/crate_digest-0.8.1-063079a1afd.tar.gz
+    557c4da25c5a4db48d239bc2aa41b11be05db9a4a5ec77a2ec077307aca24af5  x86_64-w64-mingw32/crate_digest/crate_digest-0.8.1-063079a1afd.tar.gz.hash
+    ecfbe137afb804fa9539450de6cfb7bc48c94a267a0c4c70d6cbd6d728000128  x86_64-w64-mingw32/crate_directories/crate_directories-1.0.2-54e4a0b55ca.tar.gz
+    927190706a9d3b213c1ce989ef7ba5cf9cee12b4a065fcc5dcfbbaf60ea43036  x86_64-w64-mingw32/crate_directories/crate_directories-1.0.2-54e4a0b55ca.tar.gz.hash
+    e202f796f989f2d413fa24588b813363ee4212bccf50b49373833645529f9a06  x86_64-w64-mingw32/crate_fake_simd/crate_fake_simd-0.1.2-1288372d58b.tar.gz
+    97a180329a8b01b667319ab723c892cc24406dbab035722a14d9fa1e8a8db0ec  x86_64-w64-mingw32/crate_fake_simd/crate_fake_simd-0.1.2-1288372d58b.tar.gz.hash
+    d1b7a7d54cc8b4c2836452a1dce593d888d1cc82de76998729c3775c37035937  x86_64-w64-mingw32/crate_ff/crate_ff-0.5.0-d7245a278ac.tar.gz
+    45110e8f4f8a7a72fc5aa1b14382c810e5ba9c2bfde5668ecf388f195a395ea7  x86_64-w64-mingw32/crate_ff/crate_ff-0.5.0-d7245a278ac.tar.gz.hash
+    a01e9694f8a8c658ded526784a40bf2d1226e7107546c5726db0a8b5f089f9b3  x86_64-w64-mingw32/crate_ff_derive/crate_ff_derive-0.4.0-79dd2368400.tar.gz
+    9ef2a66959852b5c2fc1d34ecde678c13c94ea853e2ec0661acf81c7a4e7444c  x86_64-w64-mingw32/crate_ff_derive/crate_ff_derive-0.4.0-79dd2368400.tar.gz.hash
+    fd8daa67c073e6918cd10408b0eaaac31e1e7dcc6464e36960d13fbb609059d8  x86_64-w64-mingw32/crate_fpe/crate_fpe-0.2.0-eee0c87c464.tar.gz
+    1aaf267aff87e3269a9a4cae0d35876a755849ba41226cb5d6d3093d098d3e20  x86_64-w64-mingw32/crate_fpe/crate_fpe-0.2.0-eee0c87c464.tar.gz.hash
+    372a2e44a23bc1c5e815b4cbd3385561f95d379f65b8ace6e152a13ed7d04ee8  x86_64-w64-mingw32/crate_futures/crate_futures-0.1.29-ea0e19e0f08.tar.gz
+    4b0d66132613504cea8dabafce68a482ec407ad97f4d7df0ed603631e10b7055  x86_64-w64-mingw32/crate_futures/crate_futures-0.1.29-ea0e19e0f08.tar.gz.hash
+    e79971fcd77c5f4f1d89777b42ec54516375c044a77ff12c3f9898bb1c5170d6  x86_64-w64-mingw32/crate_futures_cpupool/crate_futures_cpupool-0.1.8-b5f2ca60640.tar.gz
+    c19d3f41ac244df37f7b2abeea2fbbecf9c41aae61632814e2278c7c97958b32  x86_64-w64-mingw32/crate_futures_cpupool/crate_futures_cpupool-0.1.8-b5f2ca60640.tar.gz.hash
+    05c87fe909406e6298cd7f3e1225ce6778fc154b03b2026166e93a1681841e12  x86_64-w64-mingw32/crate_generic_array/crate_generic_array-0.12.3-ef34ebc4a64.tar.gz
+    2af603965dae3fe9ec9f2b9998420843a5f7b3df61ee394a5e8bd784636141e8  x86_64-w64-mingw32/crate_generic_array/crate_generic_array-0.12.3-ef34ebc4a64.tar.gz.hash
+    e6b1b519493ea2645480ee2fd49fc1f00ea3683eca7c400e2cd6a0a304d1efed  x86_64-w64-mingw32/crate_getrandom/crate_getrandom-0.1.12-065ed6dcbcf.tar.gz
+    fca47f0c774c4eb417d9117a70ea6711f934c86e24346cbb4559a7bd43d9d95c  x86_64-w64-mingw32/crate_getrandom/crate_getrandom-0.1.12-065ed6dcbcf.tar.gz.hash
+    f60fdd031e6877d8ea869ef1908ec43c904609fffbfefc343e75cb1cc44e960c  x86_64-w64-mingw32/crate_group/crate_group-0.2.0-e3c655576b4.tar.gz
+    730a9e249aa634659e1bce6be544b3405f0a9202fde9bb124f8e1781690b10da  x86_64-w64-mingw32/crate_group/crate_group-0.2.0-e3c655576b4.tar.gz.hash
+    536768eb7b61dff3c63a96c413c8423f61cbdd03d789d86e1603c108a068488f  x86_64-w64-mingw32/crate_hex/crate_hex-0.3.2-39b7ec17a23.tar.gz
+    89bf9a72ba7cbf845a61f42369166166258a823ff8716850a3d24547efb73e71  x86_64-w64-mingw32/crate_hex/crate_hex-0.3.2-39b7ec17a23.tar.gz.hash
+    3070c34539ad58bf0b63586184664d8e51479360745a80cc54b332513dd2a419  x86_64-w64-mingw32/crate_lazy_static/crate_lazy_static-1.4.0-e8ac8cdb9b0.tar.gz
+    153fadf234834537fa6efd98741d1350bb7b3b0e2742ea94ac82be0a4da2a615  x86_64-w64-mingw32/crate_lazy_static/crate_lazy_static-1.4.0-e8ac8cdb9b0.tar.gz.hash
+    e54938ce8fed7e3641f6578bd0bbaef0bbba6d81e8b83b12bd7cbf0a961294c4  x86_64-w64-mingw32/crate_libc/crate_libc-0.2.62-dafe1e9775e.tar.gz
+    378c6b37560adbd8c6b722b6cfd68f918bbac0bdd0471e92263b192e8abd1bd7  x86_64-w64-mingw32/crate_libc/crate_libc-0.2.62-dafe1e9775e.tar.gz.hash
+    28fd9818c4d2ef28a7a87afa658438d2d4cfc65c1adf7ee87c1d47d3b74d1123  x86_64-w64-mingw32/crate_log/crate_log-0.4.8-6dc9c9aabd7.tar.gz
+    de5430ed534f596e6a6c70e8f145e06d73afa97ff0fae7fea70c22c186208452  x86_64-w64-mingw32/crate_log/crate_log-0.4.8-6dc9c9aabd7.tar.gz.hash
+    ff24e3039f328e448493c2ca7652489a6793f5eef99c8f86bd28a287d115bbb8  x86_64-w64-mingw32/crate_memoffset/crate_memoffset-0.5.1-0b12be84951.tar.gz
+    5d8d9931abc953d18beb327fe9d544587d01c4a3e40e83b2505ba3bfba78ab83  x86_64-w64-mingw32/crate_memoffset/crate_memoffset-0.5.1-0b12be84951.tar.gz.hash
+    85439a12f65eac9537c1c5388a4646e4d7352c9d26d991517322cdbc4ae4e671  x86_64-w64-mingw32/crate_nodrop/crate_nodrop-0.1.13-ce449dd4c3f.tar.gz
+    30104d7c6c2afa4f44d6005fbcdb8a7d4785ff6655ad3fe5f1db88f65645dee9  x86_64-w64-mingw32/crate_nodrop/crate_nodrop-0.1.13-ce449dd4c3f.tar.gz.hash
+    073d7bc3c61ddf0851b82a373b53fef19577892a876be983783d465fe2b3d1ce  x86_64-w64-mingw32/crate_num_bigint/crate_num_bigint-0.2.3-6bc9d99358e.tar.gz
+    2783b9b096b04849a7e5861004c62bb45694a0721e0d34b022082dfcd3e5902c  x86_64-w64-mingw32/crate_num_bigint/crate_num_bigint-0.2.3-6bc9d99358e.tar.gz.hash
+    b751c94d13305efcbcb7ad252559d44fb9776534991ef52833ffa3b1d6a2f5c8  x86_64-w64-mingw32/crate_num_cpus/crate_num_cpus-1.10.1-c337d266539.tar.gz
+    472f340b86c8af014d885f6542b0ab2d34f38ec7b77992235722a942b75f8dd6  x86_64-w64-mingw32/crate_num_cpus/crate_num_cpus-1.10.1-c337d266539.tar.gz.hash
+    5cde49a7531a84384363f38c6133a9a3836bc07394656c969295c3796c952ff3  x86_64-w64-mingw32/crate_num_integer/crate_num_integer-0.1.41-f54d16f8d22.tar.gz
+    0944245fe461b87536808c155a80967993fae666d03c8e89be39973a8d3152ed  x86_64-w64-mingw32/crate_num_integer/crate_num_integer-0.1.41-f54d16f8d22.tar.gz.hash
+    7f411846ecf8fa89dab3bf6dcc8abb8332e1ab5dc8fb5ecd093af955d65133ee  x86_64-w64-mingw32/crate_num_traits/crate_num_traits-0.2.8-e4627e8e2a1.tar.gz
+    db232f818e253e498823ae82ae042dc101932f155092f23ebe83420722e7ce45  x86_64-w64-mingw32/crate_num_traits/crate_num_traits-0.2.8-e4627e8e2a1.tar.gz.hash
+    81191b08d095154d132acb4bdd663a6cdac01a058c889ee30a9eb55cbb8bf40c  x86_64-w64-mingw32/crate_opaque_debug/crate_opaque_debug-0.2.3-7926286ff76.tar.gz
+    97ffae83b96124377074a9ae63d041e248c4cfb006c16577dae89db7bfb678a3  x86_64-w64-mingw32/crate_opaque_debug/crate_opaque_debug-0.2.3-7926286ff76.tar.gz.hash
+    6d164bb545f1619c17838615615e3ade152156603a53a47f5976c1fbe57faf4c  x86_64-w64-mingw32/crate_pairing/crate_pairing-0.15.0-db4c9f4d3f4.tar.gz
+    72daeebcf37e6d21272ecc241c96279643ceca827d681d0b82a43259990f4984  x86_64-w64-mingw32/crate_pairing/crate_pairing-0.15.0-db4c9f4d3f4.tar.gz.hash
+    2723df73f60899a2b3b2eec13c01de6919e46d83353f6c1cbd1367423764dc19  x86_64-w64-mingw32/crate_ppv_lite86/crate_ppv_lite86-0.2.5-f6cb51358cc.tar.gz
+    9215da653e69bf50391975d49c061e5b1efabff61bc758bff6c34225b2f1aa2f  x86_64-w64-mingw32/crate_ppv_lite86/crate_ppv_lite86-0.2.5-f6cb51358cc.tar.gz.hash
+    041c20dc8a7fe8bde8317950b0bfe87f9d86bd08b6704e6afbfcb67f2fb55b77  x86_64-w64-mingw32/crate_proc_macro2/crate_proc_macro2-1.0.3-fe36b7c9ba5.tar.gz
+    934271480062a96e3aa769a71865aa83456ab2ae140bee4f3de627c1d427773f  x86_64-w64-mingw32/crate_proc_macro2/crate_proc_macro2-1.0.3-fe36b7c9ba5.tar.gz.hash
+    f307bf2329710f84410ff4c48f377ae8e44cc4497adbdf93f309fc01f423ccd6  x86_64-w64-mingw32/crate_quote/crate_quote-1.0.2-317ddbcbd18.tar.gz
+    17eba82ce6df865a1a356ceafa48b9fcfab3d82e460eb399f4c6b34420abd34b  x86_64-w64-mingw32/crate_quote/crate_quote-1.0.2-317ddbcbd18.tar.gz.hash
+    13bec5dc21cd4e7a2efb6fa7719c508d2c6e4ee9bbab13cb4131588dc03b5249  x86_64-w64-mingw32/crate_rand/crate_rand-0.7.0-c8570a51d90.tar.gz
+    d393739c949362f5179c2d10a3a770ed56954c8ffae808ac75aad906b074fa7b  x86_64-w64-mingw32/crate_rand/crate_rand-0.7.0-c8570a51d90.tar.gz.hash
+    08df1a5f70fc9f12f1d0fd861cd261e5b7625f47dad576640f6808c1cfb62035  x86_64-w64-mingw32/crate_rand_chacha/crate_rand_chacha-0.2.1-d2e93f5dede.tar.gz
+    caa0b9a14acf6f74efce6f2ed24c7dd88f7f5b336d09d79f2291ca2ba46ecb25  x86_64-w64-mingw32/crate_rand_chacha/crate_rand_chacha-0.2.1-d2e93f5dede.tar.gz.hash
+    c767a2d01aca990dbe057a9ebaeb02788242890083746999aa9f51a0951dec18  x86_64-w64-mingw32/crate_rand_core/crate_rand_core-0.5.1-5bc98a64fa1.tar.gz
+    e01c95ab102f5c28c33fbc745a3a673e8e447eff8f53191adebcefb98f1fa3f4  x86_64-w64-mingw32/crate_rand_core/crate_rand_core-0.5.1-5bc98a64fa1.tar.gz.hash
+    6bda7a5b19ebd84621319f558794d2e2c18d67aaa74e2f8bdd8ba554d7fea80c  x86_64-w64-mingw32/crate_rand_hc/crate_rand_hc-0.2.0-4be639b3dec.tar.gz
+    80767579d1cc12fe64a27fb941e904707dbc357a1d9a816da86ddcf6866b602c  x86_64-w64-mingw32/crate_rand_hc/crate_rand_hc-0.2.0-4be639b3dec.tar.gz.hash
+    d8bb72ee431011f83ad87c6a1fff5550f8eeecbbdc76c9002ac64c9f3176c969  x86_64-w64-mingw32/crate_rand_xorshift/crate_rand_xorshift-0.2.0-fe03518708c.tar.gz
+    4a5095c14e580de34a27c02784ec9e5fae40da7dfec68ed9ef01881c1fd1e896  x86_64-w64-mingw32/crate_rand_xorshift/crate_rand_xorshift-0.2.0-fe03518708c.tar.gz.hash
+    7fe817f19190eabcd44947b7da18ccb24f98194f08aad4c960ad924da2da815c  x86_64-w64-mingw32/crate_rustc_version/crate_rustc_version-0.2.3-64032eb5470.tar.gz
+    b53df26d51784983615a6849bb6160817af82c8c2a67e834a80e6151addb3818  x86_64-w64-mingw32/crate_rustc_version/crate_rustc_version-0.2.3-64032eb5470.tar.gz.hash
+    7c051c18d83594a747bb52cb08d8be0eee66f159c8f273244ee7e88fef910f0c  x86_64-w64-mingw32/crate_scopeguard/crate_scopeguard-1.0.0-21ef1151a7f.tar.gz
+    28888bef6f634a0aa4c8ea2539daa7c905e6f4f3180729822bd0aac5ec5a9656  x86_64-w64-mingw32/crate_scopeguard/crate_scopeguard-1.0.0-21ef1151a7f.tar.gz.hash
+    7fac7618f9e78a39916b15e8eed30efda1fde563b5e2629621fd6667a79a1037  x86_64-w64-mingw32/crate_semver/crate_semver-0.9.0-40a9c4d9f4e.tar.gz
+    29b3d43a471b72108c676f295cc633eb27c2ea01ee870371b63017ff7f74c005  x86_64-w64-mingw32/crate_semver/crate_semver-0.9.0-40a9c4d9f4e.tar.gz.hash
+    a242a069c7030e806d90cb8db19866225466b1c7cd25bfd7110597d9700fedfa  x86_64-w64-mingw32/crate_semver_parser/crate_semver_parser-0.7.0-9503ee10eea.tar.gz
+    1da7536d0a8499b93bb7d35983145b93a8a4882dcfacde92862c207ad452f456  x86_64-w64-mingw32/crate_semver_parser/crate_semver_parser-0.7.0-9503ee10eea.tar.gz.hash
+    631f8c1b657aefeb3d0912be06a7d9323e66a0567d0fd158709b5263a7d02d73  x86_64-w64-mingw32/crate_sha2/crate_sha2-0.8.0-204296d1e5e.tar.gz
+    7b506b2b729bc4eba5dd651b04d251563c5d18df7e4810fcb99d866ac701bdc4  x86_64-w64-mingw32/crate_sha2/crate_sha2-0.8.0-204296d1e5e.tar.gz.hash
+    5749572d082ee4eb84eee50b1ecd7056fd066f0c650126e773624a772aebf7a0  x86_64-w64-mingw32/crate_syn/crate_syn-1.0.5-b244dfcd7f9.tar.gz
+    7f9fea5e4ef3182260a14156dfc481c644689c5e64f743f66f65c51d47a2020b  x86_64-w64-mingw32/crate_syn/crate_syn-1.0.5-b244dfcd7f9.tar.gz.hash
+    fcd66b798d3ccf510f36fa1bcaa3fcd9d01688f1d78a34ecaed10bb8fc6ee99f  x86_64-w64-mingw32/crate_typenum/crate_typenum-1.11.2-3a06684c914.tar.gz
+    e3551547b71372b9c3aaa6f7b21261cdb3a827452485ec9c30443cc253a7c3a5  x86_64-w64-mingw32/crate_typenum/crate_typenum-1.11.2-3a06684c914.tar.gz.hash
+    76b1036a65db617e02a276cd73b3aaa6cbb4b95176b46afb6534b48e70851c08  x86_64-w64-mingw32/crate_unicode_xid/crate_unicode_xid-0.2.0-19ebe3ba842.tar.gz
+    97c17befd504a6f0a128430cef6fb1f02f01376e83bd56eb8c426cca3b7fa06f  x86_64-w64-mingw32/crate_unicode_xid/crate_unicode_xid-0.2.0-19ebe3ba842.tar.gz.hash
+    36c52d9cef74740e9dfed1bebcdd2be1857a6047dc6f8aa2c72c232b83a642f0  x86_64-w64-mingw32/crate_wasi/crate_wasi-0.7.0-4c14f55ce92.tar.gz
+    4536aad9263358207185e3572225e66f5dc02920afe000dfb4779565892ab72f  x86_64-w64-mingw32/crate_wasi/crate_wasi-0.7.0-4c14f55ce92.tar.gz.hash
+    a6d2a63a32febeccf32fec008afeb2b7abc1b32d0728cab8014a71027df62102  x86_64-w64-mingw32/crate_winapi/crate_winapi-0.3.8-683f088d284.tar.gz
+    5199768be4a7e23ac9adeaf5543988f539d88a040aa99f159b21c5c2acdabee9  x86_64-w64-mingw32/crate_winapi/crate_winapi-0.3.8-683f088d284.tar.gz.hash
+    a70897de6ac3e8073a5dff0ca7568e9f554d7af8c5e51c66a11ea942ddf0e2b9  x86_64-w64-mingw32/crate_winapi_i686_pc_windows_gnu/crate_winapi_i686_pc_windows_gnu-0.4.0-e0346634e8c.tar.gz
+    01f93404254ef6530d7eda55191b2f24f49ee3f5ab32ced823068bce800d3085  x86_64-w64-mingw32/crate_winapi_i686_pc_windows_gnu/crate_winapi_i686_pc_windows_gnu-0.4.0-e0346634e8c.tar.gz.hash
+    61a804752ad75215e2772e2de5cb35caf5742949b3d304a94136cc7e9abad1f6  x86_64-w64-mingw32/crate_winapi_x86_64_pc_windows_gnu/crate_winapi_x86_64_pc_windows_gnu-0.4.0-4c6f3bcab87.tar.gz
+    842088b06f92f3bc1b7adbc82af725d5fdea267c2ace38b8994e0bb2bb880487  x86_64-w64-mingw32/crate_winapi_x86_64_pc_windows_gnu/crate_winapi_x86_64_pc_windows_gnu-0.4.0-4c6f3bcab87.tar.gz.hash
+    2e0a039f6eb5005b3b6f54c06a103ccf4d4371fa971cd64d86e4d4bb8c428997  x86_64-w64-mingw32/crate_zcash_primitives/crate_zcash_primitives-0.1.0-b563d559f38.tar.gz
+    8425b6b0b441d2dda1d6dd28200ff689a3ff0dd9c1b09e86c0db4ad8768b1230  x86_64-w64-mingw32/crate_zcash_primitives/crate_zcash_primitives-0.1.0-b563d559f38.tar.gz.hash
+    47a178de83e0f6b2e9399f97ff7944dd3046e0e6c9302091b76830e246669d9b  x86_64-w64-mingw32/crate_zcash_proofs/crate_zcash_proofs-0.1.0-51075384451.tar.gz
+    4354736a09f98549e4f01853adc4e7eb07955f7889f960a137693a59a59ae89d  x86_64-w64-mingw32/crate_zcash_proofs/crate_zcash_proofs-0.1.0-51075384451.tar.gz.hash
+    89c7be2fd31ba2058d81e6d029959e5993bff67e1baf9bd50f927acad7e81d7b  x86_64-w64-mingw32/gmp/gmp-6.1.2-7eb2cae7c3e.tar.gz
+    a6f69925287d4bd93cdffd95716436693fb07337db4a6e194ee34f9231eb94c5  x86_64-w64-mingw32/gmp/gmp-6.1.2-7eb2cae7c3e.tar.gz.hash
+    c6c77ad6750a64ae3597e43ac72beaa4ffe06c873caca7a6a85cd58971ca35fb  x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-cfedee5256d.tar.gz
+    f57350be4bfab8834c2b4b45ed7d29ca5b7f3c272f64489a36860a46b5e7db19  x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-cfedee5256d.tar.gz.hash
+    08f655e039768eb21c7f6d41de6b59d92936399045e42860f8adc983b2454b05  x86_64-w64-mingw32/libsodium/libsodium-1.0.15-5d061b686e6.tar.gz
+    fa1f03888edbbd71cca9d98bfdeab6e550248283c4b119dbc431ecfeadacf938  x86_64-w64-mingw32/libsodium/libsodium-1.0.15-5d061b686e6.tar.gz.hash
+    a4af36ee1e27477d9df18c684e8fa2a73c7fccdfdf7bf5902d038c993d51e198  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-1b42ce935ff.tar.gz
+    9afdec2be871eccc10cac023f6c62790edbdcfd8a901989fee85260fe634285a  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-1b42ce935ff.tar.gz.hash
+    92f21b5dc818d3d6c2e7fb3015279b86d52f4af56b9188b877001c61f2bae1b3  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-2f64c21a6f1.tar.gz
+    e94e419597c689be03666d2691719442d0b524a16702f6f0d07b91a1cb905a9b  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-2f64c21a6f1.tar.gz.hash
+    847c0cf514f6137f84dbafd16eca8cc1da5519ad42ab9bef173a9022b9d9a1f6  x86_64-w64-mingw32/openssl/openssl-1.0.1k-2aaa51705f6.tar.gz
+    d95fb99e0176d60ad98101d0272704aa6fd5f58cd72312fe1e37486983804c87  x86_64-w64-mingw32/openssl/openssl-1.0.1k-2aaa51705f6.tar.gz.hash
+    cea4def3fcd29a0f7fff29a3ecae035d8619626b6b902c1fa4eec708a8dd00d6  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-b26d89c52f5.tar.gz
+    0872ec7d1c8ef8a2e49c559884ce2e1f6f47917e3a65508e8f164d4335bf8cb9  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-b26d89c52f5.tar.gz.hash
+    0152188010be91c774adb4005d734f411ec36a822b67bd4d409f57addff5c69e  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-9ffd830043d.tar.gz
+    ded7ae207525d409411e1ece175e8e09d0abb42e45da7bf03214c064f5b50153  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-9ffd830043d.tar.gz.hash
+    6255d92b2e891801ca9de676e804955d6f604bdbe0a1c3bf324f04a3f07c855f  x86_64-w64-mingw32/qt/qt-5.9.7-c0d983c6308.tar.gz
+    f4db7f6a54a985464bb863c9f271b74cf580b12e2871d764fa1ace8b9ef4c15b  x86_64-w64-mingw32/qt/qt-5.9.7-c0d983c6308.tar.gz.hash
+    ac80216c3893f0283d2eda3038832e27f25c650e9aef6517042174e09c490591  x86_64-w64-mingw32/rust/rust-1.42.0-97d4c365c93.tar.gz
+    baf695e924b1df5787f717877958427d8f7d9b5313fc3e19f89e1253877b561d  x86_64-w64-mingw32/rust/rust-1.42.0-97d4c365c93.tar.gz.hash
+    d32347edfc3333de0be8345f2b443e75c5416044557e6170e4be3a32c34949a0  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-588c69fe3b3.tar.gz
+    939df9b6c2e8b227abed2b553f157e9b939b8b25334b5c5b04198f82960f6636  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-588c69fe3b3.tar.gz.hash
+    305170ccd17fe6764cb784708c58f7a803cf1caf139a0e166a64b1111ad59d0b  x86_64-w64-mingw32/zlib/zlib-1.2.11-612a22df99e.tar.gz
+    5e5d11d728db0dc47ac154540eb3ed890fcc72b9e3b43eee1e2db27345d882df  x86_64-w64-mingw32/zlib/zlib-1.2.11-612a22df99e.tar.gz.hash
 - release: 5.0.0-win-unsigned
 - name: pivx-win-5.0
 - type: build
