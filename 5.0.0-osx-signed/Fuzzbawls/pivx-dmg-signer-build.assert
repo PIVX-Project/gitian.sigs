@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: '51da8bac39927d4d886a0787de9e56aa0ef1373822e7999c97f9ccf1e652ab6b  pivx-osx-signed.dmg
+- out_manifest: '47a754320aed6f6f2e03a27d4a4162681dba06e58f12dbffa6529a02126c2daf  pivx-osx-signed.dmg
 
 '
 - in_manifest: |-
     136c2756994b3cae9b08efbde7451fc32a946d103ec7a5f4afec28d84b34f5f6  pivx-dmg-signer-desc.yml
     4d2bae3a053f9924aef05e41fee3860536619d0820f1831eeed637d8244d82fc  pivx-osx-unsigned.tar.gz
-    git:cc7fed0c2c7465a30d96a81e1e159d0d6c2051a9 signature
+    git:7d1560f193795ef457aa761009e2e806a6b1201c signature
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
